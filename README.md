@@ -81,21 +81,21 @@
 
 <img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/980937df-3ba4-4cea-beae-506c5c3228d8" />| <img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/563351c7-a8bf-4854-9219-8aa07960dff4" />
 | :---: | :---: |
-|[📚 21일간의 리딩 실험하기] <br> [🎥 발표 영상 - 밍트] |  [📚 모니터링] <br> [🎥 발표 영상 - 투다] |
+|[📚 21일간의 리딩 실험하기] <br> [🎥 1주차 발표 영상 - 밍트] |  [📚 모니터링] <br> [🎥 1주차 발표 영상 - 투다] |
 <img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/c937aaf3-1f5e-424e-8557-c66518d9016d" /> | <img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/b005b6b5-2c0a-4c95-8630-b38fbd78900b" />
-|[📚 테스트 환경의 중요성, 결정성 위배] <br> [🎥 발표 영상 - 비타] | [📚 우리팀의 CI/CD] <br> [🎥 발표 영상 - 칼리] |
+|[📚 테스트 환경의 중요성, 결정성 위배] <br> [🎥 1주차 발표 영상 - 비타] | [📚 우리팀의 CI/CD] <br> [🎥 1주차 발표 영상 - 칼리] |
 
 [📚 21일간의 리딩 실험하기]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_%EC%A3%BC%EC%B0%A8/%E1%84%85%E1%85%B5%E1%84%83%E1%85%B5%E1%86%BC_%E1%84%89%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A5%E1%86%B7%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5(%E1%84%86%E1%85%B5%E1%86%BC%E1%84%90%E1%85%B3).pdf
-[🎥 발표 영상 - 밍트]: https://www.youtube.com/watch?v=L60xNF3kqaY
+[🎥 1주차 발표 영상 - 밍트]: https://www.youtube.com/watch?v=L60xNF3kqaY
 
 [📚 모니터링]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_%EC%A3%BC%EC%B0%A8/%E1%84%86%E1%85%A9%E1%84%82%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B5%E1%86%BC.pdf
-[🎥 발표 영상 - 투다]: https://www.youtube.com/watch?v=wFnjf_T3i8o
+[🎥 1주차 발표 영상 - 투다]: https://www.youtube.com/watch?v=wFnjf_T3i8o
 
 [📚 테스트 환경의 중요성, 결정성 위배]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_%EC%A3%BC%EC%B0%A8/%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%B4%20%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%8B%E1%85%AD%E1%84%89%E1%85%A5%E1%86%BC%2C%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20%E1%84%8B%E1%85%B1%E1%84%87%E1%85%A2(%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1).pdf
-[🎥 발표 영상 - 비타]: https://www.youtube.com/watch?v=dWh_2_KiMGY
+[🎥 1주차 발표 영상 - 비타]: https://www.youtube.com/watch?v=dWh_2_KiMGY
 
 [📚 우리팀의 CI/CD]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_%EC%A3%BC%EC%B0%A8/%E1%84%90%E1%85%B3%E1%84%85%E1%85%A5%E1%84%87%E1%85%B3%E1%86%AF%E1%84%89%E1%85%B2%E1%84%90%E1%85%B5%E1%86%BC-CI%3ACD.pdf
-[🎥 발표 영상 - 칼리]: https://youtu.be/cmQxrtBttj0?si=f72MXnLegpscYKEK
+[🎥 1주차 발표 영상 - 칼리]: https://youtu.be/cmQxrtBttj0?si=f72MXnLegpscYKEK
 
 ---
 <br>
