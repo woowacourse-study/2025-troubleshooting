@@ -100,6 +100,35 @@
 ---
 <br>
 
+## **2주차** ( 8월 10일 )       
+
+> | 우리 서비스에 맞는 이메일 서버 구축기 | 로깅 전략 수정하기 | OIDC 기반 소셜로그인 연동 | 쿼리 튜닝으로 218배 빨라진 팬 점유율 API |
+> | :-:| :-: | :-: | :-: |
+> | 새로이 | 메이 | 모코 | 밍트 | 
+   
+### 💎 발표자료
+
+<img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/6243e8f8-f287-4602-9620-18c7cfc06332" />| <img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/fffb84c9-79f7-4d19-b661-ba5a6473f18b" />
+| :---: | :---: |
+|[📚 우리 서비스에 맞는 이메일 서버 구축기] <br> [🎥 2주차 발표 영상 - 새로이] |  [📚 로깅 전략 수정하기] <br> [🎥 2주차 발표 영상 - 메이] |
+<img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/cdeb81db-ace7-4fcc-b659-3929e50a2be6" /> | <img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/2ce14595-a60f-4316-9dba-9c40749adb18" />
+|[📚 OIDC 기반 소셜로그인 연동] <br> [🎥 2주차 발표 영상 - 모코] | [📚 쿼리 튜닝으로 218배 빨라진 팬 점유율 API] <br> [🎥 2주차 발표 영상 - 밍트] |
+
+[📚 우리 서비스에 맞는 이메일 서버 구축기]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/02_%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%E1%84%8B%E1%85%AE%E1%84%85%E1%85%B5_%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%A6_%E1%84%86%E1%85%A1%E1%86%BD%E1%84%82%E1%85%B3%E1%86%AB_%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF_%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5_%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%80%E1%85%B5(%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B5).pdf
+[🎥 2주차 발표 영상 - 새로이]: https://www.youtube.com/watch?v=bwhBnJ0vyp4&feature=youtu.be
+
+[📚 로깅 전략 수정하기]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/02_%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%E1%84%85%E1%85%A9%E1%84%80%E1%85%B5%E1%86%BC_%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%85%E1%85%A3%E1%86%A8_%E1%84%89%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5(%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5).pdf
+[🎥 2주차 발표 영상 - 메이]: https://youtu.be/BAdtFhKRn8E
+
+[📚 OIDC 기반 소셜로그인 연동]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/02_%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5DOIDC_%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB_%E1%84%89%E1%85%A9%E1%84%89%E1%85%A7%E1%86%AF%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB_%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC(%E1%84%86%E1%85%A9%E1%84%8F%E1%85%A9).pdf
+[🎥 2주차 발표 영상 - 모코]: https://youtu.be/itaHT8111H8
+
+[📚 쿼리 튜닝으로 218배 빨라진 팬 점유율 API]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/02_%EC%A3%BC%EC%B0%A8/%EC%BF%BC%EB%A6%AC_%EA%B0%9C%EC%84%A0%ED%95%98%EA%B8%B0(%EB%B0%8D%ED%8A%B8).pdf
+[🎥 2주차 발표 영상 - 밍트]: https://youtu.be/UYTYqg8R7_g
+
+---
+
+<br>
 
 ## **3주차** ( 8월 24일 )       
 
