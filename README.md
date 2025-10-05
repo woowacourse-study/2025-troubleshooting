@@ -151,7 +151,6 @@
 ---
 
 <br>
-야구보구에서 경기 결과를 빠르고 효율적으로 가져오는 방법
 
 ## **4주차** ( 9월 07일 )       
 
@@ -167,14 +166,14 @@
 <img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/1db4d44c-9a0a-4a6f-ba23-2abaf49c89ca" /> | <img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/15d6f0fa-fbac-46e0-9ac8-340f14995f8b" />
 |[📚 야구보구에서 경기 결과를 빠르고 효율적으로 가져오는 방법] <br> [🎥 4주차 발표 영상 - 밍트] | [📚 테이블 스키마 무중단으로 변경하기] <br> [🎥 4주차 발표 영상 - 모코] |
 
-[📚 검색 기능 개선 실험하기]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_%EC%A3%BC%EC%B0%A8/%E1%84%85%E1%85%B5%E1%84%83%E1%85%B5%E1%86%BC_%E1%84%89%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A5%E1%86%B7%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5(%E1%84%86%E1%85%B5%E1%86%BC%E1%84%90%E1%85%B3).pdf
+[📚 검색 기능 개선 실험하기]: [https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_%EC%A3%BC%EC%B0%A8/%E1%84%85%E1%85%B5%E1%84%83%E1%85%B5%E1%86%BC_%E1%84%89%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A5%E1%86%B7%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5(%E1%84%86%E1%85%B5%E1%86%BC%E1%84%90%E1%85%B3).pdf](https://github.com/woowacourse-study/2025-troubleshooting/blob/main/04_4%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%E1%84%80%E1%85%A5%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8_%E1%84%80%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC_%E1%84%80%E1%85%A2%E1%84%89%E1%85%A5%E1%86%AB%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5(%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5).pdf)
 [🎥 4주차 발표 영상 - 메이]: https://www.youtube.com/watch?v=N6j8uwleHk0
 
-[📚 우리 팀의 TRACES 도입기]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_%EC%A3%BC%EC%B0%A8/%E1%84%86%E1%85%A9%E1%84%82%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B5%E1%86%BC.pdf
+[📚 우리 팀의 TRACES 도입기]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/04_4%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5Dtrace%E1%84%83%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B5(%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B5).pdf
 [🎥 4주차 발표 영상 - 새로이]: https://www.youtube.com/watch?v=-sHLhuB9p0Y
 
-[📚 야구보구에서 경기 결과를 빠르고 효율적으로 가져오는 방법]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_%EC%A3%BC%EC%B0%A8/%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%B4%20%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%8B%E1%85%AD%E1%84%89%E1%85%A5%E1%86%BC%2C%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20%E1%84%8B%E1%85%B1%E1%84%87%E1%85%A2(%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1).pdf
+[📚 야구보구에서 경기 결과를 빠르고 효율적으로 가져오는 방법]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/04_4%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%20%E1%84%8B%E1%85%A3%E1%84%80%E1%85%AE%E1%84%87%E1%85%A9%E1%84%80%E1%85%AE%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5_%E1%84%80%E1%85%A7%E1%86%BC%E1%84%80%E1%85%B5_%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%E1%84%85%E1%85%B3%E1%86%AF_%E1%84%88%E1%85%A1%E1%84%85%E1%85%B3%E1%84%80%E1%85%A9_%E1%84%92%E1%85%AD%E1%84%8B%E1%85%B2%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9_%E1%84%80%E1%85%A1%E1%84%8C%E1%85%A7%E1%84%8B%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AB_%E1%84%87%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8(%E1%84%86%E1%85%B5%E1%86%BC%E1%84%90%E1%85%B3).pdf
 [🎥 4주차 발표 영상 - 밍트]: https://www.youtube.com/watch?v=ijwvmk8ymTM
 
-[📚 테이블 스키마 무중단으로 변경하기]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_%EC%A3%BC%EC%B0%A8/%E1%84%90%E1%85%B3%E1%84%85%E1%85%A5%E1%84%87%E1%85%B3%E1%86%AF%E1%84%89%E1%85%B2%E1%84%90%E1%85%B5%E1%86%BC-CI%3ACD.pdf
+[📚 테이블 스키마 무중단으로 변경하기]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/04_4%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%E1%84%90%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%87%E1%85%B3%E1%86%AF_%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B5%E1%84%86%E1%85%A1_%E1%84%86%E1%85%AE%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9_%E1%84%87%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5(%E1%84%86%E1%85%A9%E1%84%8F%E1%85%A9).pdf
 [🎥 4주차 발표 영상 - 모코]: https://www.youtube.com/watch?v=8ucMsqtZ_e8
