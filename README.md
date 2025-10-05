@@ -198,7 +198,7 @@
 [📚 FCM & 알림 도메인]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/05_5%EC%A3%BC%EC%B0%A8/%E1%84%8F%E1%85%A1%E1%86%AF%E1%84%85%E1%85%B5_fcm.pdf
 [🎥 4주차 발표 영상 - 칼리]: https://www.youtube.com/watch?v=nUkQZdRDR0s
 
-[📚 DB 분산락도 락이다]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/04_4%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%20%E1%84%8B%E1%85%A3%E1%84%80%E1%85%AE%E1%84%87%E1%85%A9%E1%84%80%E1%85%AE%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5_%E1%84%80%E1%85%A7%E1%86%BC%E1%84%80%E1%85%B5_%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%E1%84%85%E1%85%B3%E1%86%AF_%E1%84%88%E1%85%A1%E1%84%85%E1%85%B3%E1%84%80%E1%85%A9_%E1%84%92%E1%85%AD%E1%84%8B%E1%85%B2%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9_%E1%84%80%E1%85%A1%E1%84%8C%E1%85%A7%E1%84%8B%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AB_%E1%84%87%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8(%E1%84%86%E1%85%B5%E1%86%BC%E1%84%90%E1%85%B3).pdf
+[📚 DB 분산락도 락이다]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/05_5%EC%A3%BC%EC%B0%A8/%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%AB%E1%84%85%E1%85%A1%E1%86%A8.pdf
 [🎥 4주차 발표 영상 - 투다]: https://www.youtube.com/watch?v=INjLBW1pZY8
 
 
