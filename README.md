@@ -227,3 +227,27 @@
 
 [📚 우리 팀에 어울리는 검색 기능 도입 과정 1]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/06_6%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%E1%84%8B%E1%85%AE%E1%84%85%E1%85%B5_%E1%84%8B%E1%85%A5%E1%84%8B%E1%85%AE%E1%86%AF%E1%84%85%E1%85%B5%E1%84%82%E1%85%B3%E1%86%AB_%E1%84%80%E1%85%A5%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8_%E1%84%80%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC_%E1%84%83%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%B8_%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC_1(%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B5).pdf
 <!--[🎥 6주차 발표 영상 - 새로이]: 추가 예정-->
+
+## **7주차** ( 10월 19일 )       
+
+> | 동시성 제어 | FCM 대량 알림 최적화 | 최종적 일관성 제공하기 |
+> | :-:| :-: | :-: |
+> | 비타 | 칼리 | 투다 |
+   
+### 💎 발표자료
+
+<img width="2672" height="1494" alt="image (5)" src="https://github.com/user-attachments/assets/e55c7c69-2cf9-447b-9551-dcfca2c1bd4a" /> | <img width="2122" height="1200" alt="image (4)" src="https://github.com/user-attachments/assets/0ffd3c2d-4fbf-44fc-8c1e-1203ace0d377" />
+| :---: | :---: |
+|[📚 동시성 제어] <br> [🎥 7주차 발표 영상 - 비타] |  [📚 FCM 대량 알림 최적화] <br> [🎥 7주차 발표 영상 - 칼리] |
+<img width="3530" height="1876" alt="image (3)" src="https://github.com/user-attachments/assets/328b9d0a-baec-45d5-93d6-5d57979939bd" /> | 
+|[📚 최종적 일관성 제공하기] <br> [🎥 7주차 발표 영상 - 투다] |
+
+[📚 동시성 제어]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/07_7%EC%A3%BC%EC%B0%A8/%E1%84%83%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%84%89%E1%85%A5%E1%86%BC%20%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%A5(%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1).pdf
+[🎥 7주차 발표 영상 - 비타]: https://youtu.be/xTgy2rSFMtM?si=-2TyzwB0knyRLMeT
+
+[📚 FCM 대량 알림 최적화]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/07_7%EC%A3%BC%EC%B0%A8/%E1%84%90%E1%85%B3%E1%84%85%E1%85%A5%E1%84%87%E1%85%B3%E1%86%AF%E1%84%89%E1%85%B2%E1%84%90%E1%85%B5%E1%86%BC%20-%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%8B%E1%85%AA%20FCM.pdf
+[🎥 7주차 발표 영상 - 칼리]: https://youtu.be/CUic_5ZpWOU?si=ukwaWTzbS14CVFI8
+
+[📚 최종적 일관성 제공하기]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/07_7%EC%A3%BC%EC%B0%A8/%E1%84%90%E1%85%AE%E1%84%83%E1%85%A1%E1%84%90%E1%85%B3%E1%84%85%E1%85%A2%E1%86%AB%E1%84%8C%E1%85%A2%E1%86%A8%E1%84%89%E1%85%A7%E1%86%AB_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%BA%E1%84%87%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3.pdf
+[🎥 7주차 발표 영상 - 투다]: https://youtu.be/ETijlbeb4m8?si=Kwa5NBl_cp3HMtm6
+
