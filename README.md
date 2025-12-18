@@ -392,3 +392,31 @@
 <!-- [🎥 9주차 발표 영상 - 투다]: -->
 
 ---
+
+<br/>
+
+<a id="week-11"></a>
+## **11주차** ( 12월 17일 )       
+
+> | MMMQ 1 BlockingQueue 파헤치기 | DTO Projection과 복합 인덱스로 제거한 936K Range Scan | 재시도 DLQ |
+> | :-:| :-: | :-: |
+> | 모코 | 칼리 | 투다 |
+
+### 💎 발표자료
+
+<img width="3840" height="2160" alt="image" src="https://github.com/user-attachments/assets/4757c9e4-454f-45b6-b28b-d09023fbb623" /> | <img width="2092" height="1174" alt="image" src="https://github.com/user-attachments/assets/09dbfd0f-97be-47ef-bc54-97559feb5240" />
+| :---: | :---: |
+|[📚 MMMQ 1 BlockingQueue 파헤치기] <br> [🎥 11주차 발표 영상 - 모코] |  [📚 DTO Projection과 복합 인덱스로 제거한 936K Range Scan] <br> [🎥 11주차 발표 영상 - 칼리] |
+<img width="3266" height="1810" alt="image" src="https://github.com/user-attachments/assets/73f50575-d8b9-443c-b640-0b5fa9667170" /> | 
+|[📚 재시도 DLQ] <br> [🎥 11주차 발표 영상 - 투다] |
+
+[📚 MMMQ 1 BlockingQueue 파헤치기]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/11_11%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5DMMMQ_1_BlockingQueue_%E1%84%91%E1%85%A1%E1%84%92%E1%85%A6%E1%84%8E%E1%85%B5%E1%84%80%E1%85%B5(%E1%84%86%E1%85%A9%E1%84%8F%E1%85%A9).pdf
+[🎥 11주차 발표 영상 - 모코]: 
+
+[📚 DTO Projection과 복합 인덱스로 제거한 936K Range Scan]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/11_11%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%20DTO_Projection%E1%84%80%E1%85%AA_%E1%84%87%E1%85%A9%E1%86%A8%E1%84%92%E1%85%A1%E1%86%B8_%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%83%E1%85%A6%E1%86%A8%E1%84%89%E1%85%B3%E1%84%85%E1%85%A9_%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A5%E1%84%92%E1%85%A1%E1%86%AB_936K_Range_Scan(%E1%84%8F%E1%85%A1%E1%86%AF%E1%84%85%E1%85%B5).pdf
+[🎥 11주차 발표 영상 - 칼리]: 
+
+[📚 재시도 DLQ]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/11_11%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%E1%84%8C%E1%85%A2%E1%84%89%E1%85%B5%E1%84%83%E1%85%A9_DLQ.pdf
+[🎥 11주차 발표 영상 - 투다]: 
+
+---
