@@ -75,6 +75,20 @@
       <br />
       <a href="https://github.com/praisebak">투다 💻</a>
     </td>
+    <td align="center">
+      <a href="https://github.com/praisebak">
+        <img src="https://avatars.githubusercontent.com/u/46932235?v=4" alt="돔푸" width="100" />
+      </a>
+      <br />
+      <a href="https://github.com/dompoo">돔푸 💻</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/praisebak">
+        <img src="https://avatars.githubusercontent.com/u/28076054?v=4" alt="헤일러" width="100" />
+      </a>
+      <br />
+      <a href="https://github.com/threepebbles">헤일러 💻</a>
+    </td>
   </tr>
 </table>
 
