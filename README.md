@@ -156,7 +156,13 @@
   - DTO Projection과 복합 인덱스로 제거한 936K Range Scan - 칼리
   - 재시도 DLQ - 투다
 
+- [12주차 (1월 9일)](#week-12)
+  - 활동 추천 알고리즘 개선하기 - 밍트
+  - 테스트 최적화 이야기 - 비타
+  - 우리 서비스에 맞는 이메일 서버 구축기 - 새로이
 
+- [14주차 (3월 7일)](#week-14)
+  - Coroutine - 비타
 
 <br>
 <br>
@@ -499,3 +505,21 @@
 [🎥 12주차 발표 영상 - 새로이]: https://www.youtube.com/watch?v=2jbkpnc7dec
 
 ---
+
+<br/>
+<a id="week-13"></a>
+
+## **14주차** ( 3월 7일 )
+
+> | Coroutine |
+> | :-:|
+> | 비타 |
+
+### 💎 발표자료
+
+| <img width="50%" src="https://github.com/user-attachments/assets/d4e6228b-d651-4154-a740-cc3c6a740edd" /> |
+| :---: |
+| [📚 Coroutine] <br> [🎥 14주차 발표 영상 - 비타] | &nbsp; |
+
+[📚 Coroutine]: 업데이트 예정
+[🎥 12주차 발표 영상 - 비타]: #
