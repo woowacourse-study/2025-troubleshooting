@@ -708,11 +708,9 @@
   <tr>
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/12_12%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%20%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3_%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA_%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A3%E1%84%80%E1%85%B5(%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1).pdf">[📚 활동 추천 알고리즘 개선하기]</a><br>
-      <a href="#">[🎥 12주차 발표 영상 - 밍트]</a>
     </td>
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/12_12%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%20%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3_%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA_%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A3%E1%84%80%E1%85%B5(%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1).pdf">[📚 테스트 최적화 이야기]</a><br>
-      <a href="#">[🎥 12주차 발표 영상 - 비타]</a>
     </td>
   </tr>
   <tr>
@@ -752,8 +750,7 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="#">[📚 Coroutine]</a><br>
-      <a href="#">[🎥 14주차 발표 영상 - 비타]</a>
+      <a href="">[📚 Coroutine]</a><br>
     </td>
     <td>&nbsp;</td>
   </tr>
