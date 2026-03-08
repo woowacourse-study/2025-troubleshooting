@@ -161,8 +161,14 @@
   - 테스트 최적화 이야기 - 비타
   - 우리 서비스에 맞는 이메일 서버 구축기 - 새로이
 
-- [14주차 (3월 7일)](#week-14)
+- [13주차 (1월 25일)](#week-13)
+  - 업데이트 필요
+
+- [14주차 (2월 14일)](#week-14)
   - Coroutine - 비타
+
+- [15주차 (3월 7일)](#week-15)
+  - 업데이트 필요
 
 <br>
 <br>
@@ -487,29 +493,46 @@
 
 ### 💎 발표자료
 
-| <img width="50%" src="https://github.com/user-attachments/assets/471cf23b-1bab-4f9b-8060-3f11e6d49416" /> | <img width="50%" src="https://github.com/user-attachments/assets/dbca1e30-d226-4ab5-82ca-ac7dec1a039f" /> |
-| :---: | :---: |
-| [📚 활동 추천 알고리즘 개선하기] <br> [🎥 12주차 발표 영상 - 밍트] | [📚 테스트 최적화 이야기] <br> [🎥 12주차 발표 영상 - 비타] |
-| <img width="100%" src="https://github.com/user-attachments/assets/d4e6228b-d651-4154-a740-cc3c6a740edd" /> | &nbsp; |
-| [📚 우리 서비스에 맞는 이메일 서버 구축기] <br> [🎥 12주차 발표 영상 - 새로이] | &nbsp; |
-
-
-
-[📚 활동 추천 알고리즘 개선하기]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/12_12%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%20%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3_%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA_%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A3%E1%84%80%E1%85%B5(%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1).pdf
-[🎥 12주차 발표 영상 - 밍트]: #
-
-[📚 테스트 최적화 이야기]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/12_12%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%20%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3_%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA_%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A3%E1%84%80%E1%85%B5(%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1).pdf
-[🎥 12주차 발표 영상 - 비타]: #
-
-[📚 우리 서비스에 맞는 이메일 서버 구축기]: https://github.com/woowacourse-study/2025-troubleshooting/blob/main/12_12%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%E1%84%8B%E1%85%AE%E1%84%85%E1%85%B5_%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%A6_%E1%84%86%E1%85%A1%E1%86%BD%E1%84%82%E1%85%B3%E1%86%AB_%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF_%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5_%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%80%E1%85%B5_NEW(%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B5).pdf
-[🎥 12주차 발표 영상 - 새로이]: https://www.youtube.com/watch?v=2jbkpnc7dec
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/user-attachments/assets/471cf23b-1bab-4f9b-8060-3f11e6d49416" width="100%">
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github.com/user-attachments/assets/dbca1e30-d226-4ab5-82ca-ac7dec1a039f" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/12_12%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%20%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3_%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA_%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A3%E1%84%80%E1%85%B5(%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1).pdf">[📚 활동 추천 알고리즘 개선하기]</a><br>
+      <a href="#">[🎥 12주차 발표 영상 - 밍트]</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/12_12%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%20%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3_%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA_%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A3%E1%84%80%E1%85%B5(%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1).pdf">[📚 테스트 최적화 이야기]</a><br>
+      <a href="#">[🎥 12주차 발표 영상 - 비타]</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/d4e6228b-d651-4154-a740-cc3c6a740edd" width="100%">
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/12_12%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%E1%84%8B%E1%85%AE%E1%84%85%E1%85%B5_%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%A6_%E1%84%86%E1%85%A1%E1%86%BD%E1%84%82%E1%85%B3%E1%86%AB_%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF_%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5_%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%80%E1%85%B5_NEW(%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B5).pdf">[📚 우리 서비스에 맞는 이메일 서버 구축기]</a><br>
+      <a href="https://www.youtube.com/watch?v=2jbkpnc7dec">[🎥 12주차 발표 영상 - 새로이]</a>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
 
 ---
 
 <br/>
-<a id="week-13"></a>
+<a id="week-14"></a>
 
-## **14주차** ( 3월 7일 )
+## **14주차** ( 2월 14일 )
 
 > | Coroutine |
 > | :-:|
@@ -517,9 +540,18 @@
 
 ### 💎 발표자료
 
-| <img width="50%" src="https://github.com/user-attachments/assets/d4e6228b-d651-4154-a740-cc3c6a740edd" /> |
-| :---: |
-| [📚 Coroutine] <br> [🎥 14주차 발표 영상 - 비타] | &nbsp; |
-
-[📚 Coroutine]: 업데이트 예정
-[🎥 12주차 발표 영상 - 비타]: #
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/user-attachments/assets/d4e6228b-d651-4154-a740-cc3c6a740edd" width="100%">
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="#">[📚 Coroutine]</a><br>
+      <a href="#">[🎥 14주차 발표 영상 - 비타]</a>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
