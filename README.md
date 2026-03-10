@@ -168,7 +168,9 @@
   - Coroutine - 비타
 
 - [15주차 (3월 7일)](#week-15)
-  - 업데이트 필요
+  - Docker Engine java Test Container - 메이
+  - Spring Batch 톺아보기 - 돔푸
+  - 장애없이 선착순 이벤트 진행하기 - 새로이
 
 <br>
 <br>
@@ -751,6 +753,50 @@
   <tr>
     <td align="center">
       <a href="">[📚 Coroutine]</a><br>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+---
+
+<br/>
+<a id="week-15"></a>
+
+## **15주차** ( 3월 7일 )
+
+> | Docker Engine java Test Container | Spring Batch 톺아보기 | 장애없이 선착순 이벤트 진행하기 |
+> | :-:| :-: | :-: |
+> | 메이 | 돔푸 | 새로이 |
+
+### 💎 발표자료
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/user-attachments/assets/eab0af56-ad9f-4bec-812e-f4eb80cb9b61" width="100%"/>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github.com/user-attachments/assets/07a50e63-0e38-4bd2-9f3b-15c8a98d532c" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/15_15%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5DDocker_Engine_java_Test_Container(%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5).pdf">[📚 Docker Engine java Test Container]</a><br>
+    </td>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/15_15%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5DSpring_Batch_%E1%84%90%E1%85%A9%E1%87%81%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5(%E1%84%83%E1%85%A9%E1%86%B7%E1%84%91%E1%85%AE).pdf">[📚 Spring Batch 톺아보기]</a><br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/c0a9640d-810d-4343-8857-cf60f5774d7e" width="100%">
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/15_15%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%20%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%A2%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%8B%E1%85%B5_%E1%84%89%E1%85%A5%E1%86%AB%E1%84%8E%E1%85%A1%E1%86%A8%E1%84%89%E1%85%AE%E1%86%AB_%E1%84%8B%E1%85%B5%E1%84%87%E1%85%A6%E1%86%AB%E1%84%90%E1%85%B3_%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%92%E1%85%A2%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5.pdf">[📚 장애없이 선착순 이벤트 진행하기]</a><br>
     </td>
     <td>&nbsp;</td>
   </tr>
