@@ -162,7 +162,9 @@
   - 우리 서비스에 맞는 이메일 서버 구축기 - 새로이
 
 - [13주차 (1월 25일)](#week-13)
-  - 업데이트 필요
+  - MySQL Instant 알고리즘 - 메이
+  - 데드락 풀어내기 - 모코
+  - 동기/비동기 vs 블로킹/논블로킹 - 칼리
 
 - [14주차 (2월 14일)](#week-14)
   - Coroutine - 비타
@@ -725,6 +727,54 @@
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/12_12%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%E1%84%8B%E1%85%AE%E1%84%85%E1%85%B5_%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%A6_%E1%84%86%E1%85%A1%E1%86%BD%E1%84%82%E1%85%B3%E1%86%AB_%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF_%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5_%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%80%E1%85%B5_NEW(%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B5).pdf">[📚 우리 서비스에 맞는 이메일 서버 구축기]</a><br>
       <a href="https://www.youtube.com/watch?v=2jbkpnc7dec">[🎥 12주차 발표 영상 - 새로이]</a>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+---
+
+<br/>
+<a id="week-13"></a>
+
+## **13주차** ( 1월 25일 )
+- MySQL Instant 알고리즘 - 메이
+- 데드락 풀어내기 - 모코
+- 동기/비동기 vs 블로킹/논블로킹 - 칼리
+
+> | MySQL Instant 알고리즘 | 데드락 풀어내기 |  동기/비동기 vs 블로킹/논블로킹   |
+> | ::| :-: |:---:|
+> | 메이 | 모코 | 칼리 |
+
+### 💎 발표자료
+
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/user-attachments/assets/05b9c521-4b29-4955-ad73-38b82ff95c3c" width="100%">
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github.com/user-attachments/assets/7f7ac894-c517-4724-aa4e-da3fe8120a07" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/13_13%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5DMySQL_Instant_%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7(%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5).pdf">[📚 MySQL Instant 알고리즘]</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/13_13%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%E1%84%83%E1%85%A6%E1%84%83%E1%85%B3%E1%84%85%E1%85%A1%E1%86%A8_%E1%84%91%E1%85%AE%E1%86%AF%E1%84%8B%E1%85%A5%E1%84%82%E1%85%A2%E1%84%80%E1%85%B5(%E1%84%86%E1%85%A9%E1%84%8F%E1%85%A9).pdf">[📚 데드락 풀어내기]</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/user-attachments/assets/e8724ebf-d5d2-49d2-b7eb-708e3d831234" width="100%">
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/12_12%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%20%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3_%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA_%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A3%E1%84%80%E1%85%B5(%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1).pdf">[📚 동기/비동기 vs 블로킹/논블로킹]</a>
     </td>
     <td>&nbsp;</td>
   </tr>
