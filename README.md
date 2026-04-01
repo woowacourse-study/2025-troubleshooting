@@ -19,7 +19,6 @@
 매주 조금씩, 그러나 꾸준히 서로의 경험을 나누며   
 "혼자였다면 절대 못 봤을 관점들"을 함께 쌓아갑니다.   
 
-<br>
 
 ## 🚀 스터디원
 
@@ -96,7 +95,6 @@
 
 
 <br>
-<br>
 
 ## 📣 문의
 
@@ -105,12 +103,10 @@
 
 
 <br>
-<br>
 
 ## 📣 유튜브 채널
 
-[유튜브 채널 링크](https://www.youtube.com/@we-55)
-
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@we-55)
 
 <br>
 
