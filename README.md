@@ -53,15 +53,17 @@
       <br />
       <a href="https://github.com/seaniiio">메이 💻</a>
     </td>
-      <td align="center">
+    <td align="center">
       <a href="https://github.com/songsunkook">
         <img src="https://avatars.githubusercontent.com/u/21010656?v=4" alt="모코" width="100" />
       </a>
       <br />
       <a href="https://github.com/songsunkook">모코 💻</a>
     </td>
-    </td>
-      <td align="center">
+  </tr>
+  
+  <tr height="140px">
+    <td align="center">
       <a href="https://github.com/2Jin1031">
         <img src="https://avatars.githubusercontent.com/u/111180367?v=4" alt="칼리" width="100" />
       </a>
@@ -76,14 +78,14 @@
       <a href="https://github.com/praisebak">투다 💻</a>
     </td>
     <td align="center">
-      <a href="https://github.com/praisebak">
+      <a href="https://github.com/dompoo">
         <img src="https://avatars.githubusercontent.com/u/46932235?v=4" alt="돔푸" width="100" />
       </a>
       <br />
       <a href="https://github.com/dompoo">돔푸 💻</a>
     </td>
     <td align="center">
-      <a href="https://github.com/praisebak">
+      <a href="https://github.com/threepebbles">
         <img src="https://avatars.githubusercontent.com/u/28076054?v=4" alt="헤일러" width="100" />
       </a>
       <br />
