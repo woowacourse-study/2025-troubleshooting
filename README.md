@@ -129,6 +129,8 @@
 | [**13주차** (2026.1.25)](#week-13) | • MySQL Instant 알고리즘 (👤 메이)<br>• 데드락 풀어내기 (👤 모코)<br>• 동기/비동기 vs 블로킹/논블로킹 (👤 칼리) |
 | [**14주차** (2026.2.14)](#week-14) | • Coroutine (👤 비타) |
 | [**15주차** (2026.3.07)](#week-15) | • Docker Engine java Test Container (👤 메이)<br>• Spring Batch 톺아보기 (👤 돔푸)<br>• 장애없이 선착순 이벤트 진행하기 (👤 새로이) |
+| [**15주차** (2026.3.21)](#week-16) | • 클로드 코드 어디까지 써봤어? (👤 밍트) |
+
 
 
 <br>
@@ -804,6 +806,32 @@
   <tr>
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/15_15%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%20%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%A2%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%8B%E1%85%B5_%E1%84%89%E1%85%A5%E1%86%AB%E1%84%8E%E1%85%A1%E1%86%A8%E1%84%89%E1%85%AE%E1%86%AB_%E1%84%8B%E1%85%B5%E1%84%87%E1%85%A6%E1%86%AB%E1%84%90%E1%85%B3_%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%92%E1%85%A2%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5.pdf">[📚 장애없이 선착순 이벤트 진행하기]</a><br>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+
+<br/>
+<a id="week-15"></a>
+
+## **16주차** ( 2026년 3월 7일 )
+
+> | 클로드 코드 어디까지 써봤어? |
+> | :-: |
+> | 밍트 |
+
+### 💎 발표자료
+
+<table>
+  <tr>
+    <td width="100%%" align="center">
+      <img width="2000" height="1126" alt="image" width="100%" src="https://github.com/user-attachments/assets/c9574d7b-5ced-4f76-9885-8cc864b35575" />
+    </td>
+  </tr>
+   <tr>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/15_15%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5DClaude_Code_%E1%84%8B%E1%85%A5%E1%84%83%E1%85%B5%E1%84%81%E1%85%A1%E1%84%8C%E1%85%B5_%E1%84%8A%E1%85%A5%E1%84%87%E1%85%AA%E1%86%BB%E1%84%8B%E1%85%A5(%E1%84%86%E1%85%B5%E1%86%BC%E1%84%90%E1%85%B3).pdf">[📚 클로드 코드 어디까지 써봤어?]</a><br>
     </td>
     <td>&nbsp;</td>
   </tr>
