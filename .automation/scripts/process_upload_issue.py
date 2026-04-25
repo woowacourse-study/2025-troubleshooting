@@ -121,7 +121,7 @@ def main() -> int:
     print(f"PDF 다운로드: {pdf_url}")
     pdf_bytes = download_pdf(pdf_url)
 
-    week_dir_name = f"{week:02d}_{week}주차"
+    week_dir_name = unicodedata.normalize("NFC", f"{week:02d}_{week}주차")
     week_dir = ROOT / week_dir_name
     week_dir.mkdir(parents=True, exist_ok=True)
 
