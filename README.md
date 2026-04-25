@@ -720,13 +720,13 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/e8724ebf-d5d2-49d2-b7eb-708e3d831234" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w13_%E1%84%8F%E1%85%A1%E1%86%AF%E1%84%85%E1%85%B5.png" width="100%">
     </td>
     <td>&nbsp;</td>
   </tr>
   <tr>
     <td align="center">
-      <a href="">[📚 동기/비동기 vs 블로킹/논블로킹]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/13_13%EC%A3%BC%EC%B0%A8/%5B%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%5D%20%E1%84%83%E1%85%A9%E1%86%BC%E1%84%80%E1%85%B5_%E1%84%87%E1%85%B5%E1%84%83%E1%85%A9%E1%86%BC%E1%84%80%E1%85%B5_%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A9%E1%84%8F%E1%85%B5%E1%86%BC_%E1%84%82%E1%85%A9%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A9%E1%84%8F%E1%85%B5%E1%86%BC1.pdf">[📚 동기/비동기 vs 블로킹/논블로킹]</a><br>
     </td>
     <td>&nbsp;</td>
   </tr>
