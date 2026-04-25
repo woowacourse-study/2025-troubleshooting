@@ -1,0 +1,59 @@
+name: 발표자료 업로드
+description: PDF와 메타데이터를 입력하면 weeks.yml과 README가 자동으로 갱신됩니다
+title: "[업로드] "
+labels: ["presentation-upload"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        발표자료를 업로드합니다. 이슈를 제출하면 자동으로 처리되고 완료 후 close 됩니다.
+
+  - type: input
+    id: week
+    attributes:
+      label: 주차
+      description: 숫자만 입력해주세요 (예 17)
+      placeholder: "17"
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: 발표 일자
+      description: YYYY-MM-DD 형식 (해당 주차가 처음 등록될 때만 사용됩니다)
+      placeholder: "2026-05-03"
+    validations:
+      required: true
+
+  - type: input
+    id: presenter
+    attributes:
+      label: 발표자
+      placeholder: 돔푸
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: 제목
+      placeholder: 홈서버 구축기
+    validations:
+      required: true
+
+  - type: input
+    id: youtube
+    attributes:
+      label: 유튜브 URL
+      description: 선택 사항
+      placeholder: https://www.youtube.com/watch?v=...
+
+  - type: textarea
+    id: pdf
+    attributes:
+      label: PDF 파일
+      description: 이 영역에 PDF 파일을 드래그&드롭 해주세요
+      placeholder: 여기에 PDF 파일을 드롭하세요
+    validations:
+      required: true

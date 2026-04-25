@@ -1,0 +1,116 @@
+name: Process Upload Issue
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: process-upload-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  process:
+    if: |
+      contains(github.event.issue.labels.*.name, 'presentation-upload') &&
+      (github.event.issue.author_association == 'OWNER' ||
+       github.event.issue.author_association == 'MEMBER' ||
+       github.event.issue.author_association == 'COLLABORATOR' ||
+       github.event.issue.author_association == 'CONTRIBUTOR')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install system deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+
+      - name: Install Python deps
+        run: pip install pyyaml requests
+
+      - name: Process issue
+        id: process
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .automation/scripts/process_upload_issue.py
+
+      - name: Generate thumbnails
+        run: python .automation/scripts/generate_thumbnails.py
+
+      - name: Regenerate README
+        run: python .automation/scripts/generate_readme.py
+
+      - name: Commit and push
+        id: commit
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          PRESENTER: ${{ steps.process.outputs.presenter }}
+          WEEK: ${{ steps.process.outputs.week }}
+          PDF_PATH: ${{ steps.process.outputs.pdf_path }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add weeks.yml README.md .automation/thumbnails/
+          git add -- "$PDF_PATH"
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "chore: ${WEEK}주차 발표자료 업로드 (${PRESENTER}, #${ISSUE_NUMBER})"
+          git push
+          echo "committed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Comment success and close
+        if: success() && steps.commit.outputs.committed == 'true'
+        uses: actions/github-script@v7
+        env:
+          PDF_PATH: ${{ steps.process.outputs.pdf_path }}
+        with:
+          script: |
+            const pdfPath = process.env.PDF_PATH;
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `업로드 완료되었습니다.\n\n- 파일: \`${pdfPath}\`\n- weeks.yml / 썸네일 / README가 갱신되었습니다.`
+            });
+            github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed',
+              state_reason: 'completed'
+            });
+
+      - name: Comment failure
+        if: failure()
+        uses: actions/github-script@v7
+        env:
+          ERROR_MSG: ${{ steps.process.outputs.error }}
+        with:
+          script: |
+            const errorMsg = process.env.ERROR_MSG || '';
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const body = errorMsg
+              ? `처리 중 오류가 발생했습니다.\n\n> ${errorMsg}\n\n[워크플로 로그](${runUrl})에서 상세 내용을 확인할 수 있습니다.`
+              : `처리 중 오류가 발생했습니다. [워크플로 로그](${runUrl})를 확인해주세요.`;
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: body
+            });
