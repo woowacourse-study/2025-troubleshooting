@@ -94,7 +94,7 @@ def main() -> int:
     sections = parse_issue_body(body)
 
     week_str = sections.get("주차", "").strip()
-    date = sections.get("발표 일자", "").strip()
+    date_raw = sections.get("발표 일자", "").strip()
     presenter = sections.get("발표자", "").strip()
     title = sections.get("제목", "").strip()
     youtube_raw = sections.get("유튜브 URL", "").strip()
@@ -105,18 +105,32 @@ def main() -> int:
     week = int(week_str)
     if week < 1 or week > 999:
         fail(f"주차 범위 초과: {week}")
-    if not re.match(r"^\d{4}-\d{2}-\d{2}$", date):
-        fail(f"발표 일자 형식이 잘못되었습니다 (YYYY-MM-DD 필요): {date!r}")
     if not presenter:
         fail("발표자가 비어있습니다")
     if not title:
         fail("제목이 비어있습니다")
+
+    date = "" if date_raw in NO_RESPONSE_PLACEHOLDERS else date_raw
+    if date and not re.match(r"^\d{4}-\d{2}-\d{2}$", date):
+        fail(f"발표 일자 형식이 잘못되었습니다 (YYYY-MM-DD 필요): {date!r}")
 
     youtube = None if youtube_raw in NO_RESPONSE_PLACEHOLDERS else youtube_raw
 
     pdf_url = extract_pdf_url(pdf_field)
     if not pdf_url:
         fail("PDF 첨부 링크를 본문에서 찾을 수 없습니다")
+
+    with DATA_FILE.open() as f:
+        data = yaml.safe_load(f)
+
+    target_week = next((w for w in data["weeks"] if w["week"] == week), None)
+
+    if target_week is None and not date:
+        fail(f"W{week}는 새로 생성되는 주차이므로 발표 일자가 필요합니다")
+    if target_week is not None:
+        for p in target_week.get("presentations", []):
+            if p.get("presenter") == presenter and p.get("title") == title:
+                fail(f"이미 같은 항목이 등록되어 있습니다: W{week} {presenter} {title!r}")
 
     print(f"PDF 다운로드: {pdf_url}")
     pdf_bytes = download_pdf(pdf_url)
@@ -133,11 +147,6 @@ def main() -> int:
     print(f"저장: {pdf_path.relative_to(ROOT)} ({len(pdf_bytes):,} bytes)")
 
     pdf_rel = f"{week_dir_name}/{file_basename}"
-
-    with DATA_FILE.open() as f:
-        data = yaml.safe_load(f)
-
-    target_week = next((w for w in data["weeks"] if w["week"] == week), None)
 
     new_entry = {
         "title": title,
@@ -156,9 +165,6 @@ def main() -> int:
         data["weeks"].sort(key=lambda w: w["week"])
         print(f"새 주차 생성: W{week} ({date})")
     else:
-        for p in target_week.get("presentations", []):
-            if p.get("presenter") == presenter and p.get("title") == title:
-                fail(f"이미 같은 항목이 등록되어 있습니다: W{week} {presenter} {title!r}")
         target_week.setdefault("presentations", []).append(new_entry)
         print(f"기존 주차에 추가: W{week}")
 

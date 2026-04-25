@@ -21,10 +21,8 @@ body:
     id: date
     attributes:
       label: 발표 일자
-      description: YYYY-MM-DD 형식 (해당 주차가 처음 등록될 때만 사용됩니다)
+      description: YYYY-MM-DD 형식. 해당 주차가 새로 생성될 때만 필수이고, 이미 등록된 주차에 추가하는 거라면 비워두셔도 됩니다.
       placeholder: "2026-05-03"
-    validations:
-      required: true
 
   - type: input
     id: presenter
