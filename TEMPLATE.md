@@ -48,7 +48,7 @@ Action이 돌면서 `thumbnails/` 아래 첫 페이지 PNG가 생성되고 `READ
 
 - `pdf` 파일이 있고 `thumbnail`이 비어 있으면 GitHub Actions가 `pdftoppm`으로 첫 페이지를 PNG로 뽑아 `thumbnails/w{주차2자리}_{발표자}.png`에 저장합니다.
 - 추출 후 `data/weeks.yml`의 `thumbnail` 필드가 자동 채워져 커밋됩니다.
-- `.key` 파일은 지원하지 않습니다. Keynote를 쓰는 경우 PDF로 export해서 올려주세요.
+- Keynote를 쓰는 경우 PDF로 export해서 올려주세요. `.pdf`만 지원합니다.
 - 자동 추출 결과가 마음에 들지 않으면 `thumbnails/` 경로의 PNG를 덮어쓰거나, `thumbnail:` 필드에 원하는 이미지 URL을 직접 넣으면 됩니다.
 
 ## 🛠️ 로컬에서 직접 돌려보고 싶다면

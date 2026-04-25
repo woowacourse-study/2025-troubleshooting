@@ -8,7 +8,6 @@ PDF 발표자료의 첫 페이지를 PNG 썸네일로 추출한다.
 규칙
 - `thumbnail:` 필드가 비어있거나 로컬 `thumbnails/` 경로일 때만 자동 생성
 - 이미 생성된 썸네일이 존재하고 원본 PDF보다 최신이면 스킵
-- `.key` 파일은 안정적 변환이 어려우므로 건너뛰고 경고
 
 의존성: poppler-utils (`pdftoppm`)
 """
@@ -82,11 +81,6 @@ def main() -> int:
             pdf_path = ROOT / unicodedata.normalize("NFC", pdf_rel)
             if not pdf_path.exists():
                 print(f"warn: missing pdf for week {wk} / {pres['presenter']}: {pdf_rel}", file=sys.stderr)
-                warnings += 1
-                continue
-
-            if pdf_path.suffix.lower() != ".pdf":
-                print(f"warn: non-PDF skipped for week {wk} / {pres['presenter']}: {pdf_path.name}", file=sys.stderr)
                 warnings += 1
                 continue
 
