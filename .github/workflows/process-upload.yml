@@ -63,7 +63,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add weeks.yml README.md .automation/thumbnails/
+          git add .automation/weeks.yml README.md .automation/thumbnails/
           git add -- "$PDF_PATH"
           if git diff --cached --quiet; then
             echo "nothing to commit"
@@ -86,7 +86,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: `업로드 완료되었습니다.\n\n- 파일: \`${pdfPath}\`\n- weeks.yml / 썸네일 / README가 갱신되었습니다.`
+              body: `업로드 완료되었습니다.\n\n- 파일: \`${pdfPath}\`\n- .automation/weeks.yml / 썸네일 / README가 갱신되었습니다.`
             });
             github.rest.issues.update({
               owner: context.repo.owner,

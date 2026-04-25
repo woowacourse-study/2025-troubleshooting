@@ -9,7 +9,7 @@
 동작
   1) 본문에서 주차/발표 일자/발표자/제목/유튜브/PDF 링크 파싱
   2) PDF 다운로드 (NFC 정규화된 파일명으로 저장)
-  3) weeks.yml에 항목 추가 (해당 주차가 없으면 새 주차 생성)
+  3) .automation/weeks.yml에 항목 추가 (해당 주차가 없으면 새 주차 생성)
 """
 from __future__ import annotations
 
@@ -24,7 +24,7 @@ import yaml
 
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-DATA_FILE = ROOT / "weeks.yml"
+DATA_FILE = ROOT / ".automation" / "weeks.yml"
 
 NO_RESPONSE_PLACEHOLDERS = {"", "_No response_"}
 

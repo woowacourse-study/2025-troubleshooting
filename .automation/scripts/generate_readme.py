@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-weeks.yml + .automation/templates/readme_header.md 로 README.md 전체를 재생성한다.
+.automation/weeks.yml + .automation/templates/readme_header.md 로 README.md 전체를 재생성한다.
 
 규칙
 - 헤더 파일 아래에 "## 📣 목차" 테이블을 자동 생성
@@ -21,7 +21,7 @@ import yaml
 
 # Script lives at .automation/scripts/; repo root is two levels up.
 ROOT = Path(__file__).resolve().parent.parent.parent
-DATA_FILE = ROOT / "weeks.yml"
+DATA_FILE = ROOT / ".automation" / "weeks.yml"
 HEADER_FILE = ROOT / ".automation" / "templates" / "readme_header.md"
 OUT_FILE = ROOT / "README.md"
 

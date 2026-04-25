@@ -2,7 +2,7 @@
 """
 PDF 발표자료의 첫 페이지를 PNG 썸네일로 추출한다.
 
-입력: weeks.yml (repo root)
+입력: .automation/weeks.yml
 출력: .automation/thumbnails/w{week:02d}_{slug}.png
 
 규칙
@@ -28,7 +28,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent.parent
 THUMB_DIR = ROOT / ".automation" / "thumbnails"
 THUMB_REL_PREFIX = ".automation/thumbnails"
-DATA_FILE = ROOT / "weeks.yml"
+DATA_FILE = ROOT / ".automation" / "weeks.yml"
 
 
 def slugify(presenter: str, title: str) -> str:
@@ -105,7 +105,7 @@ def main() -> int:
             else:
                 warnings += 1
 
-    # Persist any thumbnail field updates back to weeks.yml
+    # Persist any thumbnail field updates back to .automation/weeks.yml
     with DATA_FILE.open("w") as f:
         yaml.dump(data, f, allow_unicode=True, sort_keys=False, width=1000)
 
