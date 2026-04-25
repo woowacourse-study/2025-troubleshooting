@@ -29,18 +29,21 @@ RAW_BASE = "https://github.com/woowacourse-study/2025-troubleshooting/raw/main/"
 
 
 def encode_repo_path(rel_path: str, for_raw: bool = False) -> str:
-    """Encode a repo-relative path into a GitHub URL (folder NFC, filename NFD)."""
+    """Encode a repo-relative path into a GitHub URL.
+
+    All segments are NFC-normalized so URLs match the repo's stored filenames.
+    (Earlier NFD duplicates were removed in commit c195de5.)
+    """
     if not rel_path:
         return ""
     # External URLs passed through
     if rel_path.startswith("http"):
         return rel_path
     parts = rel_path.split("/")
-    encoded_parts = []
-    for idx, p in enumerate(parts):
-        is_file = idx == len(parts) - 1
-        norm = unicodedata.normalize("NFD" if is_file else "NFC", p)
-        encoded_parts.append(urllib.parse.quote(norm, safe="()"))
+    encoded_parts = [
+        urllib.parse.quote(unicodedata.normalize("NFC", p), safe="()")
+        for p in parts
+    ]
     base = RAW_BASE if for_raw else REPO_BASE
     return base + "/".join(encoded_parts)
 
