@@ -148,10 +148,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/980937df-3ba4-4cea-beae-506c5c3228d8" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w01_%E1%84%86%E1%85%B5%E1%86%BC%E1%84%90%E1%85%B3.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/563351c7-a8bf-4854-9219-8aa07960dff4" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w01_%E1%84%90%E1%85%AE%E1%84%83%E1%85%A1.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -166,10 +166,10 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/c937aaf3-1f5e-424e-8557-c66518d9016d" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w01_%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/b005b6b5-2c0a-4c95-8630-b38fbd78900b" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w01_%E1%84%8F%E1%85%A1%E1%86%AF%E1%84%85%E1%85%B5.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -200,10 +200,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/6243e8f8-f287-4602-9620-18c7cfc06332" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w02_%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B5.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/fffb84c9-79f7-4d19-b661-ba5a6473f18b" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w02_%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -218,10 +218,10 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/cdeb81db-ace7-4fcc-b659-3929e50a2be6" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w02_%E1%84%86%E1%85%A9%E1%84%8F%E1%85%A9.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/2ce14595-a60f-4316-9dba-9c40749adb18" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w02_%E1%84%86%E1%85%B5%E1%86%BC%E1%84%90%E1%85%B3.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -252,10 +252,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/fb5a71ff-ac4f-459b-881f-72ee67d4ff99" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w03_%E1%84%90%E1%85%AE%E1%84%83%E1%85%A1.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/e8c22297-7d5d-43fc-91bf-20d2ac0bd078" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w03_%E1%84%8F%E1%85%A1%E1%86%AF%E1%84%85%E1%85%B5.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -286,10 +286,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/13d35263-0399-46c5-a193-13c3de7e8dd5" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w04_%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/baa2ca1b-cea3-4de0-8b47-400e44d92147" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w04_%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B5.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -304,10 +304,10 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/1db4d44c-9a0a-4a6f-ba23-2abaf49c89ca" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w04_%E1%84%86%E1%85%B5%E1%86%BC%E1%84%90%E1%85%B3.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/15d6f0fa-fbac-46e0-9ac8-340f14995f8b" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w04_%E1%84%86%E1%85%A9%E1%84%8F%E1%85%A9.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -338,10 +338,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/42b9468d-e23d-4ff8-9f3e-fb60f1f25f2c" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w05_%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/ba171461-6ce2-49a0-b1a7-33f886776b6d" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w05_%E1%84%8F%E1%85%A1%E1%86%AF%E1%84%85%E1%85%B5.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -356,7 +356,7 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/30ac915e-d612-475a-8195-5233f443e179" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w05_%E1%84%90%E1%85%AE%E1%84%83%E1%85%A1.png" width="100%">
     </td>
     <td>&nbsp;</td>
   </tr>
@@ -385,10 +385,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/12892926-bbd2-4ca5-83cb-e32d67875c1b" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w06_%E1%84%86%E1%85%B5%E1%86%BC%E1%84%90%E1%85%B3.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/e48175af-744d-4b6e-9a27-1fd3801d0ecb" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w06_%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -403,10 +403,10 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/62828cd6-cdca-4ded-808e-ef7c8ef484d9" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w06_%E1%84%86%E1%85%A9%E1%84%8F%E1%85%A9.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/df8dd3fc-b930-4a04-b34f-0398ddb8d692" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w06_%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B5.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -437,10 +437,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/e55c7c69-2cf9-447b-9551-dcfca2c1bd4a" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w07_%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/0ffd3c2d-4fbf-44fc-8c1e-1203ace0d377" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w07_%E1%84%8F%E1%85%A1%E1%86%AF%E1%84%85%E1%85%B5.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -455,7 +455,7 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/328b9d0a-baec-45d5-93d6-5d57979939bd" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w07_%E1%84%90%E1%85%AE%E1%84%83%E1%85%A1.png" width="100%">
     </td>
     <td>&nbsp;</td>
   </tr>
@@ -484,10 +484,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/fbe8f4ac-3cd4-43e9-a432-6d1ae3dea801" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w08_%E1%84%86%E1%85%B5%E1%86%BC%E1%84%90%E1%85%B3.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/7849caa4-fbe0-4f14-b1ff-2d487ce2abdf" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w08_%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -502,10 +502,10 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/25f06390-0a14-4bd1-9fca-c1c7b20fc52b" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w08_%E1%84%86%E1%85%A9%E1%84%8F%E1%85%A9.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/785ad4e8-2310-4072-95c7-286435fb9ef4" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w08_%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B5.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -536,10 +536,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/34fa9972-3419-40f9-b663-cb6f8c743dd1" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w09_%E1%84%8F%E1%85%A1%E1%86%AF%E1%84%85%E1%85%B5.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/1c19ae4c-6b69-4e69-94a1-6124bd4e5ca8" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w09_%E1%84%90%E1%85%AE%E1%84%83%E1%85%A1.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -568,10 +568,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/ecea039b-6f84-469e-a994-0befc1a62389" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w10_%E1%84%86%E1%85%B5%E1%86%BC%E1%84%90%E1%85%B3.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/4b9c9193-7151-40bb-8755-543018eff9cd" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w10_%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -586,7 +586,7 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/f649d0f8-4905-4356-ac82-f368c3e3cf43" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w10_%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B5.png" width="100%">
     </td>
     <td>&nbsp;</td>
   </tr>
@@ -615,10 +615,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/4757c9e4-454f-45b6-b28b-d09023fbb623" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w11_%E1%84%86%E1%85%A9%E1%84%8F%E1%85%A9.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/09dbfd0f-97be-47ef-bc54-97559feb5240" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w11_%E1%84%8F%E1%85%A1%E1%86%AF%E1%84%85%E1%85%B5.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -631,7 +631,7 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/73f50575-d8b9-443c-b640-0b5fa9667170" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w11_%E1%84%90%E1%85%AE%E1%84%83%E1%85%A1.png" width="100%">
     </td>
     <td>&nbsp;</td>
   </tr>
@@ -659,10 +659,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/471cf23b-1bab-4f9b-8060-3f11e6d49416" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w12_%E1%84%86%E1%85%B5%E1%86%BC%E1%84%90%E1%85%B3.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/dbca1e30-d226-4ab5-82ca-ac7dec1a039f" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w12_%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -676,7 +676,7 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/d4e6228b-d651-4154-a740-cc3c6a740edd" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w12_%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B5.png" width="100%">
     </td>
     <td>&nbsp;</td>
   </tr>
@@ -704,10 +704,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/05b9c521-4b29-4955-ad73-38b82ff95c3c" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w13_%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/7f7ac894-c517-4724-aa4e-da3fe8120a07" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w13_%E1%84%86%E1%85%A9%E1%84%8F%E1%85%A9.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -720,7 +720,6 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w13_%E1%84%8F%E1%85%A1%E1%86%AF%E1%84%85%E1%85%B5.png" width="100%">
     </td>
     <td>&nbsp;</td>
   </tr>
@@ -748,7 +747,7 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/f55c73ff-ea17-41e5-adb2-e19027c69eb9" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w14_%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1.png" width="100%">
     </td>
     <td>&nbsp;</td>
   </tr>
@@ -776,10 +775,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/eab0af56-ad9f-4bec-812e-f4eb80cb9b61" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w15_%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5.png" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/07a50e63-0e38-4bd2-9f3b-15c8a98d532c" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w15_%E1%84%83%E1%85%A9%E1%86%B7%E1%84%91%E1%85%AE.png" width="100%">
     </td>
   </tr>
   <tr>
@@ -792,7 +791,7 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/c0a9640d-810d-4343-8857-cf60f5774d7e" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w15_%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B5.png" width="100%">
     </td>
     <td>&nbsp;</td>
   </tr>
@@ -820,7 +819,7 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github.com/user-attachments/assets/c9574d7b-5ced-4f76-9885-8cc864b35575" width="100%">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w16_%E1%84%86%E1%85%B5%E1%86%BC%E1%84%90%E1%85%B3.png" width="100%">
     </td>
     <td>&nbsp;</td>
   </tr>
