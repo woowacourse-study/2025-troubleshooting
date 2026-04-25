@@ -86,14 +86,19 @@ def main() -> int:
 
             slug = slugify(pres["presenter"], pres["title"])
             out_png = THUMB_DIR / f"w{wk:02d}_{slug}.png"
+            thumb_rel = f"thumbnails/{out_png.name}"
 
             if not needs_rebuild(out_png, pdf_path):
+                # Re-sync yml even when the PNG is up-to-date, in case a prior
+                # run created the file but failed to persist the path.
+                if pres.get("thumbnail") != thumb_rel:
+                    pres["thumbnail"] = thumb_rel
                 skipped += 1
                 continue
 
             if extract_first_page(pdf_path, out_png):
                 print(f"ok  : week {wk} {pres['presenter']} -> {out_png.relative_to(ROOT)}")
-                pres["thumbnail"] = f"thumbnails/{out_png.name}"
+                pres["thumbnail"] = thumb_rel
                 generated += 1
             else:
                 warnings += 1

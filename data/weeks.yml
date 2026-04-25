@@ -246,7 +246,7 @@ weeks:
   - title: 동기/비동기 vs 블로킹/논블로킹
     presenter: 칼리
     pdf: 13_13주차/[발표자료] 동기_비동기_블로킹_논블로킹1.pdf
-    thumbnail: null
+    thumbnail: thumbnails/w13_칼리.png
     youtube: null
 - week: 14
   date: '2026-02-14'

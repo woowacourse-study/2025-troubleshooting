@@ -720,6 +720,7 @@
   </tr>
   <tr>
     <td width="50%" align="center">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/thumbnails/w13_%EC%B9%BC%EB%A6%AC.png" width="100%">
     </td>
     <td>&nbsp;</td>
   </tr>
