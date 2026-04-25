@@ -1,239 +1,68 @@
-# 📝 주차별 섹션 작성 템플릿
+# 📝 새 회차 발표자료 등록 가이드
 
-이 파일은 `README.md`에 새로운 주차를 추가할 때 복사해서 사용하는 템플릿입니다.
+`README.md`는 수동 편집하지 않습니다. `data/weeks.yml`에 데이터만 추가하면 GitHub Actions가 썸네일 추출과 README 재생성을 자동으로 처리합니다.
 
-## 🧭 사용 방법
+## 🚀 한 줄 요약
 
-1. **목차 테이블에 한 줄 추가** — `README.md` 상단의 `## 📣 목차` 표에 새 주차 행을 추가합니다.
-2. **해당 주차의 발표자 수에 맞는 섹션 템플릿**(아래 1~4인용 블록 중 하나)을 복사해서 `README.md` 맨 아래에 붙여넣습니다.
-3. 아래 **치환 키 표**를 참고해 `{{ ... }}` 플레이스홀더를 실제 값으로 교체합니다.
-4. 발표자료 PDF를 `NN_N주차/` 폴더에 올리고, 발표자료 링크는 GitHub raw/blob 경로로 연결합니다.
-5. 썸네일 이미지는 GitHub Issues/PR 또는 업로드를 통해 얻은 `user-attachments` URL을 사용합니다.
-6. 아직 영상이 없는 경우 `[🎥 ...]` 줄을 `<!-- ... -->` 주석으로 감싸두고, 추후 업로드 시 해제합니다.
+1. PDF를 `NN_N주차/` 폴더에 올리고
+2. `data/weeks.yml`에 블록 한 개 추가한 뒤
+3. main에 푸시하면 끝.
 
----
-
-## 🔑 치환 키 표
-
-| 플레이스홀더 | 설명 | 예시 |
-| :--- | :--- | :--- |
-| `{{WEEK_NUM}}` | 주차 번호 (숫자) | `17` |
-| `{{WEEK_NUM_2D}}` | 주차 번호 (2자리, 디렉터리용) | `17` |
-| `{{YEAR}}` | 발표 연도 | `2026` |
-| `{{MONTH}}` | 발표 월 (앞자리 0 없이) | `4` |
-| `{{DAY}}` | 발표 일 (앞자리 0 없이) | `11` |
-| `{{DIR_PATH}}` | URL-encoded 폴더 경로 (`NN_N%EC%A3%BC%EC%B0%A8`) | `17_17%EC%A3%BC%EC%B0%A8` |
-| `{{TITLE_N}}` | N번째 발표 제목 | `Redis Pub/Sub 파고들기` |
-| `{{PRESENTER_N}}` | N번째 발표자 닉네임 | `돔푸` |
-| `{{IMG_URL_N}}` | N번째 썸네일 이미지 URL | `https://github.com/user-attachments/assets/xxxx` |
-| `{{PDF_URL_N}}` | N번째 발표자료 PDF 링크 | `https://github.com/woowacourse-study/2025-troubleshooting/blob/main/17_17%EC%A3%BC%EC%B0%A8/xxx.pdf` |
-| `{{YOUTUBE_URL_N}}` | N번째 발표 영상 URL | `https://www.youtube.com/watch?v=xxxx` |
-
-> 💡 **목차 앵커**: 주차 섹션에는 `<a id="week-{{WEEK_NUM}}"></a>`를 반드시 붙여 목차 링크(`#{{WEEK_NUM}}주차--{{YEAR}}년-{{MONTH}}월-{{DAY}}일-`)와 호환되게 합니다.
+Action이 돌면서 `thumbnails/` 아래 첫 페이지 PNG가 생성되고 `README.md`가 자동 커밋됩니다.
 
 ---
 
-## 📑 목차 행 템플릿 (1줄)
+## ✍️ 데이터 추가 예시
 
-```markdown
-| [**{{WEEK_NUM}}주차** ({{YEAR}}.{{MONTH_2D}}.{{DAY_2D}})](#week-{{WEEK_NUM}}) | • {{TITLE_1}} (👤 {{PRESENTER_1}})<br>• {{TITLE_2}} (👤 {{PRESENTER_2}})<br>• {{TITLE_3}} (👤 {{PRESENTER_3}}) |
+새 회차(예: 17주차)가 추가되는 상황:
+
+```yaml
+- week: 17
+  date: 2026-04-04
+  presentations:
+    - title: Redis Pub/Sub 파고들기
+      presenter: 돔푸
+      pdf: 17_17주차/[발표자료]Redis_Pub_Sub_파고들기(돔푸).pdf
+      thumbnail:            # 비워두면 PDF 첫 페이지가 자동 추출됨
+      youtube:              # 아직 없으면 비워둠
+    - title: 장애 회고 템플릿 만들기
+      presenter: 메이
+      pdf: 17_17주차/[발표자료]장애_회고_템플릿(메이).pdf
+      thumbnail:
+      youtube: https://www.youtube.com/watch?v=xxxx
 ```
 
-> 발표자 수에 맞게 `<br>•` 라인을 추가/삭제합니다.
+## 🔑 필드 설명
 
----
+| 필드 | 필수 | 설명 |
+| :--- | :-: | :--- |
+| `week` | ✅ | 주차 번호 (정수) |
+| `date` | ✅ | 발표 날짜. `YYYY-MM-DD` 형식 |
+| `presentations[].title` | ✅ | 발표 제목 |
+| `presentations[].presenter` | ✅ | 발표자 닉네임 |
+| `presentations[].pdf` | ✅ | 저장소 내 PDF 경로. 한글 파일명 그대로 사용 가능 |
+| `presentations[].thumbnail` | ❌ | 비워두면 PDF 1페이지가 자동 추출되어 `thumbnails/w{NN}_{발표자}.png`로 저장됨. 이미지 URL(예: GitHub `user-attachments`)을 직접 넣어도 됨 |
+| `presentations[].youtube` | ❌ | 발표 영상 URL. 없으면 비워둠 |
 
-## 🎤 1인 발표용 템플릿
+## 🖼️ 썸네일 자동 추출
 
-```markdown
-<br/>
-<a id="week-{{WEEK_NUM}}"></a>
+- `pdf` 파일이 있고 `thumbnail`이 비어 있으면 GitHub Actions가 `pdftoppm`으로 첫 페이지를 PNG로 뽑아 `thumbnails/w{주차2자리}_{발표자}.png`에 저장합니다.
+- 추출 후 `data/weeks.yml`의 `thumbnail` 필드가 자동 채워져 커밋됩니다.
+- `.key` 파일은 지원하지 않습니다. Keynote를 쓰는 경우 PDF로 export해서 올려주세요.
+- 자동 추출 결과가 마음에 들지 않으면 `thumbnails/` 경로의 PNG를 덮어쓰거나, `thumbnail:` 필드에 원하는 이미지 URL을 직접 넣으면 됩니다.
 
-## **{{WEEK_NUM}}주차** ( {{YEAR}}년 {{MONTH}}월 {{DAY}}일 )
+## 🛠️ 로컬에서 직접 돌려보고 싶다면
 
-> | {{TITLE_1}} |
-> | :-: |
-> | {{PRESENTER_1}} |
+```bash
+# poppler 설치 (macOS)
+brew install poppler
 
-### 💎 발표자료
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="{{IMG_URL_1}}" width="100%">
-    </td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="{{PDF_URL_1}}">[📚 {{TITLE_1}}]</a><br>
-      <a href="{{YOUTUBE_URL_1}}">[🎥 {{WEEK_NUM}}주차 발표 영상 - {{PRESENTER_1}}]</a>
-    </td>
-    <td>&nbsp;</td>
-  </tr>
-</table>
-
----
+pip install pyyaml
+python scripts/generate_thumbnails.py   # 썸네일 추출
+python scripts/generate_readme.py       # README 재생성
 ```
 
----
+## ⚠️ 주의
 
-## 🎤🎤 2인 발표용 템플릿
-
-```markdown
-<br/>
-<a id="week-{{WEEK_NUM}}"></a>
-
-## **{{WEEK_NUM}}주차** ( {{YEAR}}년 {{MONTH}}월 {{DAY}}일 )
-
-> | {{TITLE_1}} | {{TITLE_2}} |
-> | :-: | :-: |
-> | {{PRESENTER_1}} | {{PRESENTER_2}} |
-
-### 💎 발표자료
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="{{IMG_URL_1}}" width="100%">
-    </td>
-    <td width="50%" align="center">
-      <img src="{{IMG_URL_2}}" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="{{PDF_URL_1}}">[📚 {{TITLE_1}}]</a><br>
-      <a href="{{YOUTUBE_URL_1}}">[🎥 {{WEEK_NUM}}주차 발표 영상 - {{PRESENTER_1}}]</a>
-    </td>
-    <td align="center">
-      <a href="{{PDF_URL_2}}">[📚 {{TITLE_2}}]</a><br>
-      <a href="{{YOUTUBE_URL_2}}">[🎥 {{WEEK_NUM}}주차 발표 영상 - {{PRESENTER_2}}]</a>
-    </td>
-  </tr>
-</table>
-
----
-```
-
----
-
-## 🎤🎤🎤 3인 발표용 템플릿
-
-```markdown
-<br/>
-<a id="week-{{WEEK_NUM}}"></a>
-
-## **{{WEEK_NUM}}주차** ( {{YEAR}}년 {{MONTH}}월 {{DAY}}일 )
-
-> | {{TITLE_1}} | {{TITLE_2}} | {{TITLE_3}} |
-> | :-: | :-: | :-: |
-> | {{PRESENTER_1}} | {{PRESENTER_2}} | {{PRESENTER_3}} |
-
-### 💎 발표자료
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="{{IMG_URL_1}}" width="100%">
-    </td>
-    <td width="50%" align="center">
-      <img src="{{IMG_URL_2}}" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="{{PDF_URL_1}}">[📚 {{TITLE_1}}]</a><br>
-      <a href="{{YOUTUBE_URL_1}}">[🎥 {{WEEK_NUM}}주차 발표 영상 - {{PRESENTER_1}}]</a>
-    </td>
-    <td align="center">
-      <a href="{{PDF_URL_2}}">[📚 {{TITLE_2}}]</a><br>
-      <a href="{{YOUTUBE_URL_2}}">[🎥 {{WEEK_NUM}}주차 발표 영상 - {{PRESENTER_2}}]</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <img src="{{IMG_URL_3}}" width="100%">
-    </td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="{{PDF_URL_3}}">[📚 {{TITLE_3}}]</a><br>
-      <a href="{{YOUTUBE_URL_3}}">[🎥 {{WEEK_NUM}}주차 발표 영상 - {{PRESENTER_3}}]</a>
-    </td>
-    <td>&nbsp;</td>
-  </tr>
-</table>
-
----
-```
-
----
-
-## 🎤🎤🎤🎤 4인 발표용 템플릿
-
-```markdown
-<br/>
-<a id="week-{{WEEK_NUM}}"></a>
-
-## **{{WEEK_NUM}}주차** ( {{YEAR}}년 {{MONTH}}월 {{DAY}}일 )
-
-> | {{TITLE_1}} | {{TITLE_2}} | {{TITLE_3}} | {{TITLE_4}} |
-> | :-: | :-: | :-: | :-: |
-> | {{PRESENTER_1}} | {{PRESENTER_2}} | {{PRESENTER_3}} | {{PRESENTER_4}} |
-
-### 💎 발표자료
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="{{IMG_URL_1}}" width="100%">
-    </td>
-    <td width="50%" align="center">
-      <img src="{{IMG_URL_2}}" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="{{PDF_URL_1}}">[📚 {{TITLE_1}}]</a><br>
-      <a href="{{YOUTUBE_URL_1}}">[🎥 {{WEEK_NUM}}주차 발표 영상 - {{PRESENTER_1}}]</a>
-    </td>
-    <td align="center">
-      <a href="{{PDF_URL_2}}">[📚 {{TITLE_2}}]</a><br>
-      <a href="{{YOUTUBE_URL_2}}">[🎥 {{WEEK_NUM}}주차 발표 영상 - {{PRESENTER_2}}]</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <img src="{{IMG_URL_3}}" width="100%">
-    </td>
-    <td width="50%" align="center">
-      <img src="{{IMG_URL_4}}" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="{{PDF_URL_3}}">[📚 {{TITLE_3}}]</a><br>
-      <a href="{{YOUTUBE_URL_3}}">[🎥 {{WEEK_NUM}}주차 발표 영상 - {{PRESENTER_3}}]</a>
-    </td>
-    <td align="center">
-      <a href="{{PDF_URL_4}}">[📚 {{TITLE_4}}]</a><br>
-      <a href="{{YOUTUBE_URL_4}}">[🎥 {{WEEK_NUM}}주차 발표 영상 - {{PRESENTER_4}}]</a>
-    </td>
-  </tr>
-</table>
-
----
-```
-
----
-
-## ✅ 체크리스트
-
-- [ ] `NN_N주차/` 폴더 생성 및 PDF 업로드
-- [ ] `## 📣 목차` 테이블에 행 추가
-- [ ] 해당 주차 섹션 블록 추가 (`<a id="week-N">` 앵커 포함)
-- [ ] 모든 `{{ ... }}` 플레이스홀더 치환 완료
-- [ ] 발표 영상이 아직 없다면 `<!-- ... -->`로 주석 처리
-- [ ] 미리보기에서 표·이미지·링크가 정상 렌더되는지 확인
+- `README.md`는 자동 생성물입니다. 직접 편집하지 말고 `data/weeks.yml`이나 `templates/readme_header.md`를 수정해야 합니다.
+- 스터디 소개, 스터디원, 문의 등 고정 영역은 `templates/readme_header.md`에 들어 있습니다.

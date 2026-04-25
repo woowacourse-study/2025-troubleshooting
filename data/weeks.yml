@@ -1,0 +1,284 @@
+weeks:
+- week: 1
+  date: '2025-07-27'
+  presentations:
+  - title: 21일간의 리딩 실험하기
+    presenter: 밍트
+    pdf: 01_1주차/리딩_실험하기(밍트).pdf
+    thumbnail: https://github.com/user-attachments/assets/980937df-3ba4-4cea-beae-506c5c3228d8
+    youtube: https://www.youtube.com/watch?v=L60xNF3kqaY
+  - title: 모니터링
+    presenter: 투다
+    pdf: 01_1주차/모니터링.pdf
+    thumbnail: https://github.com/user-attachments/assets/563351c7-a8bf-4854-9219-8aa07960dff4
+    youtube: https://www.youtube.com/watch?v=wFnjf_T3i8o
+  - title: 테스트 환경의 중요성, 결정성 위배
+    presenter: 비타
+    pdf: 01_1주차/테스트 환경의 중요성, 결정성 위배(비타).pdf
+    thumbnail: https://github.com/user-attachments/assets/c937aaf3-1f5e-424e-8557-c66518d9016d
+    youtube: https://www.youtube.com/watch?v=dWh_2_KiMGY
+  - title: 우리팀의 CI/CD
+    presenter: 칼리
+    pdf: 01_1주차/트러블슈팅-CI:CD.pdf
+    thumbnail: https://github.com/user-attachments/assets/b005b6b5-2c0a-4c95-8630-b38fbd78900b
+    youtube: https://youtu.be/cmQxrtBttj0?si=f72MXnLegpscYKEK
+- week: 2
+  date: '2025-08-10'
+  presentations:
+  - title: 우리 서비스에 맞는 이메일 서버 구축기
+    presenter: 새로이
+    pdf: 02_2주차/[발표자료]우리_서비스에_맞는_이메일_서버_구축기(새로이).pdf
+    thumbnail: https://github.com/user-attachments/assets/6243e8f8-f287-4602-9620-18c7cfc06332
+    youtube: https://www.youtube.com/watch?v=bwhBnJ0vyp4&feature=youtu.be
+  - title: 로깅 전략 수정하기
+    presenter: 메이
+    pdf: 02_2주차/[발표자료]로깅_전략_수정하기(메이).pdf
+    thumbnail: https://github.com/user-attachments/assets/fffb84c9-79f7-4d19-b661-ba5a6473f18b
+    youtube: https://youtu.be/BAdtFhKRn8E
+  - title: OIDC 기반 소셜로그인 연동
+    presenter: 모코
+    pdf: 02_2주차/[발표자료]OIDC_기반_소셜로그인_연동(모코).pdf
+    thumbnail: https://github.com/user-attachments/assets/cdeb81db-ace7-4fcc-b659-3929e50a2be6
+    youtube: https://youtu.be/itaHT8111H8
+  - title: 쿼리 튜닝으로 218배 빨라진 팬 점유율 API
+    presenter: 밍트
+    pdf: 02_2주차/쿼리_개선하기(밍트).pdf
+    thumbnail: https://github.com/user-attachments/assets/2ce14595-a60f-4316-9dba-9c40749adb18
+    youtube: https://youtu.be/UYTYqg8R7_g
+- week: 3
+  date: '2025-08-24'
+  presentations:
+  - title: 런칭데이 대비 처리율 제한기 및 로드밸런서 적용기
+    presenter: 투다
+    pdf: 03_3주차/트러블슈팅-로드밸.pdf
+    thumbnail: https://github.com/user-attachments/assets/fb5a71ff-ac4f-459b-881f-72ee67d4ff99
+    youtube: https://www.youtube.com/watch?v=JmeMQG4_Moc
+  - title: 데이터베이스 운영 / 안정성
+    presenter: 칼리
+    pdf: 03_3주차/트러블슈팅 - DB 운영.pdf
+    thumbnail: https://github.com/user-attachments/assets/e8c22297-7d5d-43fc-91bf-20d2ac0bd078
+    youtube: https://www.youtube.com/watch?v=C8n0ONC4-mk
+- week: 4
+  date: '2025-09-07'
+  presentations:
+  - title: 검색 기능 개선 실험하기
+    presenter: 메이
+    pdf: 04_4주차/[발표자료]검색_기능_개선하기(메이).pdf
+    thumbnail: https://github.com/user-attachments/assets/13d35263-0399-46c5-a193-13c3de7e8dd5
+    youtube: https://www.youtube.com/watch?v=N6j8uwleHk0
+  - title: 우리 팀의 TRACES 도입기
+    presenter: 새로이
+    pdf: 04_4주차/[발표자료]trace도입기(새로이).pdf
+    thumbnail: https://github.com/user-attachments/assets/baa2ca1b-cea3-4de0-8b47-400e44d92147
+    youtube: https://www.youtube.com/watch?v=-sHLhuB9p0Y
+  - title: 야구보구에서 경기 결과를 빠르고 효율적으로 가져오는 방법
+    presenter: 밍트
+    pdf: 04_4주차/[발표자료] 야구보구에서_경기_결과를_빠르고_효율적으로_가져오는_방법(밍트).pdf
+    thumbnail: https://github.com/user-attachments/assets/1db4d44c-9a0a-4a6f-ba23-2abaf49c89ca
+    youtube: https://www.youtube.com/watch?v=ijwvmk8ymTM
+  - title: 테이블 스키마 무중단으로 변경하기
+    presenter: 모코
+    pdf: 04_4주차/[발표자료]테이블_스키마_무중단으로_변경하기(모코).pdf
+    thumbnail: https://github.com/user-attachments/assets/15d6f0fa-fbac-46e0-9ac8-340f14995f8b
+    youtube: https://www.youtube.com/watch?v=8ucMsqtZ_e8
+- week: 5
+  date: '2025-09-21'
+  presentations:
+  - title: 복구와 안전성을 위한 배포 전략
+    presenter: 비타
+    pdf: 05_5주차/[발표자료] 복구와 안전성을 위한 배포 전략(비타).pdf
+    thumbnail: https://github.com/user-attachments/assets/42b9468d-e23d-4ff8-9f3e-fb60f1f25f2c
+    youtube: https://www.youtube.com/watch?v=Ac5wr6SjWH0
+  - title: FCM & 알림 도메인
+    presenter: 칼리
+    pdf: 05_5주차/칼리_fcm.pdf
+    thumbnail: https://github.com/user-attachments/assets/ba171461-6ce2-49a0-b1a7-33f886776b6d
+    youtube: https://www.youtube.com/watch?v=nUkQZdRDR0s
+  - title: DB 분산락도 락이다
+    presenter: 투다
+    pdf: 05_5주차/분산락.pdf
+    thumbnail: https://github.com/user-attachments/assets/30ac915e-d612-475a-8195-5233f443e179
+    youtube: https://www.youtube.com/watch?v=INjLBW1pZY8
+- week: 6
+  date: '2025-10-05'
+  presentations:
+  - title: 웹 크롤러 성능 및 안정성 개선
+    presenter: 밍트
+    pdf: 06_6주차/[발표자료] 웹_크롤러 성능_및_안정성_개선(밍트).pdf
+    thumbnail: https://github.com/user-attachments/assets/12892926-bbd2-4ca5-83cb-e32d67875c1b
+    youtube: https://youtu.be/K45Qgg_RKQg?si=-9ge_su6KBSO8ix9
+  - title: 모니터링 이사하기 CloudWatch에서 Grafana로
+    presenter: 메이
+    pdf: 06_6주차/[발표자료]모니터링_이사하기_CloudWatch에서_Grafana로(메이).pdf
+    thumbnail: https://github.com/user-attachments/assets/e48175af-744d-4b6e-9a27-1fd3801d0ecb
+    youtube: https://www.youtube.com/watch?v=Wge0nSKAymo
+  - title: 서비스 무중단으로 테이블 스키마 변경하기
+    presenter: 모코
+    pdf: 06_6주차/[발표자료]서비스_무중단으로_테이블_스키마_변경하기(모코).pdf
+    thumbnail: https://github.com/user-attachments/assets/62828cd6-cdca-4ded-808e-ef7c8ef484d9
+    youtube: https://www.youtube.com/watch?v=CP7eR82bXOg
+  - title: 우리 팀에 어울리는 검색 기능 도입 과정 1
+    presenter: 새로이
+    pdf: 06_6주차/[발표자료]우리_어울리는_검색_기능_도입_과정_1(새로이).pdf
+    thumbnail: https://github.com/user-attachments/assets/df8dd3fc-b930-4a04-b34f-0398ddb8d692
+    youtube: https://youtu.be/5jIfUgXnx1Y?si=C4xDKwmC28VmGmQ1
+- week: 7
+  date: '2025-10-19'
+  presentations:
+  - title: 동시성 제어
+    presenter: 비타
+    pdf: 07_7주차/동시성 제어(비타).pdf
+    thumbnail: https://github.com/user-attachments/assets/e55c7c69-2cf9-447b-9551-dcfca2c1bd4a
+    youtube: https://youtu.be/xTgy2rSFMtM?si=-2TyzwB0knyRLMeT
+  - title: FCM 대량 알림 최적화
+    presenter: 칼리
+    pdf: 07_7주차/트러블슈팅 - 대량 데이터와 FCM.pdf
+    thumbnail: https://github.com/user-attachments/assets/0ffd3c2d-4fbf-44fc-8c1e-1203ace0d377
+    youtube: https://youtu.be/CUic_5ZpWOU?si=ukwaWTzbS14CVFI8
+  - title: 최종적 일관성 제공하기
+    presenter: 투다
+    pdf: 07_7주차/투다트랜잭션_아웃박스.pdf
+    thumbnail: https://github.com/user-attachments/assets/328b9d0a-baec-45d5-93d6-5d57979939bd
+    youtube: https://youtu.be/ETijlbeb4m8?si=Kwa5NBl_cp3HMtm6
+- week: 8
+  date: '2025-11-02'
+  presentations:
+  - title: 미래의 나를 위한 데이터 파이프라인 설계하기
+    presenter: 밍트
+    pdf: 08_8주차/[발표자료]미래의_나를_위한_데이터_파이프라인_설계하기(밍트).pdf
+    thumbnail: https://github.com/user-attachments/assets/fbe8f4ac-3cd4-43e9-a432-6d1ae3dea801
+    youtube: https://www.youtube.com/watch?v=LqsRKoIBw7o
+  - title: k6 부하테스트와 튜닝을 통한 서버 성능 개선
+    presenter: 메이
+    pdf: 08_8주차/[발표자료]k6_부하테스트와_튜닝을_통한_서버_성능_개선.pdf
+    thumbnail: https://github.com/user-attachments/assets/7849caa4-fbe0-4f14-b1ff-2d487ce2abdf
+    youtube: https://www.youtube.com/watch?v=ODh0-0UiH4A
+  - title: 이미지 로딩 최적화
+    presenter: 모코
+    pdf: 08_8주차/[발표자료]이미지_로딩_최적화(모코).pdf
+    thumbnail: https://github.com/user-attachments/assets/25f06390-0a14-4bd1-9fca-c1c7b20fc52b
+    youtube: https://www.youtube.com/watch?v=eW7U_KFII2c
+  - title: 우리 서비스, 동시성 문제 이렇게 풀었어요
+    presenter: 새로이
+    pdf: 08_8주차/[발표자료]우리_서비스_동시성_문제_이렇게_풀었어요(새로이).pdf
+    thumbnail: https://github.com/user-attachments/assets/785ad4e8-2310-4072-95c7-286435fb9ef4
+    youtube: https://www.youtube.com/watch?v=Xk3MqkAmBuo
+- week: 9
+  date: '2025-11-16'
+  presentations:
+  - title: GC의 흐름으로 읽는 배치 처리 효율화
+    presenter: 칼리
+    pdf: 09_9주차/트러블슈팅-OOM과 GC.pdf
+    thumbnail: https://github.com/user-attachments/assets/34fa9972-3419-40f9-b663-cb6f8c743dd1
+    youtube: null
+  - title: 알림 아키텍쳐 개선기
+    presenter: 투다
+    pdf: 09_9주차/[발표자료]투다_알림_아키텍쳐_개선.pdf
+    thumbnail: https://github.com/user-attachments/assets/1c19ae4c-6b69-4e69-94a1-6124bd4e5ca8
+    youtube: null
+- week: 10
+  date: '2025-11-27'
+  presentations:
+  - title: 10만명의 사용자를 받아들일 수 있는 아키텍처
+    presenter: 밍트
+    pdf: 10_10주차/[발표자료]10만명의_사용자를_받아들일_수_있는_아키텍처(밍트).pdf
+    thumbnail: https://github.com/user-attachments/assets/ecea039b-6f84-469e-a994-0befc1a62389
+    youtube: https://www.youtube.com/watch?v=S3WczUDNBMc
+  - title: 검색 기능 개선 실험하기 2
+    presenter: 메이
+    pdf: 10_10주차/[발표자료]검색_기능_개선_실험하기_2(메이).pdf
+    thumbnail: https://github.com/user-attachments/assets/4b9c9193-7151-40bb-8755-543018eff9cd
+    youtube: https://www.youtube.com/watch?v=jHShSG3fKlQ
+  - title: 우리 서비스에 알맞은 검색기능 도입기 2
+    presenter: 새로이
+    pdf: 10_10주차/[발표자료]우리_서비스에_알맞은_검색기능_도입기2(새로이).pdf
+    thumbnail: https://github.com/user-attachments/assets/f649d0f8-4905-4356-ac82-f368c3e3cf43
+    youtube: https://www.youtube.com/watch?v=PfOoRdpmLuE
+- week: 11
+  date: '2025-12-17'
+  presentations:
+  - title: MMMQ 1 BlockingQueue 파헤치기
+    presenter: 모코
+    pdf: 11_11주차/[발표자료]MMMQ_1_BlockingQueue_파헤치기(모코).pdf
+    thumbnail: https://github.com/user-attachments/assets/4757c9e4-454f-45b6-b28b-d09023fbb623
+    youtube: null
+  - title: DTO Projection과 복합 인덱스로 제거한 936K Range Scan
+    presenter: 칼리
+    pdf: 11_11주차/[발표자료] DTO_Projection과_복합_인덱스로_제거한_936K_Range_Scan(칼리).pdf
+    thumbnail: https://github.com/user-attachments/assets/09dbfd0f-97be-47ef-bc54-97559feb5240
+    youtube: null
+  - title: 재시도 DLQ
+    presenter: 투다
+    pdf: 11_11주차/[발표자료]재시도_DLQ.pdf
+    thumbnail: https://github.com/user-attachments/assets/73f50575-d8b9-443c-b640-0b5fa9667170
+    youtube: null
+- week: 12
+  date: '2026-01-09'
+  presentations:
+  - title: 활동 추천 알고리즘 개선하기
+    presenter: 밍트
+    pdf: 12_12주차/[발표자료]추천_알고리즘_개선하기(밍트).pdf
+    thumbnail: https://github.com/user-attachments/assets/471cf23b-1bab-4f9b-8060-3f11e6d49416
+    youtube: https://www.youtube.com/watch?v=2jbkpnc7dec
+  - title: 테스트 최적화 이야기
+    presenter: 비타
+    pdf: 12_12주차/[발표자료] 테스트_최적화_이야기(비타).pdf
+    thumbnail: https://github.com/user-attachments/assets/dbca1e30-d226-4ab5-82ca-ac7dec1a039f
+    youtube: null
+  - title: 우리 서비스에 맞는 이메일 서버 구축기
+    presenter: 새로이
+    pdf: 12_12주차/[발표자료]우리_서비스에_맞는_이메일_서버_구축기_NEW(새로이).pdf
+    thumbnail: https://github.com/user-attachments/assets/d4e6228b-d651-4154-a740-cc3c6a740edd
+    youtube: null
+- week: 13
+  date: '2026-01-25'
+  presentations:
+  - title: MySQL Instant 알고리즘
+    presenter: 메이
+    pdf: 13_13주차/[발표자료]MySQL_Instant_알고리즘(메이).pdf
+    thumbnail: https://github.com/user-attachments/assets/05b9c521-4b29-4955-ad73-38b82ff95c3c
+    youtube: null
+  - title: 데드락 풀어내기
+    presenter: 모코
+    pdf: 13_13주차/[발표자료]데드락_풀어내기(모코).pdf
+    thumbnail: https://github.com/user-attachments/assets/7f7ac894-c517-4724-aa4e-da3fe8120a07
+    youtube: null
+  - title: 동기/비동기 vs 블로킹/논블로킹
+    presenter: 칼리
+    pdf: null
+    thumbnail: https://github.com/user-attachments/assets/e8724ebf-d5d2-49d2-b7eb-708e3d831234
+    youtube: null
+- week: 14
+  date: '2026-02-14'
+  presentations:
+  - title: Coroutine
+    presenter: 비타
+    pdf: 14_14주차/[발표자료] Coroutine.pdf
+    thumbnail: https://github.com/user-attachments/assets/f55c73ff-ea17-41e5-adb2-e19027c69eb9
+    youtube: null
+- week: 15
+  date: '2026-03-07'
+  presentations:
+  - title: Docker Engine java Test Container
+    presenter: 메이
+    pdf: 15_15주차/[발표자료]Docker_Engine_java_Test_Container(메이).pdf
+    thumbnail: https://github.com/user-attachments/assets/eab0af56-ad9f-4bec-812e-f4eb80cb9b61
+    youtube: null
+  - title: Spring Batch 톺아보기
+    presenter: 돔푸
+    pdf: 15_15주차/[발표자료]Spring_Batch_톺아보기(돔푸).pdf
+    thumbnail: https://github.com/user-attachments/assets/07a50e63-0e38-4bd2-9f3b-15c8a98d532c
+    youtube: null
+  - title: 장애없이 선착순 이벤트 진행하기
+    presenter: 새로이
+    pdf: 15_15주차/[발표자료] 장애없이_선착순_이벤트_진행하기.pdf
+    thumbnail: https://github.com/user-attachments/assets/c0a9640d-810d-4343-8857-cf60f5774d7e
+    youtube: null
+- week: 16
+  date: '2026-03-21'
+  presentations:
+  - title: 클로드 코드 어디까지 써봤어?
+    presenter: 밍트
+    pdf: 15_15주차/[발표자료]Claude_Code_어디까지_써봤어(밍트).pdf
+    thumbnail: https://github.com/user-attachments/assets/c9574d7b-5ced-4f76-9885-8cc864b35575
+    youtube: null

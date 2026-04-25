@@ -1,0 +1,58 @@
+name: Build README
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/weeks.yml"
+      - "templates/readme_header.md"
+      - "scripts/generate_*.py"
+      - "**/*.pdf"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-readme
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install system deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+
+      - name: Install Python deps
+        run: pip install pyyaml
+
+      - name: Generate thumbnails
+        run: python scripts/generate_thumbnails.py
+
+      - name: Regenerate README
+        run: python scripts/generate_readme.py
+
+      - name: Commit changes (if any)
+        run: |
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add thumbnails/ data/weeks.yml README.md
+          git commit -m "chore: auto-update thumbnails & README"
+          git push
