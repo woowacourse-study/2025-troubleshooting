@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-data/weeks.yml + templates/readme_header.md 로 README.md 전체를 재생성한다.
+weeks.yml + .automation/templates/readme_header.md 로 README.md 전체를 재생성한다.
 
 규칙
 - 헤더 파일 아래에 "## 📣 목차" 테이블을 자동 생성
 - 주차별 섹션(<a id="week-N"></a>)을 발표자 수에 맞게 2-column table 로 렌더
 - PDF / 썸네일 / 유튜브 링크는 weeks.yml 값을 그대로 사용
-- 로컬 경로(`thumbnails/...`, `NN_N주차/...`) 는 GitHub URL 인코딩(NFC 폴더 + NFD 파일) 으로 변환
+- 로컬 경로는 NFC로 URL 인코딩하여 GitHub raw/blob URL 로 변환
 """
 from __future__ import annotations
 
@@ -19,9 +19,10 @@ from pathlib import Path
 import yaml
 
 
-ROOT = Path(__file__).resolve().parent.parent
-DATA_FILE = ROOT / "data" / "weeks.yml"
-HEADER_FILE = ROOT / "templates" / "readme_header.md"
+# Script lives at .automation/scripts/; repo root is two levels up.
+ROOT = Path(__file__).resolve().parent.parent.parent
+DATA_FILE = ROOT / "weeks.yml"
+HEADER_FILE = ROOT / ".automation" / "templates" / "readme_header.md"
 OUT_FILE = ROOT / "README.md"
 
 REPO_BASE = "https://github.com/woowacourse-study/2025-troubleshooting/blob/main/"
