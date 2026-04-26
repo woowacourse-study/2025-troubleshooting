@@ -1,7 +1,7 @@
 name: 발표자료 롤백
 description: 잘못 업로드된 발표자료를 삭제하고 README를 다시 갱신합니다
 title: "[롤백] "
-labels: ["presentation-rollback"]
+labels: ["rollback"]
 body:
   - type: markdown
     attributes:

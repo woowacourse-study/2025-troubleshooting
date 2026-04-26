@@ -1,7 +1,7 @@
 name: 발표자료 업로드
 description: PDF와 메타데이터를 입력하면 .automation/weeks.yml과 README가 자동으로 갱신됩니다
 title: "[업로드] "
-labels: ["presentation-upload"]
+labels: ["upload"]
 body:
   - type: markdown
     attributes:
