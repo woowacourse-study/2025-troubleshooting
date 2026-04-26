@@ -70,7 +70,7 @@ jobs:
             echo "committed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          git commit -m "chore: ${WEEK}주차 발표자료 업로드 (${PRESENTER}, #${ISSUE_NUMBER})"
+          git commit -m "docs: ${WEEK}주차 발표자료 업로드 (${PRESENTER}, #${ISSUE_NUMBER})"
           git push
           echo "committed=true" >> "$GITHUB_OUTPUT"
 
