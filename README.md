@@ -130,6 +130,7 @@
 | [**14주차** (2026.2.14)](#week-14) | • Coroutine (👤 비타) |
 | [**15주차** (2026.3.07)](#week-15) | • Docker Engine java Test Container (👤 메이)<br>• Spring Batch 톺아보기 (👤 돔푸)<br>• 장애없이 선착순 이벤트 진행하기 (👤 새로이) |
 | [**16주차** (2026.3.21)](#week-16) | • 클로드 코드 어디까지 써봤어? (👤 밍트) |
+| [**17주차** (2026.4.12)](#week-17) | • JPA_영속성_컨텍스트_트러블슈팅 (👤 메이) |
 | [**18주차** (2026.5.03)](#week-18) | • 홈서버 구축기 (👤 돔푸) |
 
 
@@ -828,6 +829,35 @@
   <tr>
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/15_15%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DClaude_Code_%EC%96%B4%EB%94%94%EA%B9%8C%EC%A7%80_%EC%8D%A8%EB%B4%A4%EC%96%B4(%EB%B0%8D%ED%8A%B8).pdf">[📚 클로드 코드 어디까지 써봤어?]</a><br>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+---
+
+<br/>
+<a id="week-17"></a>
+
+## **17주차** ( 2026년 4월 12일 )
+
+> | JPA_영속성_컨텍스트_트러블슈팅 |
+> | :-: |
+> | 메이 |
+
+### 💎 발표자료
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w17_%EB%A9%94%EC%9D%B4.png" width="100%">
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/17_17%EC%A3%BC%EC%B0%A8/JPA_%EC%98%81%EC%86%8D%EC%84%B1_%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8_%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85.pdf">[📚 JPA_영속성_컨텍스트_트러블슈팅]</a><br>
+      <a href="https://youtu.be/Yze4DoejZXc?si=xh9eGcTrY48VREmq">[🎥 17주차 발표 영상 - 메이]</a>
     </td>
     <td>&nbsp;</td>
   </tr>
