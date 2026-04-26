@@ -1,4 +1,4 @@
-name: Process Upload Issue
+name: Process Rollback Issue
 
 on:
   issues:
@@ -9,13 +9,13 @@ permissions:
   issues: write
 
 concurrency:
-  group: process-upload-${{ github.event.issue.number }}
+  group: process-rollback-${{ github.event.issue.number }}
   cancel-in-progress: false
 
 jobs:
   process:
     if: |
-      contains(github.event.issue.labels.*.name, 'presentation-upload') &&
+      contains(github.event.issue.labels.*.name, 'presentation-rollback') &&
       (github.event.issue.author_association == 'OWNER' ||
        github.event.issue.author_association == 'MEMBER' ||
        github.event.issue.author_association == 'COLLABORATOR' ||
@@ -32,23 +32,14 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install system deps
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y poppler-utils
-
       - name: Install Python deps
-        run: pip install pyyaml requests
+        run: pip install pyyaml
 
       - name: Process issue
         id: process
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python .automation/scripts/process_upload_issue.py
-
-      - name: Generate thumbnails
-        run: python .automation/scripts/generate_thumbnails.py
+        run: python .automation/scripts/process_rollback_issue.py
 
       - name: Regenerate README
         run: python .automation/scripts/generate_readme.py
@@ -60,17 +51,19 @@ jobs:
           PRESENTER: ${{ steps.process.outputs.presenter }}
           WEEK: ${{ steps.process.outputs.week }}
           PDF_PATH: ${{ steps.process.outputs.pdf_path }}
+          THUMB_PATH: ${{ steps.process.outputs.thumb_path }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .automation/weeks.yml README.md .automation/thumbnails/
-          git add -- "$PDF_PATH"
+          git add -A .automation/weeks.yml README.md
+          [ -n "$PDF_PATH" ] && git add -A -- "$PDF_PATH"
+          [ -n "$THUMB_PATH" ] && git add -A -- "$THUMB_PATH"
           if git diff --cached --quiet; then
             echo "nothing to commit"
             echo "committed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          git commit -m "chore: ${WEEK}주차 발표자료 업로드 (${PRESENTER}, #${ISSUE_NUMBER})"
+          git commit -m "chore: ${WEEK}주차 발표자료 롤백 (${PRESENTER}, #${ISSUE_NUMBER})"
           git push
           echo "committed=true" >> "$GITHUB_OUTPUT"
 
@@ -79,14 +72,23 @@ jobs:
         uses: actions/github-script@v7
         env:
           PDF_PATH: ${{ steps.process.outputs.pdf_path }}
+          THUMB_PATH: ${{ steps.process.outputs.thumb_path }}
+          WEEK_DIR_REMOVED: ${{ steps.process.outputs.week_dir_removed }}
         with:
           script: |
-            const pdfPath = process.env.PDF_PATH;
+            const lines = ["롤백 완료되었습니다."];
+            const pdf = process.env.PDF_PATH;
+            const thumb = process.env.THUMB_PATH;
+            const weekDir = process.env.WEEK_DIR_REMOVED;
+            if (pdf) lines.push(`- 삭제된 PDF: \`${pdf}\``);
+            if (thumb) lines.push(`- 삭제된 썸네일: \`${thumb}\``);
+            if (weekDir) lines.push(`- 빈 주차 디렉터리 제거: \`${weekDir}\``);
+            lines.push("- .automation/weeks.yml / README가 갱신되었습니다.");
             github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: `업로드 완료되었습니다.\n\n- 파일: \`${pdfPath}\`\n- .automation/weeks.yml / 썸네일 / README가 갱신되었습니다.`
+              body: lines.join("\n")
             });
             github.rest.issues.update({
               owner: context.repo.owner,
@@ -105,8 +107,9 @@ jobs:
           script: |
             const errorMsg = process.env.ERROR_MSG || '';
             const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const quoted = errorMsg.replace(/\n/g, '\n> ');
             const body = errorMsg
-              ? `처리 중 오류가 발생했습니다.\n\n> ${errorMsg}\n\n[워크플로 로그](${runUrl})에서 상세 내용을 확인할 수 있습니다.`
+              ? `처리 중 오류가 발생했습니다.\n\n> ${quoted}\n\n[워크플로 로그](${runUrl})에서 상세 내용을 확인할 수 있습니다.`
               : `처리 중 오류가 발생했습니다. [워크플로 로그](${runUrl})를 확인해주세요.`;
             github.rest.issues.createComment({
               owner: context.repo.owner,
