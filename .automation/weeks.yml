@@ -282,11 +282,3 @@ weeks:
     pdf: 15_15주차/[발표자료]Claude_Code_어디까지_써봤어(밍트).pdf
     thumbnail: .automation/thumbnails/w16_밍트.png
     youtube: null
-- week: 17
-  date: '2026-05-03'
-  presentations:
-  - title: 홈서버 구축기
-    presenter: 돔푸
-    pdf: 17_17주차/홈서버 구축기.pdf
-    thumbnail: .automation/thumbnails/w17_돔푸.png
-    youtube: null
