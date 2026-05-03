@@ -130,7 +130,7 @@
 | [**14주차** (2026.2.14)](#week-14) | • Coroutine (👤 비타) |
 | [**15주차** (2026.3.07)](#week-15) | • Docker Engine java Test Container (👤 메이)<br>• Spring Batch 톺아보기 (👤 돔푸)<br>• 장애없이 선착순 이벤트 진행하기 (👤 새로이) |
 | [**16주차** (2026.3.21)](#week-16) | • 클로드 코드 어디까지 써봤어? (👤 밍트) |
-| [**17주차** (2026.4.12)](#week-17) | • JPA_영속성_컨텍스트_트러블슈팅 (👤 메이) |
+| [**17주차** (2026.4.12)](#week-17) | • JPA_영속성_컨텍스트_트러블슈팅 (👤 메이)<br>• 요즘 내가 어디에 중점을 두고 살고 있는가 (👤 칼리) |
 | [**18주차** (2026.5.03)](#week-18) | • 홈서버 구축기 (👤 돔푸) |
 
 
@@ -841,9 +841,9 @@
 
 ## **17주차** ( 2026년 4월 12일 )
 
-> | JPA_영속성_컨텍스트_트러블슈팅 |
-> | :-: |
-> | 메이 |
+> | JPA_영속성_컨텍스트_트러블슈팅 | 요즘 내가 어디에 중점을 두고 살고 있는가 |
+> | :-: | :-: |
+> | 메이 | 칼리 |
 
 ### 💎 발표자료
 
@@ -852,14 +852,18 @@
     <td width="50%" align="center">
       <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w17_%EB%A9%94%EC%9D%B4.png" width="100%">
     </td>
-    <td>&nbsp;</td>
+    <td width="50%" align="center">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w17_%EC%B9%BC%EB%A6%AC.png" width="100%">
+    </td>
   </tr>
   <tr>
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/17_17%EC%A3%BC%EC%B0%A8/JPA_%EC%98%81%EC%86%8D%EC%84%B1_%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8_%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85.pdf">[📚 JPA_영속성_컨텍스트_트러블슈팅]</a><br>
       <a href="https://youtu.be/Yze4DoejZXc?si=xh9eGcTrY48VREmq">[🎥 17주차 발표 영상 - 메이]</a>
     </td>
-    <td>&nbsp;</td>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/17_17%EC%A3%BC%EC%B0%A8/%EC%9A%94%EC%A6%98%20%EB%82%B4%EA%B0%80%20%EC%96%B4%EB%94%94%EC%97%90%20%EC%A4%91%EC%A0%90%EC%9D%84%20%EB%91%90%EA%B3%A0%20%EC%82%B4%EA%B3%A0%20%EC%9E%88%EB%8A%94%EA%B0%80.pdf">[📚 요즘 내가 어디에 중점을 두고 살고 있는가]</a><br>
+    </td>
   </tr>
 </table>
 

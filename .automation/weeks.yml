@@ -290,6 +290,11 @@ weeks:
     pdf: 17_17주차/JPA_영속성_컨텍스트_트러블슈팅.pdf
     thumbnail: .automation/thumbnails/w17_메이.png
     youtube: https://youtu.be/Yze4DoejZXc?si=xh9eGcTrY48VREmq
+  - title: 요즘 내가 어디에 중점을 두고 살고 있는가
+    presenter: 칼리
+    pdf: 17_17주차/요즘 내가 어디에 중점을 두고 살고 있는가.pdf
+    thumbnail: .automation/thumbnails/w17_칼리.png
+    youtube: null
 - week: 18
   date: '2026-05-03'
   presentations:
