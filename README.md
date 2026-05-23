@@ -158,11 +158,11 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_1%EC%A3%BC%EC%B0%A8/%EB%A6%AC%EB%94%A9_%EC%8B%A4%ED%97%98%ED%95%98%EA%B8%B0(%EB%B0%8D%ED%8A%B8).pdf">[📚 21일간의 리딩 실험하기]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_1%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D21%EC%9D%BC%EA%B0%84%EC%9D%98_%EB%A6%AC%EB%94%A9_%EC%8B%A4%ED%97%98%ED%95%98%EA%B8%B0(%EB%B0%8D%ED%8A%B8).pdf">[📚 21일간의 리딩 실험하기]</a><br>
       <a href="https://www.youtube.com/watch?v=L60xNF3kqaY">[🎥 1주차 발표 영상 - 밍트]</a>
     </td>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_1%EC%A3%BC%EC%B0%A8/%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81.pdf">[📚 모니터링]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_1%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81(%ED%88%AC%EB%8B%A4).pdf">[📚 모니터링]</a><br>
       <a href="https://www.youtube.com/watch?v=wFnjf_T3i8o">[🎥 1주차 발표 영상 - 투다]</a>
     </td>
   </tr>
@@ -176,11 +176,11 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_1%EC%A3%BC%EC%B0%A8/%ED%85%8C%EC%8A%A4%ED%8A%B8%20%ED%99%98%EA%B2%BD%EC%9D%98%20%EC%A4%91%EC%9A%94%EC%84%B1%2C%20%EA%B2%B0%EC%A0%95%EC%84%B1%20%EC%9C%84%EB%B0%B0(%EB%B9%84%ED%83%80).pdf">[📚 테스트 환경의 중요성, 결정성 위배]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_1%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%ED%85%8C%EC%8A%A4%ED%8A%B8_%ED%99%98%EA%B2%BD%EC%9D%98_%EC%A4%91%EC%9A%94%EC%84%B1%2C_%EA%B2%B0%EC%A0%95%EC%84%B1_%EC%9C%84%EB%B0%B0(%EB%B9%84%ED%83%80).pdf">[📚 테스트 환경의 중요성, 결정성 위배]</a><br>
       <a href="https://www.youtube.com/watch?v=dWh_2_KiMGY">[🎥 1주차 발표 영상 - 비타]</a>
     </td>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_1%EC%A3%BC%EC%B0%A8/%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85-CI%3ACD.pdf">[📚 우리팀의 CI/CD]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/01_1%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9A%B0%EB%A6%AC%ED%8C%80%EC%9D%98_CI_CD(%EC%B9%BC%EB%A6%AC).pdf">[📚 우리팀의 CI/CD]</a><br>
       <a href="https://youtu.be/cmQxrtBttj0?si=f72MXnLegpscYKEK">[🎥 1주차 발표 영상 - 칼리]</a>
     </td>
   </tr>
@@ -232,7 +232,7 @@
       <a href="https://youtu.be/itaHT8111H8">[🎥 2주차 발표 영상 - 모코]</a>
     </td>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/02_2%EC%A3%BC%EC%B0%A8/%EC%BF%BC%EB%A6%AC_%EA%B0%9C%EC%84%A0%ED%95%98%EA%B8%B0(%EB%B0%8D%ED%8A%B8).pdf">[📚 쿼리 튜닝으로 218배 빨라진 팬 점유율 API]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/02_2%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%BF%BC%EB%A6%AC_%ED%8A%9C%EB%8B%9D%EC%9C%BC%EB%A1%9C_218%EB%B0%B0_%EB%B9%A8%EB%9D%BC%EC%A7%84_%ED%8C%AC_%EC%A0%90%EC%9C%A0%EC%9C%A8_API(%EB%B0%8D%ED%8A%B8).pdf">[📚 쿼리 튜닝으로 218배 빨라진 팬 점유율 API]</a><br>
       <a href="https://youtu.be/UYTYqg8R7_g">[🎥 2주차 발표 영상 - 밍트]</a>
     </td>
   </tr>
@@ -262,11 +262,11 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/03_3%EC%A3%BC%EC%B0%A8/%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85-%EB%A1%9C%EB%93%9C%EB%B0%B8.pdf">[📚 런칭데이 대비 처리율 제한기 및 로드밸런서 적용기]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/03_3%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EB%9F%B0%EC%B9%AD%EB%8D%B0%EC%9D%B4_%EB%8C%80%EB%B9%84_%EC%B2%98%EB%A6%AC%EC%9C%A8_%EC%A0%9C%ED%95%9C%EA%B8%B0_%EB%B0%8F_%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%84%9C_%EC%A0%81%EC%9A%A9%EA%B8%B0(%ED%88%AC%EB%8B%A4).pdf">[📚 런칭데이 대비 처리율 제한기 및 로드밸런서 적용기]</a><br>
       <a href="https://www.youtube.com/watch?v=JmeMQG4_Moc">[🎥 3주차 발표 영상 - 투다]</a>
     </td>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/03_3%EC%A3%BC%EC%B0%A8/%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85%20-%20DB%20%EC%9A%B4%EC%98%81.pdf">[📚 데이터베이스 운영 / 안정성]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/03_3%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_%EC%9A%B4%EC%98%81___%EC%95%88%EC%A0%95%EC%84%B1(%EC%B9%BC%EB%A6%AC).pdf">[📚 데이터베이스 운영 / 안정성]</a><br>
       <a href="https://www.youtube.com/watch?v=C8n0ONC4-mk">[🎥 3주차 발표 영상 - 칼리]</a>
     </td>
   </tr>
@@ -296,11 +296,11 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/04_4%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EA%B2%80%EC%83%89_%EA%B8%B0%EB%8A%A5_%EA%B0%9C%EC%84%A0%ED%95%98%EA%B8%B0(%EB%A9%94%EC%9D%B4).pdf">[📚 검색 기능 개선 실험하기]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/04_4%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EA%B2%80%EC%83%89_%EA%B8%B0%EB%8A%A5_%EA%B0%9C%EC%84%A0_%EC%8B%A4%ED%97%98%ED%95%98%EA%B8%B0(%EB%A9%94%EC%9D%B4).pdf">[📚 검색 기능 개선 실험하기]</a><br>
       <a href="https://www.youtube.com/watch?v=N6j8uwleHk0">[🎥 4주차 발표 영상 - 메이]</a>
     </td>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/04_4%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5Dtrace%EB%8F%84%EC%9E%85%EA%B8%B0(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 우리 팀의 TRACES 도입기]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/04_4%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9A%B0%EB%A6%AC_%ED%8C%80%EC%9D%98_TRACES_%EB%8F%84%EC%9E%85%EA%B8%B0(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 우리 팀의 TRACES 도입기]</a><br>
       <a href="https://www.youtube.com/watch?v=-sHLhuB9p0Y">[🎥 4주차 발표 영상 - 새로이]</a>
     </td>
   </tr>
@@ -314,7 +314,7 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/04_4%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%20%EC%95%BC%EA%B5%AC%EB%B3%B4%EA%B5%AC%EC%97%90%EC%84%9C_%EA%B2%BD%EA%B8%B0_%EA%B2%B0%EA%B3%BC%EB%A5%BC_%EB%B9%A0%EB%A5%B4%EA%B3%A0_%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9C%BC%EB%A1%9C_%EA%B0%80%EC%A0%B8%EC%98%A4%EB%8A%94_%EB%B0%A9%EB%B2%95(%EB%B0%8D%ED%8A%B8).pdf">[📚 야구보구에서 경기 결과를 빠르고 효율적으로 가져오는 방법]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/04_4%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%95%BC%EA%B5%AC%EB%B3%B4%EA%B5%AC%EC%97%90%EC%84%9C_%EA%B2%BD%EA%B8%B0_%EA%B2%B0%EA%B3%BC%EB%A5%BC_%EB%B9%A0%EB%A5%B4%EA%B3%A0_%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9C%BC%EB%A1%9C_%EA%B0%80%EC%A0%B8%EC%98%A4%EB%8A%94_%EB%B0%A9%EB%B2%95(%EB%B0%8D%ED%8A%B8).pdf">[📚 야구보구에서 경기 결과를 빠르고 효율적으로 가져오는 방법]</a><br>
       <a href="https://www.youtube.com/watch?v=ijwvmk8ymTM">[🎥 4주차 발표 영상 - 밍트]</a>
     </td>
     <td align="center">
@@ -348,11 +348,11 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/05_5%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%20%EB%B3%B5%EA%B5%AC%EC%99%80%20%EC%95%88%EC%A0%84%EC%84%B1%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EB%B0%B0%ED%8F%AC%20%EC%A0%84%EB%9E%B5(%EB%B9%84%ED%83%80).pdf">[📚 복구와 안전성을 위한 배포 전략]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/05_5%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EB%B3%B5%EA%B5%AC%EC%99%80_%EC%95%88%EC%A0%84%EC%84%B1%EC%9D%84_%EC%9C%84%ED%95%9C_%EB%B0%B0%ED%8F%AC_%EC%A0%84%EB%9E%B5(%EB%B9%84%ED%83%80).pdf">[📚 복구와 안전성을 위한 배포 전략]</a><br>
       <a href="https://www.youtube.com/watch?v=Ac5wr6SjWH0">[🎥 5주차 발표 영상 - 비타]</a>
     </td>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/05_5%EC%A3%BC%EC%B0%A8/%EC%B9%BC%EB%A6%AC_fcm.pdf">[📚 FCM & 알림 도메인]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/05_5%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DFCM_%26_%EC%95%8C%EB%A6%BC_%EB%8F%84%EB%A9%94%EC%9D%B8(%EC%B9%BC%EB%A6%AC).pdf">[📚 FCM & 알림 도메인]</a><br>
       <a href="https://www.youtube.com/watch?v=nUkQZdRDR0s">[🎥 5주차 발표 영상 - 칼리]</a>
     </td>
   </tr>
@@ -364,7 +364,7 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/05_5%EC%A3%BC%EC%B0%A8/%EB%B6%84%EC%82%B0%EB%9D%BD.pdf">[📚 DB 분산락도 락이다]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/05_5%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DDB_%EB%B6%84%EC%82%B0%EB%9D%BD%EB%8F%84_%EB%9D%BD%EC%9D%B4%EB%8B%A4(%ED%88%AC%EB%8B%A4).pdf">[📚 DB 분산락도 락이다]</a><br>
       <a href="https://www.youtube.com/watch?v=INjLBW1pZY8">[🎥 5주차 발표 영상 - 투다]</a>
     </td>
     <td>&nbsp;</td>
@@ -395,7 +395,7 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/06_6%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%20%EC%9B%B9_%ED%81%AC%EB%A1%A4%EB%9F%AC%20%EC%84%B1%EB%8A%A5_%EB%B0%8F_%EC%95%88%EC%A0%95%EC%84%B1_%EA%B0%9C%EC%84%A0(%EB%B0%8D%ED%8A%B8).pdf">[📚 웹 크롤러 성능 및 안정성 개선]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/06_6%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9B%B9_%ED%81%AC%EB%A1%A4%EB%9F%AC_%EC%84%B1%EB%8A%A5_%EB%B0%8F_%EC%95%88%EC%A0%95%EC%84%B1_%EA%B0%9C%EC%84%A0(%EB%B0%8D%ED%8A%B8).pdf">[📚 웹 크롤러 성능 및 안정성 개선]</a><br>
       <a href="https://youtu.be/K45Qgg_RKQg?si=-9ge_su6KBSO8ix9">[🎥 6주차 발표 영상 - 밍트]</a>
     </td>
     <td align="center">
@@ -417,7 +417,7 @@
       <a href="https://www.youtube.com/watch?v=CP7eR82bXOg">[🎥 6주차 발표 영상 - 모코]</a>
     </td>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/06_6%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9A%B0%EB%A6%AC_%EC%96%B4%EC%9A%B8%EB%A6%AC%EB%8A%94_%EA%B2%80%EC%83%89_%EA%B8%B0%EB%8A%A5_%EB%8F%84%EC%9E%85_%EA%B3%BC%EC%A0%95_1(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 우리 팀에 어울리는 검색 기능 도입 과정 1]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/06_6%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9A%B0%EB%A6%AC_%ED%8C%80%EC%97%90_%EC%96%B4%EC%9A%B8%EB%A6%AC%EB%8A%94_%EA%B2%80%EC%83%89_%EA%B8%B0%EB%8A%A5_%EB%8F%84%EC%9E%85_%EA%B3%BC%EC%A0%95_1(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 우리 팀에 어울리는 검색 기능 도입 과정 1]</a><br>
       <a href="https://youtu.be/5jIfUgXnx1Y?si=C4xDKwmC28VmGmQ1">[🎥 6주차 발표 영상 - 새로이]</a>
     </td>
   </tr>
@@ -447,11 +447,11 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/07_7%EC%A3%BC%EC%B0%A8/%EB%8F%99%EC%8B%9C%EC%84%B1%20%EC%A0%9C%EC%96%B4(%EB%B9%84%ED%83%80).pdf">[📚 동시성 제어]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/07_7%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EB%8F%99%EC%8B%9C%EC%84%B1_%EC%A0%9C%EC%96%B4(%EB%B9%84%ED%83%80).pdf">[📚 동시성 제어]</a><br>
       <a href="https://youtu.be/xTgy2rSFMtM?si=-2TyzwB0knyRLMeT">[🎥 7주차 발표 영상 - 비타]</a>
     </td>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/07_7%EC%A3%BC%EC%B0%A8/%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85%20-%20%EB%8C%80%EB%9F%89%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%99%80%20FCM.pdf">[📚 FCM 대량 알림 최적화]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/07_7%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DFCM_%EB%8C%80%EB%9F%89_%EC%95%8C%EB%A6%BC_%EC%B5%9C%EC%A0%81%ED%99%94(%EC%B9%BC%EB%A6%AC).pdf">[📚 FCM 대량 알림 최적화]</a><br>
       <a href="https://youtu.be/CUic_5ZpWOU?si=ukwaWTzbS14CVFI8">[🎥 7주차 발표 영상 - 칼리]</a>
     </td>
   </tr>
@@ -463,7 +463,7 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/07_7%EC%A3%BC%EC%B0%A8/%ED%88%AC%EB%8B%A4%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98_%EC%95%84%EC%9B%83%EB%B0%95%EC%8A%A4.pdf">[📚 최종적 일관성 제공하기]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/07_7%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%B5%9C%EC%A2%85%EC%A0%81_%EC%9D%BC%EA%B4%80%EC%84%B1_%EC%A0%9C%EA%B3%B5%ED%95%98%EA%B8%B0(%ED%88%AC%EB%8B%A4).pdf">[📚 최종적 일관성 제공하기]</a><br>
       <a href="https://youtu.be/ETijlbeb4m8?si=Kwa5NBl_cp3HMtm6">[🎥 7주차 발표 영상 - 투다]</a>
     </td>
     <td>&nbsp;</td>
@@ -498,7 +498,7 @@
       <a href="https://www.youtube.com/watch?v=LqsRKoIBw7o">[🎥 8주차 발표 영상 - 밍트]</a>
     </td>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/08_8%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5Dk6_%EB%B6%80%ED%95%98%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%99%80_%ED%8A%9C%EB%8B%9D%EC%9D%84_%ED%86%B5%ED%95%9C_%EC%84%9C%EB%B2%84_%EC%84%B1%EB%8A%A5_%EA%B0%9C%EC%84%A0.pdf">[📚 k6 부하테스트와 튜닝을 통한 서버 성능 개선]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/08_8%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5Dk6_%EB%B6%80%ED%95%98%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%99%80_%ED%8A%9C%EB%8B%9D%EC%9D%84_%ED%86%B5%ED%95%9C_%EC%84%9C%EB%B2%84_%EC%84%B1%EB%8A%A5_%EA%B0%9C%EC%84%A0(%EB%A9%94%EC%9D%B4).pdf">[📚 k6 부하테스트와 튜닝을 통한 서버 성능 개선]</a><br>
       <a href="https://www.youtube.com/watch?v=ODh0-0UiH4A">[🎥 8주차 발표 영상 - 메이]</a>
     </td>
   </tr>
@@ -516,7 +516,7 @@
       <a href="https://www.youtube.com/watch?v=eW7U_KFII2c">[🎥 8주차 발표 영상 - 모코]</a>
     </td>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/08_8%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9A%B0%EB%A6%AC_%EC%84%9C%EB%B9%84%EC%8A%A4_%EB%8F%99%EC%8B%9C%EC%84%B1_%EB%AC%B8%EC%A0%9C_%EC%9D%B4%EB%A0%87%EA%B2%8C_%ED%92%80%EC%97%88%EC%96%B4%EC%9A%94(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 우리 서비스, 동시성 문제 이렇게 풀었어요]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/08_8%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9A%B0%EB%A6%AC_%EC%84%9C%EB%B9%84%EC%8A%A4%2C_%EB%8F%99%EC%8B%9C%EC%84%B1_%EB%AC%B8%EC%A0%9C_%EC%9D%B4%EB%A0%87%EA%B2%8C_%ED%92%80%EC%97%88%EC%96%B4%EC%9A%94(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 우리 서비스, 동시성 문제 이렇게 풀었어요]</a><br>
       <a href="https://www.youtube.com/watch?v=Xk3MqkAmBuo">[🎥 8주차 발표 영상 - 새로이]</a>
     </td>
   </tr>
@@ -546,10 +546,10 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/09_9%EC%A3%BC%EC%B0%A8/%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85-OOM%EA%B3%BC%20GC.pdf">[📚 GC의 흐름으로 읽는 배치 처리 효율화]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/09_9%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DGC%EC%9D%98_%ED%9D%90%EB%A6%84%EC%9C%BC%EB%A1%9C_%EC%9D%BD%EB%8A%94_%EB%B0%B0%EC%B9%98_%EC%B2%98%EB%A6%AC_%ED%9A%A8%EC%9C%A8%ED%99%94(%EC%B9%BC%EB%A6%AC).pdf">[📚 GC의 흐름으로 읽는 배치 처리 효율화]</a><br>
     </td>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/09_9%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%ED%88%AC%EB%8B%A4_%EC%95%8C%EB%A6%BC_%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90_%EA%B0%9C%EC%84%A0.pdf">[📚 알림 아키텍쳐 개선기]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/09_9%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%95%8C%EB%A6%BC_%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90_%EA%B0%9C%EC%84%A0%EA%B8%B0(%ED%88%AC%EB%8B%A4).pdf">[📚 알림 아키텍쳐 개선기]</a><br>
     </td>
   </tr>
 </table>
@@ -594,7 +594,7 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/10_10%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9A%B0%EB%A6%AC_%EC%84%9C%EB%B9%84%EC%8A%A4%EC%97%90_%EC%95%8C%EB%A7%9E%EC%9D%80_%EA%B2%80%EC%83%89%EA%B8%B0%EB%8A%A5_%EB%8F%84%EC%9E%85%EA%B8%B02(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 우리 서비스에 알맞은 검색기능 도입기 2]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/10_10%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9A%B0%EB%A6%AC_%EC%84%9C%EB%B9%84%EC%8A%A4%EC%97%90_%EC%95%8C%EB%A7%9E%EC%9D%80_%EA%B2%80%EC%83%89%EA%B8%B0%EB%8A%A5_%EB%8F%84%EC%9E%85%EA%B8%B0_2(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 우리 서비스에 알맞은 검색기능 도입기 2]</a><br>
       <a href="https://www.youtube.com/watch?v=PfOoRdpmLuE">[🎥 10주차 발표 영상 - 새로이]</a>
     </td>
     <td>&nbsp;</td>
@@ -628,7 +628,7 @@
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/11_11%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DMMMQ_1_BlockingQueue_%ED%8C%8C%ED%97%A4%EC%B9%98%EA%B8%B0(%EB%AA%A8%EC%BD%94).pdf">[📚 MMMQ 1 BlockingQueue 파헤치기]</a><br>
     </td>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/11_11%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%20DTO_Projection%EA%B3%BC_%EB%B3%B5%ED%95%A9_%EC%9D%B8%EB%8D%B1%EC%8A%A4%EB%A1%9C_%EC%A0%9C%EA%B1%B0%ED%95%9C_936K_Range_Scan(%EC%B9%BC%EB%A6%AC).pdf">[📚 DTO Projection과 복합 인덱스로 제거한 936K Range Scan]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/11_11%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DDTO_Projection%EA%B3%BC_%EB%B3%B5%ED%95%A9_%EC%9D%B8%EB%8D%B1%EC%8A%A4%EB%A1%9C_%EC%A0%9C%EA%B1%B0%ED%95%9C_936K_Range_Scan(%EC%B9%BC%EB%A6%AC).pdf">[📚 DTO Projection과 복합 인덱스로 제거한 936K Range Scan]</a><br>
     </td>
   </tr>
   <tr>
@@ -639,7 +639,7 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/11_11%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9E%AC%EC%8B%9C%EB%8F%84_DLQ.pdf">[📚 재시도 DLQ]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/11_11%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9E%AC%EC%8B%9C%EB%8F%84_DLQ(%ED%88%AC%EB%8B%A4).pdf">[📚 재시도 DLQ]</a><br>
     </td>
     <td>&nbsp;</td>
   </tr>
@@ -669,11 +669,11 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/12_12%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%B6%94%EC%B2%9C_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EA%B0%9C%EC%84%A0%ED%95%98%EA%B8%B0(%EB%B0%8D%ED%8A%B8).pdf">[📚 활동 추천 알고리즘 개선하기]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/12_12%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%ED%99%9C%EB%8F%99_%EC%B6%94%EC%B2%9C_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EA%B0%9C%EC%84%A0%ED%95%98%EA%B8%B0(%EB%B0%8D%ED%8A%B8).pdf">[📚 활동 추천 알고리즘 개선하기]</a><br>
       <a href="https://www.youtube.com/watch?v=2jbkpnc7dec">[🎥 12주차 발표 영상 - 밍트]</a>
     </td>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/12_12%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%20%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%B5%9C%EC%A0%81%ED%99%94_%EC%9D%B4%EC%95%BC%EA%B8%B0(%EB%B9%84%ED%83%80).pdf">[📚 테스트 최적화 이야기]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/12_12%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%B5%9C%EC%A0%81%ED%99%94_%EC%9D%B4%EC%95%BC%EA%B8%B0(%EB%B9%84%ED%83%80).pdf">[📚 테스트 최적화 이야기]</a><br>
     </td>
   </tr>
   <tr>
@@ -684,7 +684,7 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/12_12%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9A%B0%EB%A6%AC_%EC%84%9C%EB%B9%84%EC%8A%A4%EC%97%90_%EB%A7%9E%EB%8A%94_%EC%9D%B4%EB%A9%94%EC%9D%BC_%EC%84%9C%EB%B2%84_%EA%B5%AC%EC%B6%95%EA%B8%B0_NEW(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 우리 서비스에 맞는 이메일 서버 구축기]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/12_12%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9A%B0%EB%A6%AC_%EC%84%9C%EB%B9%84%EC%8A%A4%EC%97%90_%EB%A7%9E%EB%8A%94_%EC%9D%B4%EB%A9%94%EC%9D%BC_%EC%84%9C%EB%B2%84_%EA%B5%AC%EC%B6%95%EA%B8%B0(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 우리 서비스에 맞는 이메일 서버 구축기]</a><br>
     </td>
     <td>&nbsp;</td>
   </tr>
@@ -728,7 +728,7 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/13_13%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%20%EB%8F%99%EA%B8%B0_%EB%B9%84%EB%8F%99%EA%B8%B0_%EB%B8%94%EB%A1%9C%ED%82%B9_%EB%85%BC%EB%B8%94%EB%A1%9C%ED%82%B91.pdf">[📚 동기/비동기 vs 블로킹/논블로킹]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/13_13%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EB%8F%99%EA%B8%B0_%EB%B9%84%EB%8F%99%EA%B8%B0_vs_%EB%B8%94%EB%A1%9C%ED%82%B9_%EB%85%BC%EB%B8%94%EB%A1%9C%ED%82%B9(%EC%B9%BC%EB%A6%AC).pdf">[📚 동기/비동기 vs 블로킹/논블로킹]</a><br>
     </td>
     <td>&nbsp;</td>
   </tr>
@@ -756,7 +756,7 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/14_14%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%20Coroutine.pdf">[📚 Coroutine]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/14_14%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DCoroutine(%EB%B9%84%ED%83%80).pdf">[📚 Coroutine]</a><br>
     </td>
     <td>&nbsp;</td>
   </tr>
@@ -800,7 +800,7 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/15_15%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%20%EC%9E%A5%EC%95%A0%EC%97%86%EC%9D%B4_%EC%84%A0%EC%B0%A9%EC%88%9C_%EC%9D%B4%EB%B2%A4%ED%8A%B8_%EC%A7%84%ED%96%89%ED%95%98%EA%B8%B0.pdf">[📚 장애없이 선착순 이벤트 진행하기]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/15_15%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9E%A5%EC%95%A0%EC%97%86%EC%9D%B4_%EC%84%A0%EC%B0%A9%EC%88%9C_%EC%9D%B4%EB%B2%A4%ED%8A%B8_%EC%A7%84%ED%96%89%ED%95%98%EA%B8%B0(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 장애없이 선착순 이벤트 진행하기]</a><br>
     </td>
     <td>&nbsp;</td>
   </tr>
@@ -828,7 +828,7 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/15_15%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DClaude_Code_%EC%96%B4%EB%94%94%EA%B9%8C%EC%A7%80_%EC%8D%A8%EB%B4%A4%EC%96%B4(%EB%B0%8D%ED%8A%B8).pdf">[📚 클로드 코드 어디까지 써봤어?]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/16_16%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%ED%81%B4%EB%A1%9C%EB%93%9C_%EC%BD%94%EB%93%9C_%EC%96%B4%EB%94%94%EA%B9%8C%EC%A7%80_%EC%8D%A8%EB%B4%A4%EC%96%B4_(%EB%B0%8D%ED%8A%B8).pdf">[📚 클로드 코드 어디까지 써봤어?]</a><br>
     </td>
     <td>&nbsp;</td>
   </tr>
@@ -858,11 +858,11 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/17_17%EC%A3%BC%EC%B0%A8/JPA_%EC%98%81%EC%86%8D%EC%84%B1_%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8_%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85.pdf">[📚 JPA_영속성_컨텍스트_트러블슈팅]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/17_17%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DJPA_%EC%98%81%EC%86%8D%EC%84%B1_%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8_%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85(%EB%A9%94%EC%9D%B4).pdf">[📚 JPA_영속성_컨텍스트_트러블슈팅]</a><br>
       <a href="https://youtu.be/Yze4DoejZXc?si=xh9eGcTrY48VREmq">[🎥 17주차 발표 영상 - 메이]</a>
     </td>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/17_17%EC%A3%BC%EC%B0%A8/%EC%9A%94%EC%A6%98%20%EB%82%B4%EA%B0%80%20%EC%96%B4%EB%94%94%EC%97%90%20%EC%A4%91%EC%A0%90%EC%9D%84%20%EB%91%90%EA%B3%A0%20%EC%82%B4%EA%B3%A0%20%EC%9E%88%EB%8A%94%EA%B0%80.pdf">[📚 요즘 내가 어디에 중점을 두고 살고 있는가]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/17_17%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9A%94%EC%A6%98_%EB%82%B4%EA%B0%80_%EC%96%B4%EB%94%94%EC%97%90_%EC%A4%91%EC%A0%90%EC%9D%84_%EB%91%90%EA%B3%A0_%EC%82%B4%EA%B3%A0_%EC%9E%88%EB%8A%94%EA%B0%80(%EC%B9%BC%EB%A6%AC).pdf">[📚 요즘 내가 어디에 중점을 두고 살고 있는가]</a><br>
     </td>
   </tr>
 </table>
@@ -891,10 +891,10 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/18_18%EC%A3%BC%EC%B0%A8/%ED%99%88%EC%84%9C%EB%B2%84%20%EA%B5%AC%EC%B6%95%EA%B8%B0.pdf">[📚 홈서버 구축기]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/18_18%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%ED%99%88%EC%84%9C%EB%B2%84_%EA%B5%AC%EC%B6%95%EA%B8%B0(%EB%8F%94%ED%91%B8).pdf">[📚 홈서버 구축기]</a><br>
     </td>
     <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/18_18%EC%A3%BC%EC%B0%A8/%EC%9A%B0%EB%A6%AC%20%EC%84%9C%EB%B2%84%EA%B0%80%200.5%EC%B4%88%EC%94%A9%20%EB%A9%88%EC%B6%98%EB%8B%A4%EA%B3%A0%EC%9A%94_%202.pdf">[📚 우리 서버가 0.5초씩 멈춘다고요? 2]</a><br>
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/18_18%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9A%B0%EB%A6%AC_%EC%84%9C%EB%B2%84%EA%B0%80_0.5%EC%B4%88%EC%94%A9_%EB%A9%88%EC%B6%98%EB%8B%A4%EA%B3%A0%EC%9A%94__2(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 우리 서버가 0.5초씩 멈춘다고요? 2]</a><br>
     </td>
   </tr>
 </table>
