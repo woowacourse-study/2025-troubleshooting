@@ -298,11 +298,6 @@ weeks:
 - week: 18
   date: '2026-05-03'
   presentations:
-  - title: 홈서버 구축기
-    presenter: 돔푸
-    pdf: 18_18주차/[발표자료]홈서버_구축기(돔푸).pdf
-    thumbnail: .automation/thumbnails/w18_돔푸.png
-    youtube: null
   - title: 우리 서버가 0.5초씩 멈춘다고요? 2
     presenter: 새로이
     pdf: 18_18주차/[발표자료]우리_서버가_0.5초씩_멈춘다고요__2(새로이).pdf
