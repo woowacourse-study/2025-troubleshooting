@@ -53,10 +53,13 @@ def extract_pdf_url(text: str) -> str | None:
     return m.group(2) if m else None
 
 
-def slugify_filename(title: str) -> str:
-    cleaned = re.sub(r'[\\/:*?"<>|]', "_", title).strip()
-    cleaned = unicodedata.normalize("NFC", cleaned)
-    return cleaned or "untitled"
+def build_filename(title: str, presenter: str) -> str:
+    """`[발표자료]{제목, 띄어쓰기→_}({발표자}).pdf` 형식의 파일명을 만든다."""
+    cleaned_title = re.sub(r'[\\/:*?"<>|]', "_", title).strip()
+    cleaned_title = re.sub(r"\s+", "_", cleaned_title) or "untitled"
+    cleaned_presenter = re.sub(r'[\\/:*?"<>|()]', "_", presenter).strip()
+    name = f"[발표자료]{cleaned_title}({cleaned_presenter}).pdf"
+    return unicodedata.normalize("NFC", name)
 
 
 def set_output(name: str, value: str) -> None:
@@ -139,7 +142,7 @@ def main() -> int:
     week_dir = ROOT / week_dir_name
     week_dir.mkdir(parents=True, exist_ok=True)
 
-    file_basename = slugify_filename(title) + ".pdf"
+    file_basename = build_filename(title, presenter)
     pdf_path = week_dir / file_basename
     if pdf_path.exists():
         fail(f"이미 같은 경로에 파일이 있습니다: {pdf_path.relative_to(ROOT)}")
