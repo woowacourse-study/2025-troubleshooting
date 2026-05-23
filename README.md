@@ -132,7 +132,7 @@
 | [**16주차** (2026.3.21)](#week-16) | • 클로드 코드 어디까지 써봤어? (👤 밍트) |
 | [**17주차** (2026.4.12)](#week-17) | • JPA_영속성_컨텍스트_트러블슈팅 (👤 메이)<br>• 요즘 내가 어디에 중점을 두고 살고 있는가 (👤 칼리) |
 | [**18주차** (2026.5.03)](#week-18) | • 우리 서버가 0.5초씩 멈춘다고요? 2 (👤 새로이) |
-| [**19주차** (2026.5.23)](#week-19) | • DB 업그레이드 순단 대비 전략 (👤 투다)<br>• 홈서버 구축기 (👤 돔푸) |
+| [**19주차** (2026.5.23)](#week-19) | • DB 업그레이드 순단 대비 전략 (👤 투다)<br>• 홈서버 구축기 (👤 돔푸)<br>• OS Synchronization (👤 메이) |
 
 
 <br>
@@ -903,9 +903,9 @@
 
 ## **19주차** ( 2026년 5월 23일 )
 
-> | DB 업그레이드 순단 대비 전략 | 홈서버 구축기 |
-> | :-: | :-: |
-> | 투다 | 돔푸 |
+> | DB 업그레이드 순단 대비 전략 | 홈서버 구축기 | OS Synchronization |
+> | :-: | :-: | :-: |
+> | 투다 | 돔푸 | 메이 |
 
 ### 💎 발표자료
 
@@ -927,6 +927,19 @@
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/19_19%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%ED%99%88%EC%84%9C%EB%B2%84_%EA%B5%AC%EC%B6%95%EA%B8%B0(%EB%8F%94%ED%91%B8).pdf">[📚 홈서버 구축기]</a><br>
       <a href="https://youtu.be/dWNqTmfz738?si=do630dBnoFkYGifm">[🎥 19주차 발표 영상 - 돔푸]</a>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w19_%EB%A9%94%EC%9D%B4.png" width="100%">
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/19_19%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DOS_Synchronization(%EB%A9%94%EC%9D%B4).pdf">[📚 OS Synchronization]</a><br>
+      <a href="https://youtu.be/HI-NdYuexRQ?si=yFsDByMZ6josvKSk">[🎥 19주차 발표 영상 - 메이]</a>
+    </td>
+    <td>&nbsp;</td>
   </tr>
 </table>
 

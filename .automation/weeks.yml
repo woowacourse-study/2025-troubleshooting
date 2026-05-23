@@ -316,3 +316,8 @@ weeks:
     pdf: 19_19주차/[발표자료]홈서버_구축기(돔푸).pdf
     thumbnail: .automation/thumbnails/w19_돔푸.png
     youtube: https://youtu.be/dWNqTmfz738?si=do630dBnoFkYGifm
+  - title: OS Synchronization
+    presenter: 메이
+    pdf: 19_19주차/[발표자료]OS_Synchronization(메이).pdf
+    thumbnail: .automation/thumbnails/w19_메이.png
+    youtube: https://youtu.be/HI-NdYuexRQ?si=yFsDByMZ6josvKSk
