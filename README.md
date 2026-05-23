@@ -131,7 +131,7 @@
 | [**15주차** (2026.3.07)](#week-15) | • Docker Engine java Test Container (👤 메이)<br>• Spring Batch 톺아보기 (👤 돔푸)<br>• 장애없이 선착순 이벤트 진행하기 (👤 새로이) |
 | [**16주차** (2026.3.21)](#week-16) | • 클로드 코드 어디까지 써봤어? (👤 밍트) |
 | [**17주차** (2026.4.12)](#week-17) | • JPA_영속성_컨텍스트_트러블슈팅 (👤 메이)<br>• 요즘 내가 어디에 중점을 두고 살고 있는가 (👤 칼리) |
-| [**18주차** (2026.5.03)](#week-18) | • 홈서버 구축기 (👤 돔푸) |
+| [**18주차** (2026.5.03)](#week-18) | • 홈서버 구축기 (👤 돔푸)<br>• 우리 서버가 0.5초씩 멈춘다고요? 2 (👤 새로이) |
 
 
 <br>
@@ -874,9 +874,9 @@
 
 ## **18주차** ( 2026년 5월 3일 )
 
-> | 홈서버 구축기 |
-> | :-: |
-> | 돔푸 |
+> | 홈서버 구축기 | 우리 서버가 0.5초씩 멈춘다고요? 2 |
+> | :-: | :-: |
+> | 돔푸 | 새로이 |
 
 ### 💎 발표자료
 
@@ -885,13 +885,17 @@
     <td width="50%" align="center">
       <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w18_%EB%8F%94%ED%91%B8.png" width="100%">
     </td>
-    <td>&nbsp;</td>
+    <td width="50%" align="center">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w18_%EC%83%88%EB%A1%9C%EC%9D%B4.png" width="100%">
+    </td>
   </tr>
   <tr>
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/18_18%EC%A3%BC%EC%B0%A8/%ED%99%88%EC%84%9C%EB%B2%84%20%EA%B5%AC%EC%B6%95%EA%B8%B0.pdf">[📚 홈서버 구축기]</a><br>
     </td>
-    <td>&nbsp;</td>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/18_18%EC%A3%BC%EC%B0%A8/%EC%9A%B0%EB%A6%AC%20%EC%84%9C%EB%B2%84%EA%B0%80%200.5%EC%B4%88%EC%94%A9%20%EB%A9%88%EC%B6%98%EB%8B%A4%EA%B3%A0%EC%9A%94_%202.pdf">[📚 우리 서버가 0.5초씩 멈춘다고요? 2]</a><br>
+    </td>
   </tr>
 </table>
 
