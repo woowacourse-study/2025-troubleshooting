@@ -303,3 +303,11 @@ weeks:
     pdf: 18_18주차/[발표자료]우리_서버가_0.5초씩_멈춘다고요__2(새로이).pdf
     thumbnail: .automation/thumbnails/w18_새로이.png
     youtube: null
+- week: 19
+  date: '2026-05-23'
+  presentations:
+  - title: 홈서버 구축기
+    presenter: 돔푸
+    pdf: 19_19주차/[발표자료]홈서버_구축기(돔푸).pdf
+    thumbnail: .automation/thumbnails/w19_돔푸.png
+    youtube: null
