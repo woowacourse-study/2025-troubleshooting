@@ -4,22 +4,22 @@ weeks:
   presentations:
   - title: 21일간의 리딩 실험하기
     presenter: 밍트
-    pdf: 01_1주차/리딩_실험하기(밍트).pdf
+    pdf: 01_1주차/[발표자료]21일간의_리딩_실험하기(밍트).pdf
     thumbnail: .automation/thumbnails/w01_밍트.png
     youtube: https://www.youtube.com/watch?v=L60xNF3kqaY
   - title: 모니터링
     presenter: 투다
-    pdf: 01_1주차/모니터링.pdf
+    pdf: 01_1주차/[발표자료]모니터링(투다).pdf
     thumbnail: .automation/thumbnails/w01_투다.png
     youtube: https://www.youtube.com/watch?v=wFnjf_T3i8o
   - title: 테스트 환경의 중요성, 결정성 위배
     presenter: 비타
-    pdf: 01_1주차/테스트 환경의 중요성, 결정성 위배(비타).pdf
+    pdf: 01_1주차/[발표자료]테스트_환경의_중요성,_결정성_위배(비타).pdf
     thumbnail: .automation/thumbnails/w01_비타.png
     youtube: https://www.youtube.com/watch?v=dWh_2_KiMGY
   - title: 우리팀의 CI/CD
     presenter: 칼리
-    pdf: 01_1주차/트러블슈팅-CI:CD.pdf
+    pdf: 01_1주차/[발표자료]우리팀의_CI_CD(칼리).pdf
     thumbnail: .automation/thumbnails/w01_칼리.png
     youtube: https://youtu.be/cmQxrtBttj0?si=f72MXnLegpscYKEK
 - week: 2
@@ -42,7 +42,7 @@ weeks:
     youtube: https://youtu.be/itaHT8111H8
   - title: 쿼리 튜닝으로 218배 빨라진 팬 점유율 API
     presenter: 밍트
-    pdf: 02_2주차/쿼리_개선하기(밍트).pdf
+    pdf: 02_2주차/[발표자료]쿼리_튜닝으로_218배_빨라진_팬_점유율_API(밍트).pdf
     thumbnail: .automation/thumbnails/w02_밍트.png
     youtube: https://youtu.be/UYTYqg8R7_g
 - week: 3
@@ -50,12 +50,12 @@ weeks:
   presentations:
   - title: 런칭데이 대비 처리율 제한기 및 로드밸런서 적용기
     presenter: 투다
-    pdf: 03_3주차/트러블슈팅-로드밸.pdf
+    pdf: 03_3주차/[발표자료]런칭데이_대비_처리율_제한기_및_로드밸런서_적용기(투다).pdf
     thumbnail: .automation/thumbnails/w03_투다.png
     youtube: https://www.youtube.com/watch?v=JmeMQG4_Moc
   - title: 데이터베이스 운영 / 안정성
     presenter: 칼리
-    pdf: 03_3주차/트러블슈팅 - DB 운영.pdf
+    pdf: 03_3주차/[발표자료]데이터베이스_운영___안정성(칼리).pdf
     thumbnail: .automation/thumbnails/w03_칼리.png
     youtube: https://www.youtube.com/watch?v=C8n0ONC4-mk
 - week: 4
@@ -63,17 +63,17 @@ weeks:
   presentations:
   - title: 검색 기능 개선 실험하기
     presenter: 메이
-    pdf: 04_4주차/[발표자료]검색_기능_개선하기(메이).pdf
+    pdf: 04_4주차/[발표자료]검색_기능_개선_실험하기(메이).pdf
     thumbnail: .automation/thumbnails/w04_메이.png
     youtube: https://www.youtube.com/watch?v=N6j8uwleHk0
   - title: 우리 팀의 TRACES 도입기
     presenter: 새로이
-    pdf: 04_4주차/[발표자료]trace도입기(새로이).pdf
+    pdf: 04_4주차/[발표자료]우리_팀의_TRACES_도입기(새로이).pdf
     thumbnail: .automation/thumbnails/w04_새로이.png
     youtube: https://www.youtube.com/watch?v=-sHLhuB9p0Y
   - title: 야구보구에서 경기 결과를 빠르고 효율적으로 가져오는 방법
     presenter: 밍트
-    pdf: 04_4주차/[발표자료] 야구보구에서_경기_결과를_빠르고_효율적으로_가져오는_방법(밍트).pdf
+    pdf: 04_4주차/[발표자료]야구보구에서_경기_결과를_빠르고_효율적으로_가져오는_방법(밍트).pdf
     thumbnail: .automation/thumbnails/w04_밍트.png
     youtube: https://www.youtube.com/watch?v=ijwvmk8ymTM
   - title: 테이블 스키마 무중단으로 변경하기
@@ -86,17 +86,17 @@ weeks:
   presentations:
   - title: 복구와 안전성을 위한 배포 전략
     presenter: 비타
-    pdf: 05_5주차/[발표자료] 복구와 안전성을 위한 배포 전략(비타).pdf
+    pdf: 05_5주차/[발표자료]복구와_안전성을_위한_배포_전략(비타).pdf
     thumbnail: .automation/thumbnails/w05_비타.png
     youtube: https://www.youtube.com/watch?v=Ac5wr6SjWH0
   - title: FCM & 알림 도메인
     presenter: 칼리
-    pdf: 05_5주차/칼리_fcm.pdf
+    pdf: 05_5주차/[발표자료]FCM_&_알림_도메인(칼리).pdf
     thumbnail: .automation/thumbnails/w05_칼리.png
     youtube: https://www.youtube.com/watch?v=nUkQZdRDR0s
   - title: DB 분산락도 락이다
     presenter: 투다
-    pdf: 05_5주차/분산락.pdf
+    pdf: 05_5주차/[발표자료]DB_분산락도_락이다(투다).pdf
     thumbnail: .automation/thumbnails/w05_투다.png
     youtube: https://www.youtube.com/watch?v=INjLBW1pZY8
 - week: 6
@@ -104,7 +104,7 @@ weeks:
   presentations:
   - title: 웹 크롤러 성능 및 안정성 개선
     presenter: 밍트
-    pdf: 06_6주차/[발표자료] 웹_크롤러 성능_및_안정성_개선(밍트).pdf
+    pdf: 06_6주차/[발표자료]웹_크롤러_성능_및_안정성_개선(밍트).pdf
     thumbnail: .automation/thumbnails/w06_밍트.png
     youtube: https://youtu.be/K45Qgg_RKQg?si=-9ge_su6KBSO8ix9
   - title: 모니터링 이사하기 CloudWatch에서 Grafana로
@@ -119,7 +119,7 @@ weeks:
     youtube: https://www.youtube.com/watch?v=CP7eR82bXOg
   - title: 우리 팀에 어울리는 검색 기능 도입 과정 1
     presenter: 새로이
-    pdf: 06_6주차/[발표자료]우리_어울리는_검색_기능_도입_과정_1(새로이).pdf
+    pdf: 06_6주차/[발표자료]우리_팀에_어울리는_검색_기능_도입_과정_1(새로이).pdf
     thumbnail: .automation/thumbnails/w06_새로이.png
     youtube: https://youtu.be/5jIfUgXnx1Y?si=C4xDKwmC28VmGmQ1
 - week: 7
@@ -127,17 +127,17 @@ weeks:
   presentations:
   - title: 동시성 제어
     presenter: 비타
-    pdf: 07_7주차/동시성 제어(비타).pdf
+    pdf: 07_7주차/[발표자료]동시성_제어(비타).pdf
     thumbnail: .automation/thumbnails/w07_비타.png
     youtube: https://youtu.be/xTgy2rSFMtM?si=-2TyzwB0knyRLMeT
   - title: FCM 대량 알림 최적화
     presenter: 칼리
-    pdf: 07_7주차/트러블슈팅 - 대량 데이터와 FCM.pdf
+    pdf: 07_7주차/[발표자료]FCM_대량_알림_최적화(칼리).pdf
     thumbnail: .automation/thumbnails/w07_칼리.png
     youtube: https://youtu.be/CUic_5ZpWOU?si=ukwaWTzbS14CVFI8
   - title: 최종적 일관성 제공하기
     presenter: 투다
-    pdf: 07_7주차/투다트랜잭션_아웃박스.pdf
+    pdf: 07_7주차/[발표자료]최종적_일관성_제공하기(투다).pdf
     thumbnail: .automation/thumbnails/w07_투다.png
     youtube: https://youtu.be/ETijlbeb4m8?si=Kwa5NBl_cp3HMtm6
 - week: 8
@@ -150,7 +150,7 @@ weeks:
     youtube: https://www.youtube.com/watch?v=LqsRKoIBw7o
   - title: k6 부하테스트와 튜닝을 통한 서버 성능 개선
     presenter: 메이
-    pdf: 08_8주차/[발표자료]k6_부하테스트와_튜닝을_통한_서버_성능_개선.pdf
+    pdf: 08_8주차/[발표자료]k6_부하테스트와_튜닝을_통한_서버_성능_개선(메이).pdf
     thumbnail: .automation/thumbnails/w08_메이.png
     youtube: https://www.youtube.com/watch?v=ODh0-0UiH4A
   - title: 이미지 로딩 최적화
@@ -160,7 +160,7 @@ weeks:
     youtube: https://www.youtube.com/watch?v=eW7U_KFII2c
   - title: 우리 서비스, 동시성 문제 이렇게 풀었어요
     presenter: 새로이
-    pdf: 08_8주차/[발표자료]우리_서비스_동시성_문제_이렇게_풀었어요(새로이).pdf
+    pdf: 08_8주차/[발표자료]우리_서비스,_동시성_문제_이렇게_풀었어요(새로이).pdf
     thumbnail: .automation/thumbnails/w08_새로이.png
     youtube: https://www.youtube.com/watch?v=Xk3MqkAmBuo
 - week: 9
@@ -168,12 +168,12 @@ weeks:
   presentations:
   - title: GC의 흐름으로 읽는 배치 처리 효율화
     presenter: 칼리
-    pdf: 09_9주차/트러블슈팅-OOM과 GC.pdf
+    pdf: 09_9주차/[발표자료]GC의_흐름으로_읽는_배치_처리_효율화(칼리).pdf
     thumbnail: .automation/thumbnails/w09_칼리.png
     youtube: null
   - title: 알림 아키텍쳐 개선기
     presenter: 투다
-    pdf: 09_9주차/[발표자료]투다_알림_아키텍쳐_개선.pdf
+    pdf: 09_9주차/[발표자료]알림_아키텍쳐_개선기(투다).pdf
     thumbnail: .automation/thumbnails/w09_투다.png
     youtube: null
 - week: 10
@@ -191,7 +191,7 @@ weeks:
     youtube: https://www.youtube.com/watch?v=jHShSG3fKlQ
   - title: 우리 서비스에 알맞은 검색기능 도입기 2
     presenter: 새로이
-    pdf: 10_10주차/[발표자료]우리_서비스에_알맞은_검색기능_도입기2(새로이).pdf
+    pdf: 10_10주차/[발표자료]우리_서비스에_알맞은_검색기능_도입기_2(새로이).pdf
     thumbnail: .automation/thumbnails/w10_새로이.png
     youtube: https://www.youtube.com/watch?v=PfOoRdpmLuE
 - week: 11
@@ -204,12 +204,12 @@ weeks:
     youtube: null
   - title: DTO Projection과 복합 인덱스로 제거한 936K Range Scan
     presenter: 칼리
-    pdf: 11_11주차/[발표자료] DTO_Projection과_복합_인덱스로_제거한_936K_Range_Scan(칼리).pdf
+    pdf: 11_11주차/[발표자료]DTO_Projection과_복합_인덱스로_제거한_936K_Range_Scan(칼리).pdf
     thumbnail: .automation/thumbnails/w11_칼리.png
     youtube: null
   - title: 재시도 DLQ
     presenter: 투다
-    pdf: 11_11주차/[발표자료]재시도_DLQ.pdf
+    pdf: 11_11주차/[발표자료]재시도_DLQ(투다).pdf
     thumbnail: .automation/thumbnails/w11_투다.png
     youtube: null
 - week: 12
@@ -217,17 +217,17 @@ weeks:
   presentations:
   - title: 활동 추천 알고리즘 개선하기
     presenter: 밍트
-    pdf: 12_12주차/[발표자료]추천_알고리즘_개선하기(밍트).pdf
+    pdf: 12_12주차/[발표자료]활동_추천_알고리즘_개선하기(밍트).pdf
     thumbnail: .automation/thumbnails/w12_밍트.png
     youtube: https://www.youtube.com/watch?v=2jbkpnc7dec
   - title: 테스트 최적화 이야기
     presenter: 비타
-    pdf: 12_12주차/[발표자료] 테스트_최적화_이야기(비타).pdf
+    pdf: 12_12주차/[발표자료]테스트_최적화_이야기(비타).pdf
     thumbnail: .automation/thumbnails/w12_비타.png
     youtube: null
   - title: 우리 서비스에 맞는 이메일 서버 구축기
     presenter: 새로이
-    pdf: 12_12주차/[발표자료]우리_서비스에_맞는_이메일_서버_구축기_NEW(새로이).pdf
+    pdf: 12_12주차/[발표자료]우리_서비스에_맞는_이메일_서버_구축기(새로이).pdf
     thumbnail: .automation/thumbnails/w12_새로이.png
     youtube: null
 - week: 13
@@ -245,7 +245,7 @@ weeks:
     youtube: null
   - title: 동기/비동기 vs 블로킹/논블로킹
     presenter: 칼리
-    pdf: 13_13주차/[발표자료] 동기_비동기_블로킹_논블로킹1.pdf
+    pdf: 13_13주차/[발표자료]동기_비동기_vs_블로킹_논블로킹(칼리).pdf
     thumbnail: .automation/thumbnails/w13_칼리.png
     youtube: null
 - week: 14
@@ -253,7 +253,7 @@ weeks:
   presentations:
   - title: Coroutine
     presenter: 비타
-    pdf: 14_14주차/[발표자료] Coroutine.pdf
+    pdf: 14_14주차/[발표자료]Coroutine(비타).pdf
     thumbnail: .automation/thumbnails/w14_비타.png
     youtube: null
 - week: 15
@@ -271,7 +271,7 @@ weeks:
     youtube: null
   - title: 장애없이 선착순 이벤트 진행하기
     presenter: 새로이
-    pdf: 15_15주차/[발표자료] 장애없이_선착순_이벤트_진행하기.pdf
+    pdf: 15_15주차/[발표자료]장애없이_선착순_이벤트_진행하기(새로이).pdf
     thumbnail: .automation/thumbnails/w15_새로이.png
     youtube: null
 - week: 16
@@ -279,7 +279,7 @@ weeks:
   presentations:
   - title: 클로드 코드 어디까지 써봤어?
     presenter: 밍트
-    pdf: 15_15주차/[발표자료]Claude_Code_어디까지_써봤어(밍트).pdf
+    pdf: 16_16주차/[발표자료]클로드_코드_어디까지_써봤어_(밍트).pdf
     thumbnail: .automation/thumbnails/w16_밍트.png
     youtube: null
 - week: 17
@@ -287,12 +287,12 @@ weeks:
   presentations:
   - title: JPA_영속성_컨텍스트_트러블슈팅
     presenter: 메이
-    pdf: 17_17주차/JPA_영속성_컨텍스트_트러블슈팅.pdf
+    pdf: 17_17주차/[발표자료]JPA_영속성_컨텍스트_트러블슈팅(메이).pdf
     thumbnail: .automation/thumbnails/w17_메이.png
     youtube: https://youtu.be/Yze4DoejZXc?si=xh9eGcTrY48VREmq
   - title: 요즘 내가 어디에 중점을 두고 살고 있는가
     presenter: 칼리
-    pdf: 17_17주차/요즘 내가 어디에 중점을 두고 살고 있는가.pdf
+    pdf: 17_17주차/[발표자료]요즘_내가_어디에_중점을_두고_살고_있는가(칼리).pdf
     thumbnail: .automation/thumbnails/w17_칼리.png
     youtube: null
 - week: 18
@@ -300,11 +300,11 @@ weeks:
   presentations:
   - title: 홈서버 구축기
     presenter: 돔푸
-    pdf: 18_18주차/홈서버 구축기.pdf
+    pdf: 18_18주차/[발표자료]홈서버_구축기(돔푸).pdf
     thumbnail: .automation/thumbnails/w18_돔푸.png
     youtube: null
   - title: 우리 서버가 0.5초씩 멈춘다고요? 2
     presenter: 새로이
-    pdf: 18_18주차/우리 서버가 0.5초씩 멈춘다고요_ 2.pdf
+    pdf: 18_18주차/[발표자료]우리_서버가_0.5초씩_멈춘다고요__2(새로이).pdf
     thumbnail: .automation/thumbnails/w18_새로이.png
     youtube: null
