@@ -132,7 +132,6 @@
 | [**16주차** (2026.3.21)](#week-16) | • 클로드 코드 어디까지 써봤어? (👤 밍트) |
 | [**17주차** (2026.4.12)](#week-17) | • JPA_영속성_컨텍스트_트러블슈팅 (👤 메이)<br>• 요즘 내가 어디에 중점을 두고 살고 있는가 (👤 칼리) |
 | [**18주차** (2026.5.03)](#week-18) | • 우리 서버가 0.5초씩 멈춘다고요? 2 (👤 새로이) |
-| [**19주차** (2026.5.23)](#week-19) | • 홈서버 구축기 (👤 돔푸) |
 
 
 <br>
@@ -891,34 +890,6 @@
   <tr>
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/18_18%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9A%B0%EB%A6%AC_%EC%84%9C%EB%B2%84%EA%B0%80_0.5%EC%B4%88%EC%94%A9_%EB%A9%88%EC%B6%98%EB%8B%A4%EA%B3%A0%EC%9A%94__2(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 우리 서버가 0.5초씩 멈춘다고요? 2]</a><br>
-    </td>
-    <td>&nbsp;</td>
-  </tr>
-</table>
-
----
-
-<br/>
-<a id="week-19"></a>
-
-## **19주차** ( 2026년 5월 23일 )
-
-> | 홈서버 구축기 |
-> | :-: |
-> | 돔푸 |
-
-### 💎 발표자료
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w19_%EB%8F%94%ED%91%B8.png" width="100%">
-    </td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/19_19%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%ED%99%88%EC%84%9C%EB%B2%84_%EA%B5%AC%EC%B6%95%EA%B8%B0(%EB%8F%94%ED%91%B8).pdf">[📚 홈서버 구축기]</a><br>
     </td>
     <td>&nbsp;</td>
   </tr>
