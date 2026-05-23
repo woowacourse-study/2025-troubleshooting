@@ -311,3 +311,8 @@ weeks:
     pdf: 19_19주차/[발표자료]DB_업그레이드_순단_대비_전략(투다).pdf
     thumbnail: .automation/thumbnails/w19_투다.png
     youtube: https://www.youtube.com/watch?v=e9G8uqQRP_w
+  - title: 홈서버 구축기
+    presenter: 돔푸
+    pdf: 19_19주차/[발표자료]홈서버_구축기(돔푸).pdf
+    thumbnail: .automation/thumbnails/w19_돔푸.png
+    youtube: https://youtu.be/dWNqTmfz738?si=do630dBnoFkYGifm
