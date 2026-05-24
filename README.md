@@ -130,7 +130,7 @@
 | [**14주차** (2026.2.14)](#week-14) | • Coroutine (👤 비타) |
 | [**15주차** (2026.3.07)](#week-15) | • Docker Engine java Test Container (👤 메이)<br>• Spring Batch 톺아보기 (👤 돔푸)<br>• 장애없이 선착순 이벤트 진행하기 (👤 새로이) |
 | [**16주차** (2026.3.21)](#week-16) | • 클로드 코드 어디까지 써봤어? (👤 밍트) |
-| [**17주차** (2026.4.12)](#week-17) | • JPA_영속성_컨텍스트_트러블슈팅 (👤 메이)<br>• 요즘 내가 어디에 중점을 두고 살고 있는가 (👤 칼리) |
+| [**17주차** (2026.4.12)](#week-17) | • JPA_영속성_컨텍스트_트러블슈팅 (👤 메이)<br>• 요즘 내가 어디에 중점을 두고 살고 있는가 (👤 칼리)<br>• MMMQ 2 - BlockingQueue 제대로 파헤치기(1) (👤 모코) |
 | [**18주차** (2026.5.03)](#week-18) | • 우리 서버가 0.5초씩 멈춘다고요? 2 (👤 새로이)<br>• MMMQ 3 - BlockingQueue 제대로 파헤치기(2) (👤 모코) |
 | [**19주차** (2026.5.23)](#week-19) | • DB 업그레이드 순단 대비 전략 (👤 투다)<br>• 홈서버 구축기 (👤 돔푸)<br>• OS Synchronization (👤 메이) |
 
@@ -842,9 +842,9 @@
 
 ## **17주차** ( 2026년 4월 12일 )
 
-> | JPA_영속성_컨텍스트_트러블슈팅 | 요즘 내가 어디에 중점을 두고 살고 있는가 |
-> | :-: | :-: |
-> | 메이 | 칼리 |
+> | JPA_영속성_컨텍스트_트러블슈팅 | 요즘 내가 어디에 중점을 두고 살고 있는가 | MMMQ 2 - BlockingQueue 제대로 파헤치기(1) |
+> | :-: | :-: | :-: |
+> | 메이 | 칼리 | 모코 |
 
 ### 💎 발표자료
 
@@ -865,6 +865,18 @@
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/17_17%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9A%94%EC%A6%98_%EB%82%B4%EA%B0%80_%EC%96%B4%EB%94%94%EC%97%90_%EC%A4%91%EC%A0%90%EC%9D%84_%EB%91%90%EA%B3%A0_%EC%82%B4%EA%B3%A0_%EC%9E%88%EB%8A%94%EA%B0%80(%EC%B9%BC%EB%A6%AC).pdf">[📚 요즘 내가 어디에 중점을 두고 살고 있는가]</a><br>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w17_%EB%AA%A8%EC%BD%94.png" width="100%">
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/17_17%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DMMMQ_2_-_BlockingQueue_%EC%A0%9C%EB%8C%80%EB%A1%9C_%ED%8C%8C%ED%97%A4%EC%B9%98%EA%B8%B0(1)(%EB%AA%A8%EC%BD%94).pdf">[📚 MMMQ 2 - BlockingQueue 제대로 파헤치기(1)]</a><br>
+    </td>
+    <td>&nbsp;</td>
   </tr>
 </table>
 
