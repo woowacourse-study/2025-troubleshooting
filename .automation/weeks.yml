@@ -331,3 +331,8 @@ weeks:
     pdf: 19_19주차/[발표자료]OS_Synchronization(메이).pdf
     thumbnail: .automation/thumbnails/w19_메이.png
     youtube: https://youtu.be/HI-NdYuexRQ?si=yFsDByMZ6josvKSk
+  - title: MySQL ORDER BY 동작원리
+    presenter: 헤일러
+    pdf: 19_19주차/[발표자료]MySQL_ORDER_BY_동작원리(헤일러).pdf
+    thumbnail: .automation/thumbnails/w19_헤일러.png
+    youtube: null

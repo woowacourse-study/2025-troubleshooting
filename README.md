@@ -132,7 +132,7 @@
 | [**16주차** (2026.3.21)](#week-16) | • 클로드 코드 어디까지 써봤어? (👤 밍트) |
 | [**17주차** (2026.4.12)](#week-17) | • JPA_영속성_컨텍스트_트러블슈팅 (👤 메이)<br>• 요즘 내가 어디에 중점을 두고 살고 있는가 (👤 칼리)<br>• MMMQ 2 - BlockingQueue 제대로 파헤치기(1) (👤 모코) |
 | [**18주차** (2026.5.03)](#week-18) | • 우리 서버가 0.5초씩 멈춘다고요? 2 (👤 새로이)<br>• MMMQ 3 - BlockingQueue 제대로 파헤치기(2) (👤 모코) |
-| [**19주차** (2026.5.23)](#week-19) | • DB 업그레이드 순단 대비 전략 (👤 투다)<br>• 홈서버 구축기 (👤 돔푸)<br>• OS Synchronization (👤 메이) |
+| [**19주차** (2026.5.23)](#week-19) | • DB 업그레이드 순단 대비 전략 (👤 투다)<br>• 홈서버 구축기 (👤 돔푸)<br>• OS Synchronization (👤 메이)<br>• MySQL ORDER BY 동작원리 (👤 헤일러) |
 
 
 <br>
@@ -919,9 +919,9 @@
 
 ## **19주차** ( 2026년 5월 23일 )
 
-> | DB 업그레이드 순단 대비 전략 | 홈서버 구축기 | OS Synchronization |
-> | :-: | :-: | :-: |
-> | 투다 | 돔푸 | 메이 |
+> | DB 업그레이드 순단 대비 전략 | 홈서버 구축기 | OS Synchronization | MySQL ORDER BY 동작원리 |
+> | :-: | :-: | :-: | :-: |
+> | 투다 | 돔푸 | 메이 | 헤일러 |
 
 ### 💎 발표자료
 
@@ -948,14 +948,18 @@
     <td width="50%" align="center">
       <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w19_%EB%A9%94%EC%9D%B4.png" width="100%">
     </td>
-    <td>&nbsp;</td>
+    <td width="50%" align="center">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w19_%ED%97%A4%EC%9D%BC%EB%9F%AC.png" width="100%">
+    </td>
   </tr>
   <tr>
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/19_19%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DOS_Synchronization(%EB%A9%94%EC%9D%B4).pdf">[📚 OS Synchronization]</a><br>
       <a href="https://youtu.be/HI-NdYuexRQ?si=yFsDByMZ6josvKSk">[🎥 19주차 발표 영상 - 메이]</a>
     </td>
-    <td>&nbsp;</td>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/19_19%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DMySQL_ORDER_BY_%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC(%ED%97%A4%EC%9D%BC%EB%9F%AC).pdf">[📚 MySQL ORDER BY 동작원리]</a><br>
+    </td>
   </tr>
 </table>
 
