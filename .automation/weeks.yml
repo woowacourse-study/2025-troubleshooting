@@ -336,3 +336,11 @@ weeks:
     pdf: 19_19주차/[발표자료]MySQL_ORDER_BY_동작원리(헤일러).pdf
     thumbnail: .automation/thumbnails/w19_헤일러.png
     youtube: null
+- week: 20
+  date: '2026-06-13'
+  presentations:
+  - title: MMMQ 4 - 메시지 저장 구조 설계
+    presenter: 모코
+    pdf: 20_20주차/[발표자료]MMMQ_4_-_메시지_저장_구조_설계(모코).pdf
+    thumbnail: .automation/thumbnails/w20_모코.png
+    youtube: null
