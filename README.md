@@ -90,13 +90,6 @@
       <br />
       <a href="https://github.com/threepebbles">헤일러 💻</a>
     </td>
-    <td align="center">
-      <a href="https://github.com/CodingMasterLSW">
-        <img src="https://avatars.githubusercontent.com/u/108395670?v=4" alt="젠슨" width="100" />
-      </a>
-      <br />
-      <a href="https://github.com/threepebbles">젠슨 💻</a>
-    </td>
   </tr>
 </table>
 
@@ -140,7 +133,7 @@
 | [**17주차** (2026.4.12)](#week-17) | • JPA_영속성_컨텍스트_트러블슈팅 (👤 메이)<br>• 요즘 내가 어디에 중점을 두고 살고 있는가 (👤 칼리)<br>• MMMQ 2 - BlockingQueue 제대로 파헤치기(1) (👤 모코) |
 | [**18주차** (2026.5.03)](#week-18) | • 우리 서버가 0.5초씩 멈춘다고요? 2 (👤 새로이)<br>• MMMQ 3 - BlockingQueue 제대로 파헤치기(2) (👤 모코) |
 | [**19주차** (2026.5.23)](#week-19) | • DB 업그레이드 순단 대비 전략 (👤 투다)<br>• 홈서버 구축기 (👤 돔푸)<br>• OS Synchronization (👤 메이)<br>• MySQL ORDER BY 동작원리 (👤 헤일러) |
-| [**20주차** (2026.6.13)](#week-20) | • MMMQ 4 - 메시지 저장 구조 설계 (👤 모코)<br>• 알아두면 쓸데있는 신비한 인덱스 지식 (👤 새로이) |
+| [**20주차** (2026.6.13)](#week-20) | • MMMQ 4 - 메시지 저장 구조 설계 (👤 모코)<br>• 알아두면 쓸데있는 신비한 인덱스 지식 (👤 새로이)<br>• 통화도메인 맛보기 (👤 젠슨) |
 
 
 <br>
@@ -978,9 +971,9 @@
 
 ## **20주차** ( 2026년 6월 13일 )
 
-> | MMMQ 4 - 메시지 저장 구조 설계 | 알아두면 쓸데있는 신비한 인덱스 지식 |
-> | :-: | :-: |
-> | 모코 | 새로이 |
+> | MMMQ 4 - 메시지 저장 구조 설계 | 알아두면 쓸데있는 신비한 인덱스 지식 | 통화도메인 맛보기 |
+> | :-: | :-: | :-: |
+> | 모코 | 새로이 | 젠슨 |
 
 ### 💎 발표자료
 
@@ -1000,6 +993,18 @@
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/20_20%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%95%8C%EC%95%84%EB%91%90%EB%A9%B4_%EC%93%B8%EB%8D%B0%EC%9E%88%EB%8A%94_%EC%8B%A0%EB%B9%84%ED%95%9C_%EC%9D%B8%EB%8D%B1%EC%8A%A4_%EC%A7%80%EC%8B%9D(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 알아두면 쓸데있는 신비한 인덱스 지식]</a><br>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w20_%EC%A0%A0%EC%8A%A8.png" width="100%">
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/20_20%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%ED%86%B5%ED%99%94%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%A7%9B%EB%B3%B4%EA%B8%B0(%EC%A0%A0%EC%8A%A8).pdf">[📚 통화도메인 맛보기]</a><br>
+    </td>
+    <td>&nbsp;</td>
   </tr>
 </table>
 
