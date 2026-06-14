@@ -1,0 +1,35 @@
+name: 유튜브 링크 추가
+description: 이미 업로드된 발표자료에 유튜브 영상 링크만 추가하거나 갱신합니다
+title: "[유튜브] "
+labels: ["youtube"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        이미 등록된 발표자료에 유튜브 영상 링크를 추가합니다. (주차, 발표자)가 일치하는 항목 1개를 찾아 유튜브 URL을 채우고 README를 다시 갱신합니다. 해당 주차에 같은 발표자의 발표가 0개거나 2개 이상이면 작업이 실패하고 이슈에 코멘트로 안내합니다.
+
+  - type: input
+    id: week
+    attributes:
+      label: 주차
+      description: 숫자만 입력해주세요 (예 17)
+      placeholder: "17"
+    validations:
+      required: true
+
+  - type: input
+    id: presenter
+    attributes:
+      label: 발표자
+      description: weeks.yml에 등록된 발표자명과 정확히 일치해야 합니다
+      placeholder: 돔푸
+    validations:
+      required: true
+
+  - type: input
+    id: youtube
+    attributes:
+      label: 유튜브 URL
+      placeholder: https://www.youtube.com/watch?v=...
+    validations:
+      required: true

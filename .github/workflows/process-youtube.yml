@@ -1,0 +1,137 @@
+name: Process YouTube Issue
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: main-writer
+  cancel-in-progress: false
+
+jobs:
+  process:
+    if: |
+      contains(github.event.issue.labels.*.name, 'youtube') &&
+      (github.event.issue.author_association == 'OWNER' ||
+       github.event.issue.author_association == 'MEMBER' ||
+       github.event.issue.author_association == 'COLLABORATOR' ||
+       github.event.issue.author_association == 'CONTRIBUTOR')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python deps
+        run: pip install pyyaml
+
+      - name: Process issue
+        id: process
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python .automation/scripts/process_youtube_issue.py
+
+      - name: Regenerate README
+        run: python .automation/scripts/generate_readme.py
+
+      - name: Commit and push
+        id: commit
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          PRESENTER: ${{ steps.process.outputs.presenter }}
+          WEEK: ${{ steps.process.outputs.week }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .automation/weeks.yml README.md
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "docs: ${WEEK}주차 유튜브 링크 추가 (${PRESENTER}, #${ISSUE_NUMBER})"
+
+          for attempt in 1 2 3 4 5 6 7 8; do
+            if git push; then
+              echo "committed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "push 실패 (attempt $attempt), rebase 후 재시도"
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort
+              sleep $((RANDOM % 5 + 2))
+              continue
+            fi
+            python .automation/scripts/generate_readme.py
+            git add README.md
+            if ! git diff --cached --quiet; then
+              git commit --amend --no-edit
+            fi
+            sleep $((RANDOM % 3 + 1))
+          done
+
+          echo "push 재시도 모두 실패"
+          exit 1
+
+      - name: Comment success and close
+        if: success() && steps.commit.outputs.committed == 'true'
+        uses: actions/github-script@v7
+        env:
+          YOUTUBE: ${{ steps.process.outputs.youtube }}
+          PREVIOUS: ${{ steps.process.outputs.previous }}
+        with:
+          script: |
+            const youtube = process.env.YOUTUBE;
+            const previous = process.env.PREVIOUS;
+            const lines = ["유튜브 링크가 반영되었습니다."];
+            if (previous) {
+              lines.push(`- 이전 링크: ${previous}`);
+              lines.push(`- 변경된 링크: ${youtube}`);
+            } else {
+              lines.push(`- 추가된 링크: ${youtube}`);
+            }
+            lines.push("- .automation/weeks.yml / README가 갱신되었습니다.");
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: lines.join("\n")
+            });
+            github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed',
+              state_reason: 'completed'
+            });
+
+      - name: Comment failure
+        if: failure()
+        uses: actions/github-script@v7
+        env:
+          ERROR_MSG: ${{ steps.process.outputs.error }}
+        with:
+          script: |
+            const errorMsg = process.env.ERROR_MSG || '';
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const quoted = errorMsg.replace(/\n/g, '\n> ');
+            const body = errorMsg
+              ? `처리 중 오류가 발생했습니다.\n\n> ${quoted}\n\n[워크플로 로그](${runUrl})에서 상세 내용을 확인할 수 있습니다.`
+              : `처리 중 오류가 발생했습니다. [워크플로 로그](${runUrl})를 확인해주세요.`;
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: body
+            });
