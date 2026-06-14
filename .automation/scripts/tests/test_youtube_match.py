@@ -5,7 +5,12 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from youtube_match import normalize, parse_video_title, find_matches
+from youtube_match import (
+    normalize,
+    parse_video_title,
+    find_matches,
+    build_register_url,
+)
 
 
 class TestNormalize(unittest.TestCase):
@@ -98,6 +103,20 @@ class TestFindMatches(unittest.TestCase):
         result = find_matches(presentations, videos)
 
         self.assertEqual(len(result["auto"]), 1)
+
+
+class TestBuildRegisterUrl(unittest.TestCase):
+    def test_includes_template_and_encoded_fields(self):
+        from urllib.parse import quote
+
+        url = build_register_url("owner/repo", 20, "모코", "https://youtu.be/x?y=1")
+
+        self.assertTrue(url.startswith("https://github.com/owner/repo/issues/new?"))
+        self.assertIn("template=youtube-presentation.yml", url)
+        self.assertIn("week=20", url)
+        self.assertIn("presenter=" + quote("모코"), url)
+        # youtube URL의 ? & = 가 인코딩되어 쿼리 구조를 깨지 않아야 함
+        self.assertIn("youtube=" + quote("https://youtu.be/x?y=1"), url)
 
 
 if __name__ == "__main__":

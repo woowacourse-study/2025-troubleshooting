@@ -10,8 +10,10 @@
 from __future__ import annotations
 
 import re
+from urllib.parse import quote
 
 WATCH_URL = "https://www.youtube.com/watch?v={}"
+MANUAL_TEMPLATE = "youtube-presentation.yml"
 
 
 def normalize(s: str | None) -> str:
@@ -30,6 +32,21 @@ def parse_video_title(video_title: str) -> tuple[str, str] | None:
         return None
     title, _, presenter = video_title.rpartition("|")
     return title.strip(), presenter.strip()
+
+
+def build_register_url(repo: str, week: int, presenter: str, youtube_url: str) -> str:
+    """수동추가 이슈 폼을 미리 채운 채로 여는 URL을 만든다.
+
+    클릭하면 '유튜브 링크 수동 추가' 폼이 주차/발표자/유튜브 URL까지 채워진 상태로
+    열리고, 사용자가 Submit만 하면 기존 youtube 워크플로가 등록을 처리한다.
+    """
+    params = "&".join([
+        f"template={MANUAL_TEMPLATE}",
+        f"week={quote(str(week))}",
+        f"presenter={quote(presenter)}",
+        f"youtube={quote(youtube_url)}",
+    ])
+    return f"https://github.com/{repo}/issues/new?{params}"
 
 
 def find_matches(presentations: list[dict], videos: list[dict]) -> dict:

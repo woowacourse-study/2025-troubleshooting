@@ -25,7 +25,7 @@ import requests
 import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from youtube_match import find_matches
+from youtube_match import find_matches, build_register_url
 
 
 ROOT = Path(__file__).resolve().parent.parent.parent
@@ -106,7 +106,7 @@ def fetch_channel_videos(api_key: str, handle: str) -> list[dict]:
     return videos
 
 
-def build_comment(week: int, result: dict) -> str:
+def build_comment(week: int, result: dict, repo: str) -> str:
     auto = result["auto"]
     candidates = result["candidates"]
     lines = [f"## 🎬 {week}주차 유튜브 자동 매칭 결과", ""]
@@ -121,13 +121,14 @@ def build_comment(week: int, result: dict) -> str:
 
     lines.append(f"### ❓ 확인 필요 ({len(candidates)}건)")
     if candidates:
-        lines.append("아래 항목은 제목이 정확히 일치하지 않아 자동 반영하지 않았습니다. 후보가 맞다면 **[유튜브]** 템플릿으로 직접 등록해주세요.")
+        lines.append("아래 항목은 제목이 정확히 일치하지 않아 자동 반영하지 않았습니다. 후보가 맞다면 **[✅ 이걸로 등록]** 링크를 눌러주세요 (폼이 미리 채워진 채 열리고, Submit하면 등록됩니다).")
         for pres, cands in candidates:
             lines.append(f"- **{pres['presenter']}** / {pres['title']}")
             if cands:
                 for v in cands:
-                    url = f"https://www.youtube.com/watch?v={v['video_id']}"
-                    lines.append(f"  - 후보: [{v['title']}]({url})")
+                    watch = f"https://www.youtube.com/watch?v={v['video_id']}"
+                    reg = build_register_url(repo, week, pres["presenter"], watch)
+                    lines.append(f"  - 후보: [{v['title']}]({watch}) → [✅ 이걸로 등록]({reg})")
             else:
                 lines.append("  - 후보: (발표자가 일치하는 영상 없음)")
     else:
@@ -181,9 +182,10 @@ def main() -> int:
         with DATA_FILE.open("w") as f:
             yaml.dump(data, f, allow_unicode=True, sort_keys=False, width=1000)
 
+    repo = os.environ.get("GITHUB_REPOSITORY", "woowacourse-study/2025-troubleshooting")
     set_output("auto_count", str(len(result["auto"])))
     set_output("week", str(week))
-    set_output("comment", build_comment(week, result))
+    set_output("comment", build_comment(week, result, repo))
     print("done")
     return 0
 
