@@ -268,7 +268,7 @@ weeks:
     presenter: 돔푸
     pdf: 15_15주차/[발표자료]Spring_Batch_톺아보기(돔푸).pdf
     thumbnail: .automation/thumbnails/w15_돔푸.png
-    youtube: null
+    youtube: https://www.youtube.com/watch?v=cs6WpklbBy8
   - title: 장애없이 선착순 이벤트 진행하기
     presenter: 새로이
     pdf: 15_15주차/[발표자료]장애없이_선착순_이벤트_진행하기(새로이).pdf

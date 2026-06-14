@@ -792,6 +792,7 @@
     </td>
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/15_15%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DSpring_Batch_%ED%86%BA%EC%95%84%EB%B3%B4%EA%B8%B0(%EB%8F%94%ED%91%B8).pdf">[📚 Spring Batch 톺아보기]</a><br>
+      <a href="https://www.youtube.com/watch?v=cs6WpklbBy8">[🎥 15주차 발표 영상 - 돔푸]</a>
     </td>
   </tr>
   <tr>
