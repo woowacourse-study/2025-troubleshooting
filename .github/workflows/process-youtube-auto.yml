@@ -23,12 +23,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -85,31 +85,36 @@ jobs:
           echo "push 재시도 모두 실패"
           exit 1
 
-      - name: Comment result and close
+      - name: Comment result and close if done
         if: success()
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         env:
           COMMENT_BODY: ${{ steps.process.outputs.comment }}
+          PENDING_COUNT: ${{ steps.process.outputs.pending_count }}
         with:
           script: |
             const body = process.env.COMMENT_BODY || '자동 매칭 처리가 완료되었습니다.';
-            github.rest.issues.createComment({
+            await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
               body: body
             });
-            github.rest.issues.update({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              state: 'closed',
-              state_reason: 'completed'
-            });
+            // 확인 필요(후보)가 남아있으면 이슈를 닫지 않고 열어둔다.
+            const pending = process.env.PENDING_COUNT || '0';
+            if (pending === '0') {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                state: 'closed',
+                state_reason: 'completed'
+              });
+            }
 
       - name: Comment failure
         if: failure()
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         env:
           ERROR_MSG: ${{ steps.process.outputs.error }}
         with:

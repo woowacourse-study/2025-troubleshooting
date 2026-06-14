@@ -163,6 +163,7 @@ def main() -> int:
     empty = [p for p in presentations if not p.get("youtube")]
     if not empty:
         set_output("auto_count", "0")
+        set_output("pending_count", "0")
         set_output("comment", f"## 🎬 {week}주차 유튜브 자동 매칭 결과\n\n비어있는 유튜브 링크가 없습니다. 모든 발표에 이미 링크가 등록되어 있습니다.")
         print(f"W{week}: 비어있는 항목 없음")
         return 0
@@ -184,6 +185,7 @@ def main() -> int:
 
     repo = os.environ.get("GITHUB_REPOSITORY", "woowacourse-study/2025-troubleshooting")
     set_output("auto_count", str(len(result["auto"])))
+    set_output("pending_count", str(len(result["candidates"])))
     set_output("week", str(week))
     set_output("comment", build_comment(week, result, repo))
     print("done")
