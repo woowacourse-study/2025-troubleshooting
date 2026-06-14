@@ -1,0 +1,22 @@
+name: 유튜브 자동 매칭
+description: 주차 번호만 입력하면 해당 주차의 빈 발표 링크를 채널 영상과 자동 매칭합니다
+title: "[유튜브 자동매칭] "
+labels: ["youtube-auto"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        주차 번호만 입력하면, 해당 주차에서 **유튜브 링크가 비어 있는 발표**를 우리 채널([@we-55](https://www.youtube.com/@we-55)) 영상과 자동으로 매칭합니다.
+
+        - 발표자가 같고 제목이 **(띄어쓰기만 빼고) 정확히 일치**하면 → 자동 반영
+        - 애매하면 → 후보를 이슈 코멘트로 안내 (직접 [유튜브] 템플릿으로 등록)
+        - 이미 링크가 있는 발표는 **건드리지 않습니다.**
+
+  - type: input
+    id: week
+    attributes:
+      label: 주차
+      description: 숫자만 입력해주세요 (예 20)
+      placeholder: "20"
+    validations:
+      required: true
