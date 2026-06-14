@@ -348,7 +348,7 @@ weeks:
     presenter: 젠슨
     pdf: 20_20주차/[발표자료]통화도메인_맛보기(젠슨).pdf
     thumbnail: .automation/thumbnails/w20_젠슨.png
-    youtube: null
+    youtube: https://www.youtube.com/watch?v=-BtcV6QCczY
   - title: 알아두면 쓸데있는 신비로운 인덱스지식
     presenter: 새로이
     pdf: 20_20주차/[발표자료]알아두면_쓸데있는_신비로운_인덱스지식(새로이).pdf
