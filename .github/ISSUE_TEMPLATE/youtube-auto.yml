@@ -1,4 +1,4 @@
-name: 유튜브 자동 매칭 (BETA)
+name: 유튜브 링크 자동 매칭 (BETA)
 description: 주차 번호만 입력하면 해당 주차의 빈 발표 링크를 채널 영상과 자동 매칭합니다
 title: "[유튜브 자동매칭][BETA] "
 labels: ["youtube-auto"]
