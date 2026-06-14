@@ -961,6 +961,7 @@
     </td>
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/19_19%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DMySQL_ORDER_BY_%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC(%ED%97%A4%EC%9D%BC%EB%9F%AC).pdf">[📚 MySQL ORDER BY 동작원리]</a><br>
+      <a href="https://www.youtube.com/watch?v=f0MXxVKGcC8">[🎥 19주차 발표 영상 - 헤일러]</a>
     </td>
   </tr>
 </table>
