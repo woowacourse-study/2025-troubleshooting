@@ -344,11 +344,6 @@ weeks:
     pdf: 20_20주차/[발표자료]MMMQ_4_-_메시지_저장_구조_설계(모코).pdf
     thumbnail: .automation/thumbnails/w20_모코.png
     youtube: null
-  - title: 알아두면 쓸데있는 신비한 인덱스 지식
-    presenter: 새로이
-    pdf: 20_20주차/[발표자료]알아두면_쓸데있는_신비한_인덱스_지식(새로이).pdf
-    thumbnail: .automation/thumbnails/w20_새로이.png
-    youtube: null
   - title: 통화도메인 맛보기
     presenter: 젠슨
     pdf: 20_20주차/[발표자료]통화도메인_맛보기(젠슨).pdf
