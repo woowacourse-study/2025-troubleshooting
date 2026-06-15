@@ -991,6 +991,7 @@
   <tr>
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/20_20%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DMMMQ_4_-_%EB%A9%94%EC%8B%9C%EC%A7%80_%EC%A0%80%EC%9E%A5_%EA%B5%AC%EC%A1%B0_%EC%84%A4%EA%B3%84(%EB%AA%A8%EC%BD%94).pdf">[📚 MMMQ 4 - 메시지 저장 구조 설계]</a><br>
+      <a href="https://www.youtube.com/watch?v=h79MGPOQryk">[🎥 20주차 발표 영상 - 모코]</a>
     </td>
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/20_20%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%ED%86%B5%ED%99%94%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%A7%9B%EB%B3%B4%EA%B8%B0(%EC%A0%A0%EC%8A%A8).pdf">[📚 통화도메인 맛보기]</a><br>

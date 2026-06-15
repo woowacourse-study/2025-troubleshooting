@@ -343,7 +343,7 @@ weeks:
     presenter: 모코
     pdf: 20_20주차/[발표자료]MMMQ_4_-_메시지_저장_구조_설계(모코).pdf
     thumbnail: .automation/thumbnails/w20_모코.png
-    youtube: null
+    youtube: https://www.youtube.com/watch?v=h79MGPOQryk
   - title: 통화도메인 맛보기
     presenter: 젠슨
     pdf: 20_20주차/[발표자료]통화도메인_맛보기(젠슨).pdf
