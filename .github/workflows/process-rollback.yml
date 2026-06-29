@@ -8,10 +8,6 @@ permissions:
   contents: write
   issues: write
 
-concurrency:
-  group: main-writer-${{ github.event.issue.number }}
-  cancel-in-progress: false
-
 jobs:
   process:
     if: |
@@ -20,6 +16,9 @@ jobs:
        github.event.issue.author_association == 'MEMBER' ||
        github.event.issue.author_association == 'COLLABORATOR' ||
        github.event.issue.author_association == 'CONTRIBUTOR')
+    concurrency:
+      group: main-writer-${{ github.event.issue.number }}
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
