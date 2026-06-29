@@ -354,3 +354,11 @@ weeks:
     pdf: 20_20주차/[발표자료]알아두면_쓸데있는_신비로운_인덱스지식(새로이).pdf
     thumbnail: .automation/thumbnails/w20_새로이.png
     youtube: https://www.youtube.com/watch?v=lQPfdD5YHkg
+- week: 21
+  date: '2026-06-28'
+  presentations:
+  - title: HTTPS, 왜 안전할까?
+    presenter: 메이
+    pdf: 21_21주차/[발표자료]HTTPS,_왜_안전할까_(메이).pdf
+    thumbnail: .automation/thumbnails/w21_메이.png
+    youtube: https://youtu.be/f50Dbe5hfbA

@@ -134,6 +134,7 @@
 | [**18주차** (2026.5.03)](#week-18) | • 우리 서버가 0.5초씩 멈춘다고요? 2 (👤 새로이)<br>• MMMQ 3 - BlockingQueue 제대로 파헤치기(2) (👤 모코) |
 | [**19주차** (2026.5.23)](#week-19) | • DB 업그레이드 순단 대비 전략 (👤 투다)<br>• 홈서버 구축기 (👤 돔푸)<br>• OS Synchronization (👤 메이)<br>• MySQL ORDER BY 동작원리 (👤 헤일러) |
 | [**20주차** (2026.6.13)](#week-20) | • MMMQ 4 - 메시지 저장 구조 설계 (👤 모코)<br>• 통화도메인 맛보기 (👤 젠슨)<br>• 알아두면 쓸데있는 신비로운 인덱스지식 (👤 새로이) |
+| [**21주차** (2026.6.28)](#week-21) | • HTTPS, 왜 안전할까? (👤 메이) |
 
 
 <br>
@@ -1008,6 +1009,35 @@
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/20_20%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%95%8C%EC%95%84%EB%91%90%EB%A9%B4_%EC%93%B8%EB%8D%B0%EC%9E%88%EB%8A%94_%EC%8B%A0%EB%B9%84%EB%A1%9C%EC%9A%B4_%EC%9D%B8%EB%8D%B1%EC%8A%A4%EC%A7%80%EC%8B%9D(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 알아두면 쓸데있는 신비로운 인덱스지식]</a><br>
       <a href="https://www.youtube.com/watch?v=lQPfdD5YHkg">[🎥 20주차 발표 영상 - 새로이]</a>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+---
+
+<br/>
+<a id="week-21"></a>
+
+## **21주차** ( 2026년 6월 28일 )
+
+> | HTTPS, 왜 안전할까? |
+> | :-: |
+> | 메이 |
+
+### 💎 발표자료
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w21_%EB%A9%94%EC%9D%B4.png" width="100%">
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/21_21%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DHTTPS%2C_%EC%99%9C_%EC%95%88%EC%A0%84%ED%95%A0%EA%B9%8C_(%EB%A9%94%EC%9D%B4).pdf">[📚 HTTPS, 왜 안전할까?]</a><br>
+      <a href="https://youtu.be/f50Dbe5hfbA">[🎥 21주차 발표 영상 - 메이]</a>
     </td>
     <td>&nbsp;</td>
   </tr>
