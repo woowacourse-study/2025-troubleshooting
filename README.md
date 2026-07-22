@@ -135,6 +135,7 @@
 | [**19주차** (2026.5.23)](#week-19) | • DB 업그레이드 순단 대비 전략 (👤 투다)<br>• 홈서버 구축기 (👤 돔푸)<br>• OS Synchronization (👤 메이)<br>• MySQL ORDER BY 동작원리 (👤 헤일러) |
 | [**20주차** (2026.6.13)](#week-20) | • MMMQ 4 - 메시지 저장 구조 설계 (👤 모코)<br>• 통화도메인 맛보기 (👤 젠슨)<br>• 알아두면 쓸데있는 신비로운 인덱스지식 (👤 새로이) |
 | [**21주차** (2026.6.28)](#week-21) | • HTTPS, 왜 안전할까? (👤 메이)<br>• LLM 품질 개선, 어디서부터 시작할까? (👤 밍트) |
+| [**22주차** (2026.7.19)](#week-22) | • 권한을 안 줬는데 데이터가 샜다 (👤 칼리) |
 
 
 <br>
@@ -1045,6 +1046,34 @@
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/21_21%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DLLM_%ED%92%88%EC%A7%88_%EA%B0%9C%EC%84%A0%2C_%EC%96%B4%EB%94%94%EC%84%9C%EB%B6%80%ED%84%B0_%EC%8B%9C%EC%9E%91%ED%95%A0%EA%B9%8C_(%EB%B0%8D%ED%8A%B8).pdf">[📚 LLM 품질 개선, 어디서부터 시작할까?]</a><br>
       <a href="https://www.youtube.com/watch?v=jAX6gZz5xB0">[🎥 21주차 발표 영상 - 밍트]</a>
     </td>
+  </tr>
+</table>
+
+---
+
+<br/>
+<a id="week-22"></a>
+
+## **22주차** ( 2026년 7월 19일 )
+
+> | 권한을 안 줬는데 데이터가 샜다 |
+> | :-: |
+> | 칼리 |
+
+### 💎 발표자료
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w22_%EC%B9%BC%EB%A6%AC.png" width="100%">
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/22_22%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EA%B6%8C%ED%95%9C%EC%9D%84_%EC%95%88_%EC%A4%AC%EB%8A%94%EB%8D%B0_%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80_%EC%83%9C%EB%8B%A4(%EC%B9%BC%EB%A6%AC).pdf">[📚 권한을 안 줬는데 데이터가 샜다]</a><br>
+    </td>
+    <td>&nbsp;</td>
   </tr>
 </table>
 

@@ -367,3 +367,11 @@ weeks:
     pdf: 21_21주차/[발표자료]LLM_품질_개선,_어디서부터_시작할까_(밍트).pdf
     thumbnail: .automation/thumbnails/w21_밍트.png
     youtube: https://www.youtube.com/watch?v=jAX6gZz5xB0
+- week: 22
+  date: '2026-07-19'
+  presentations:
+  - title: 권한을 안 줬는데 데이터가 샜다
+    presenter: 칼리
+    pdf: 22_22주차/[발표자료]권한을_안_줬는데_데이터가_샜다(칼리).pdf
+    thumbnail: .automation/thumbnails/w22_칼리.png
+    youtube: null
