@@ -383,3 +383,8 @@ weeks:
     pdf: 23_23주차/[발표자료]인덱스_Dive_Deep(젠슨).pdf
     thumbnail: .automation/thumbnails/w23_젠슨.png
     youtube: https://www.youtube.com/watch?v=6B_SzCAJnHo
+  - title: Spring MVC에서 RestClient → WebClient 전환으로 TPS 94배 향상하기
+    presenter: 메이
+    pdf: 23_23주차/[발표자료]Spring_MVC에서_RestClient_→_WebClient_전환으로_TPS_94배_향상하기(메이).pdf
+    thumbnail: .automation/thumbnails/w23_메이.png
+    youtube: https://youtu.be/leok7Xx-wFk?si=NSqwpklIt6o8KM0b

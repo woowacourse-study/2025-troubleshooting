@@ -136,7 +136,7 @@
 | [**20주차** (2026.6.13)](#week-20) | • MMMQ 4 - 메시지 저장 구조 설계 (👤 모코)<br>• 통화도메인 맛보기 (👤 젠슨)<br>• 알아두면 쓸데있는 신비로운 인덱스지식 (👤 새로이) |
 | [**21주차** (2026.6.28)](#week-21) | • HTTPS, 왜 안전할까? (👤 메이)<br>• LLM 품질 개선, 어디서부터 시작할까? (👤 밍트) |
 | [**22주차** (2026.7.19)](#week-22) | • 권한을 안 줬는데 데이터가 샜다 (👤 칼리) |
-| [**23주차** (2026.9.05)](#week-23) | • 인덱스 Dive Deep (👤 젠슨) |
+| [**23주차** (2026.9.05)](#week-23) | • 인덱스 Dive Deep (👤 젠슨)<br>• Spring MVC에서 RestClient → WebClient 전환으로 TPS 94배 향상하기 (👤 메이) |
 
 
 <br>
@@ -1085,9 +1085,9 @@
 
 ## **23주차** ( 2026년 9월 5일 )
 
-> | 인덱스 Dive Deep |
-> | :-: |
-> | 젠슨 |
+> | 인덱스 Dive Deep | Spring MVC에서 RestClient → WebClient 전환으로 TPS 94배 향상하기 |
+> | :-: | :-: |
+> | 젠슨 | 메이 |
 
 ### 💎 발표자료
 
@@ -1096,14 +1096,19 @@
     <td width="50%" align="center">
       <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w23_%EC%A0%A0%EC%8A%A8.png" width="100%">
     </td>
-    <td>&nbsp;</td>
+    <td width="50%" align="center">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w23_%EB%A9%94%EC%9D%B4.png" width="100%">
+    </td>
   </tr>
   <tr>
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/23_23%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9D%B8%EB%8D%B1%EC%8A%A4_Dive_Deep(%EC%A0%A0%EC%8A%A8).pdf">[📚 인덱스 Dive Deep]</a><br>
       <a href="https://www.youtube.com/watch?v=6B_SzCAJnHo">[🎥 23주차 발표 영상 - 젠슨]</a>
     </td>
-    <td>&nbsp;</td>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/23_23%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DSpring_MVC%EC%97%90%EC%84%9C_RestClient_%E2%86%92_WebClient_%EC%A0%84%ED%99%98%EC%9C%BC%EB%A1%9C_TPS_94%EB%B0%B0_%ED%96%A5%EC%83%81%ED%95%98%EA%B8%B0(%EB%A9%94%EC%9D%B4).pdf">[📚 Spring MVC에서 RestClient → WebClient 전환으로 TPS 94배 향상하기]</a><br>
+      <a href="https://youtu.be/leok7Xx-wFk?si=NSqwpklIt6o8KM0b">[🎥 23주차 발표 영상 - 메이]</a>
+    </td>
   </tr>
 </table>
 
