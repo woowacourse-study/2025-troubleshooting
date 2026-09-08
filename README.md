@@ -90,13 +90,6 @@
       <br />
       <a href="https://github.com/threepebbles">헤일러 💻</a>
     </td>
-    <td align="center">
-      <a href="https://github.com/threepebbles">
-        <img src="https://avatars.githubusercontent.com/u/108395670?v=4" alt="젠슨" width="100" />
-      </a>
-      <br />
-      <a href="https://github.com/CodingMasterLSW">젠슨 💻</a>
-    </td>
   </tr>
 </table>
 
@@ -143,6 +136,7 @@
 | [**20주차** (2026.6.13)](#week-20) | • MMMQ 4 - 메시지 저장 구조 설계 (👤 모코)<br>• 통화도메인 맛보기 (👤 젠슨)<br>• 알아두면 쓸데있는 신비로운 인덱스지식 (👤 새로이) |
 | [**21주차** (2026.6.28)](#week-21) | • HTTPS, 왜 안전할까? (👤 메이)<br>• LLM 품질 개선, 어디서부터 시작할까? (👤 밍트) |
 | [**22주차** (2026.7.19)](#week-22) | • 권한을 안 줬는데 데이터가 샜다 (👤 칼리) |
+| [**23주차** (2026.9.05)](#week-23) | • 인덱스 Dive Deep (👤 젠슨) |
 
 
 <br>
@@ -1079,6 +1073,35 @@
   <tr>
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/22_22%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EA%B6%8C%ED%95%9C%EC%9D%84_%EC%95%88_%EC%A4%AC%EB%8A%94%EB%8D%B0_%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80_%EC%83%9C%EB%8B%A4(%EC%B9%BC%EB%A6%AC).pdf">[📚 권한을 안 줬는데 데이터가 샜다]</a><br>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+---
+
+<br/>
+<a id="week-23"></a>
+
+## **23주차** ( 2026년 9월 5일 )
+
+> | 인덱스 Dive Deep |
+> | :-: |
+> | 젠슨 |
+
+### 💎 발표자료
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w23_%EC%A0%A0%EC%8A%A8.png" width="100%">
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/23_23%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%EC%9D%B8%EB%8D%B1%EC%8A%A4_Dive_Deep(%EC%A0%A0%EC%8A%A8).pdf">[📚 인덱스 Dive Deep]</a><br>
+      <a href="https://www.youtube.com/watch?v=6B_SzCAJnHo">[🎥 23주차 발표 영상 - 젠슨]</a>
     </td>
     <td>&nbsp;</td>
   </tr>
