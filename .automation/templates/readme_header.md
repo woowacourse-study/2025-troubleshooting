@@ -59,6 +59,13 @@
       <br />
       <a href="https://github.com/songsunkook">모코 💻</a>
     </td>
+    <td align="center">
+      <a href="https://github.com/ppparkta">
+        <img src="https://avatars.githubusercontent.com/u/86940801?v=4" alt="수양" width="100" />
+      </a>
+      <br />
+      <a href="https://github.com/ppparkta">수양 💻</a>
+    </td>
   </tr>
   
   <tr height="140px">
@@ -89,6 +96,13 @@
       </a>
       <br />
       <a href="https://github.com/threepebbles">헤일러 💻</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/CodingMasterLSW">
+        <img src="https://avatars.githubusercontent.com/u/108395670?v=4" alt="젠슨" width="100" />
+      </a>
+      <br />
+      <a href="https://github.com/CodingMasterLSW">젠슨 💻</a>
     </td>
   </tr>
 </table>
