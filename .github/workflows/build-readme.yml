@@ -17,6 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
+          ref: main
           fetch-depth: 0
 
       - name: Set up Python
@@ -49,25 +50,4 @@ jobs:
           git add .automation/thumbnails/ .automation/weeks.yml README.md
           git commit -m "chore: auto-update thumbnails & README"
 
-          for attempt in 1 2 3 4 5 6 7 8; do
-            if git push; then
-              exit 0
-            fi
-            echo "push 실패 (attempt $attempt), rebase 후 재시도"
-            git fetch origin main
-            if ! git rebase origin/main; then
-              git rebase --abort
-              sleep $((RANDOM % 5 + 2))
-              continue
-            fi
-            python .automation/scripts/generate_thumbnails.py
-            python .automation/scripts/generate_readme.py
-            git add .automation/thumbnails/ .automation/weeks.yml README.md
-            if ! git diff --cached --quiet; then
-              git commit --amend --no-edit
-            fi
-            sleep $((RANDOM % 3 + 1))
-          done
-
-          echo "push 재시도 모두 실패"
-          exit 1
+          python .automation/scripts/push_generated.py
