@@ -388,3 +388,8 @@ weeks:
     pdf: 23_23주차/[발표자료]Spring_MVC에서_RestClient_→_WebClient_전환으로_TPS_94배_향상하기(메이).pdf
     thumbnail: .automation/thumbnails/w23_메이.png
     youtube: https://youtu.be/leok7Xx-wFk?si=NSqwpklIt6o8KM0b
+  - title: DB Recovery
+    presenter: 새로이
+    pdf: 23_23주차/[발표자료]DB_Recovery(새로이).pdf
+    thumbnail: .automation/thumbnails/w23_새로이.png
+    youtube: null
