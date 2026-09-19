@@ -1,0 +1,26 @@
+name: Test automation
+
+on:
+  pull_request:
+    paths:
+      - '.automation/scripts/**'
+      - '.github/workflows/**'
+  push:
+    branches: [main]
+    paths:
+      - '.automation/scripts/**'
+      - '.github/workflows/**'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml
+      - run: python -m unittest discover -s .automation/scripts/tests -v
