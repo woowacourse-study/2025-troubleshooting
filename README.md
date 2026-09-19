@@ -59,6 +59,13 @@
       <br />
       <a href="https://github.com/songsunkook">모코 💻</a>
     </td>
+    <td align="center">
+      <a href="https://github.com/ppparkta">
+        <img src="https://avatars.githubusercontent.com/u/86940801?v=4" alt="수양" width="100" />
+      </a>
+      <br />
+      <a href="https://github.com/ppparkta">수양 💻</a>
+    </td>
   </tr>
   
   <tr height="140px">
@@ -89,6 +96,13 @@
       </a>
       <br />
       <a href="https://github.com/threepebbles">헤일러 💻</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/CodingMasterLSW">
+        <img src="https://avatars.githubusercontent.com/u/108395670?v=4" alt="젠슨" width="100" />
+      </a>
+      <br />
+      <a href="https://github.com/CodingMasterLSW">젠슨 💻</a>
     </td>
   </tr>
 </table>
@@ -998,7 +1012,7 @@
     </td>
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/20_20%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5D%ED%86%B5%ED%99%94%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%A7%9B%EB%B3%B4%EA%B8%B0(%EC%A0%A0%EC%8A%A8).pdf">[📚 통화도메인 맛보기]</a><br>
-      <a href="https://www.youtube.com/watch?v=-BtcV6QCczY">[🎥 20주차 발표 영상 - 젠슨]</a>
+      <a href="https://www.youtube.com/watch?v=-BtcV6QCczY&t=112s">[🎥 20주차 발표 영상 - 젠슨]</a>
     </td>
   </tr>
   <tr>
