@@ -1133,6 +1133,7 @@
   <tr>
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/23_23%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DDB_Recovery(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 DB Recovery]</a><br>
+      <a href="https://www.youtube.com/watch?v=3r2UGb0gRQs&t=436s">[🎥 23주차 발표 영상 - 새로이]</a>
     </td>
     <td>&nbsp;</td>
   </tr>
