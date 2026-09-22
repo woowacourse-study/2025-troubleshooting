@@ -393,3 +393,11 @@ weeks:
     pdf: 23_23주차/[발표자료]DB_Recovery(새로이).pdf
     thumbnail: .automation/thumbnails/w23_새로이.png
     youtube: https://www.youtube.com/watch?v=3r2UGb0gRQs&t=436s
+- week: 24
+  date: '2026-09-19'
+  presentations:
+  - title: JOIN DIVE DEEP
+    presenter: 젠슨
+    pdf: 24_24주차/[발표자료]JOIN_DIVE_DEEP(젠슨).pdf
+    thumbnail: .automation/thumbnails/w24_젠슨.png
+    youtube: https://www.youtube.com/watch?v=qYlupE30kf0

@@ -151,6 +151,7 @@
 | [**21주차** (2026.6.28)](#week-21) | • HTTPS, 왜 안전할까? (👤 메이)<br>• LLM 품질 개선, 어디서부터 시작할까? (👤 밍트) |
 | [**22주차** (2026.7.19)](#week-22) | • 권한을 안 줬는데 데이터가 샜다 (👤 칼리) |
 | [**23주차** (2026.9.05)](#week-23) | • 인덱스 Dive Deep (👤 젠슨)<br>• Spring MVC에서 RestClient → WebClient 전환으로 TPS 94배 향상하기 (👤 메이)<br>• DB Recovery (👤 새로이) |
+| [**24주차** (2026.9.19)](#week-24) | • JOIN DIVE DEEP (👤 젠슨) |
 
 
 <br>
@@ -1134,6 +1135,35 @@
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/23_23%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DDB_Recovery(%EC%83%88%EB%A1%9C%EC%9D%B4).pdf">[📚 DB Recovery]</a><br>
       <a href="https://www.youtube.com/watch?v=3r2UGb0gRQs&t=436s">[🎥 23주차 발표 영상 - 새로이]</a>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+---
+
+<br/>
+<a id="week-24"></a>
+
+## **24주차** ( 2026년 9월 19일 )
+
+> | JOIN DIVE DEEP |
+> | :-: |
+> | 젠슨 |
+
+### 💎 발표자료
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w24_%EC%A0%A0%EC%8A%A8.png" width="100%">
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/24_24%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DJOIN_DIVE_DEEP(%EC%A0%A0%EC%8A%A8).pdf">[📚 JOIN DIVE DEEP]</a><br>
+      <a href="https://www.youtube.com/watch?v=qYlupE30kf0">[🎥 24주차 발표 영상 - 젠슨]</a>
     </td>
     <td>&nbsp;</td>
   </tr>
