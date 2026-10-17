@@ -152,6 +152,7 @@
 | [**22주차** (2026.7.19)](#week-22) | • 권한을 안 줬는데 데이터가 샜다 (👤 칼리) |
 | [**23주차** (2026.9.05)](#week-23) | • 인덱스 Dive Deep (👤 젠슨)<br>• Spring MVC에서 RestClient → WebClient 전환으로 TPS 94배 향상하기 (👤 메이)<br>• DB Recovery (👤 새로이) |
 | [**24주차** (2026.9.19)](#week-24) | • JOIN DIVE DEEP (👤 젠슨) |
+| [**25주차** (2026.10.17)](#week-25) | • JFR 분석으로 EC2 CPU 스로틀링 해소하기 (👤 메이) |
 
 
 <br>
@@ -1164,6 +1165,35 @@
     <td align="center">
       <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/24_24%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DJOIN_DIVE_DEEP(%EC%A0%A0%EC%8A%A8).pdf">[📚 JOIN DIVE DEEP]</a><br>
       <a href="https://www.youtube.com/watch?v=qYlupE30kf0">[🎥 24주차 발표 영상 - 젠슨]</a>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+---
+
+<br/>
+<a id="week-25"></a>
+
+## **25주차** ( 2026년 10월 17일 )
+
+> | JFR 분석으로 EC2 CPU 스로틀링 해소하기 |
+> | :-: |
+> | 메이 |
+
+### 💎 발표자료
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/woowacourse-study/2025-troubleshooting/raw/main/.automation/thumbnails/w25_%EB%A9%94%EC%9D%B4.png" width="100%">
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/woowacourse-study/2025-troubleshooting/blob/main/25_25%EC%A3%BC%EC%B0%A8/%5B%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C%5DJFR_%EB%B6%84%EC%84%9D%EC%9C%BC%EB%A1%9C_EC2_CPU_%EC%8A%A4%EB%A1%9C%ED%8B%80%EB%A7%81_%ED%95%B4%EC%86%8C%ED%95%98%EA%B8%B0(%EB%A9%94%EC%9D%B4).pdf">[📚 JFR 분석으로 EC2 CPU 스로틀링 해소하기]</a><br>
+      <a href="https://youtu.be/IL41c_hstO8?si=FObxSREl-74sy63f">[🎥 25주차 발표 영상 - 메이]</a>
     </td>
     <td>&nbsp;</td>
   </tr>

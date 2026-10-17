@@ -401,3 +401,11 @@ weeks:
     pdf: 24_24주차/[발표자료]JOIN_DIVE_DEEP(젠슨).pdf
     thumbnail: .automation/thumbnails/w24_젠슨.png
     youtube: https://www.youtube.com/watch?v=qYlupE30kf0
+- week: 25
+  date: '2026-10-17'
+  presentations:
+  - title: JFR 분석으로 EC2 CPU 스로틀링 해소하기
+    presenter: 메이
+    pdf: 25_25주차/[발표자료]JFR_분석으로_EC2_CPU_스로틀링_해소하기(메이).pdf
+    thumbnail: .automation/thumbnails/w25_메이.png
+    youtube: https://youtu.be/IL41c_hstO8?si=FObxSREl-74sy63f
